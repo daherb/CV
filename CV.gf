@@ -1,5 +1,7 @@
 abstract CV = {
   cat CV ; -- The complete CV
+      Address ;
+      Position ;
       Date ;
       Degree ;
       Job ;
@@ -21,8 +23,8 @@ abstract CV = {
     Nothing : MaybeString ;
     Just : String -> MaybeString ;
     NewCV : String -- Name
-      -> String -- Position
-      -> String -- Address
+      -> Position
+      -> Address
       -> String -- Mail
       -> MaybeString -- Webpage
       -> MaybeString -- Github
@@ -32,7 +34,8 @@ abstract CV = {
       -> MaybeString -- Twitter
       -> MaybeString -- Skype
       -> MaybeString -- Reddit
-      -> [Degree] -> [Job] -> [Talk] -> [Skill] -> CV ;
+      -> Date -- LastUpdated
+      -> ListDegree -> ListJob -> ListTalk -> ListSkill -> CV ;
     NewDegree : DegreeType -> University -> Date -> [Supervisor] -> String -> Degree ;
     NewSupervisor : String -> Role -> Supervisor ;
     MonthYear : Month -> Int -> Date ;
