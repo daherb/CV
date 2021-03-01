@@ -4,20 +4,27 @@ abstract CV = {
       Position ;
       Date ;
       Degree ;
+      Education ;
       Job ;
       Publication ;
       Talk ;
       Skill ;
+      [Education]{0} ;
       [Degree]{0} ;
       [Job]{0} ;
       [Talk]{0} ;
       [Skill]{0} ;
       DegreeType ;
+      EducationType ;
+      EducationDescription ;
       Month ;
       University ;
       Supervisor ;
-      [Supervisor]{1} ;
-      Role ;
+      [Supervisor]{0} ;
+      SupervisorRole ;
+      JobTitle ;
+      Company ;
+      JobDescription ;
       MaybeString ;
   fun
     Nothing : MaybeString ;
@@ -35,12 +42,28 @@ abstract CV = {
       -> MaybeString -- Skype
       -> MaybeString -- Reddit
       -> Date -- LastUpdated
-      -> ListDegree -> ListJob -> ListTalk -> ListSkill -> CV ;
-    NewDegree : DegreeType -> University -> Date -> [Supervisor] -> String -> Degree ;
-    NewSupervisor : String -> Role -> Supervisor ;
+      -> ListEducation -> ListJob -> ListTalk -> ListSkill -> CV ;
+    NewEducation : EducationType 
+      -> University
+      -> Date -- Start date
+      -> Date -- End date
+      -> [Supervisor]
+      -> [Degree]
+      -> EducationDescription
+      -> Education ;
+    NewDegree : DegreeType
+      -> Date
+      -> String -- Thesis title
+      -> Degree ;
+    NewJob : JobTitle
+      -> Company
+      -> Date -- Start date
+      -> Date -- End date
+      -> JobDescription
+      -> Job ;
+    NewSupervisor : String -> SupervisorRole -> Supervisor ;
     MonthYear : Month -> Int -> Date ;
+    OnlyYear : Int -> Date ;
     January, February, March, April, May, June, July, August, September, October, November, December : Month ;
-    PhD, Licentiate, Magister : DegreeType ;
-    MainSupervisor, CoSupervisor, Examinor : Role ;
     FullCV : CV ;
 }
