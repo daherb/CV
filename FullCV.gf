@@ -1,6 +1,7 @@
 abstract FullCV = CV ** {
   oper
     Name          : String = "Herbert Lange" ;
+    Myself            : Author = (NewAuthor "Herbert" "Lange") ;
 --    Position      : String = "" ;
     Mail          : String = "*redacted*" ;
     Webpage       : MaybeString = Just "http://www.cse.chalmers.se/~langeh/" ;
@@ -14,14 +15,17 @@ abstract FullCV = CV ** {
     LastUpdated   : Date = MonthYear March 2021 ;
     Degrees       : ListDegree =
       (ConsDegree (NewDegree PhDDegree UniGot {- University of Gothenburg -}
+		     (NewAddress Gothenburg Sweden)
 		     (MonthYear September 2020)
 		     "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars" {- Thesis title -}
 	 )
       (ConsDegree (NewDegree LicentiateDegree UniGot {- University of Gothenburg -}
+		     (NewAddress Gothenburg Sweden)
 		     (MonthYear September 2018)
 		     "Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning" {- Thesis title -}
 	 )
       (ConsDegree (NewDegree MagisterDegree LMU {- Ludwig-Maximilians-University Munich -}
+		     (NewAddress Munich Germany)
 		     (MonthYear July 2014)
 		     "Implementierung einer Lateingrammatik im Grammatical Framework" {- Thesis title -}
 	 )
@@ -43,26 +47,30 @@ abstract FullCV = CV ** {
 			MagisterDescription)
       BaseEducation))) ;
     Jobs     : ListJob =
-      (ConsJob (NewJob ResearcherJob UniGotCompany {- University of Gothenburg -}
+      (ConsJob (NewJob ResearcherJob (UniCompany UniGot) {- University of Gothenburg -}
+		  (NewAddress Gothenburg Sweden)
 		  (MonthYear August 2015) (MonthYear September 2020)
 		  UniGotJobDescription)
       (ConsJob (NewJob SESysAdminJob {- Software engineer and system administrator -} FreelancerCompany
+		  (NewAddress Munich Germany)
 		  (MonthYear April 2015) (MonthYear May 2015)
 		  FreelancerJobDescription)
       (ConsJob (NewJob SoftwareEngineerJob GlanosCompany {- Glanos Gmbh -}
+		  (NewAddress Munich Germany)
 		  (MonthYear November 2014) (MonthYear January 2015)
 		  GlanosJobDescription)
       (ConsJob (NewJob StudentAssistantJob ITZCompany {- IT-Centre for Languages and Literature, Ludwig-Maximilians University Munich -}
+		  (NewAddress Munich Germany)
 		  (OnlyYear 2009) (MonthYear October 2014)
 		  ITZJobDescription)
 	 BaseJob)))) ;
     Publications : ListPublication =
       (ConsPublication (JournalPublication
-			  (ConsAuthor (NewAuthor "Herbert" "Lange") (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
+			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
 			  "Learning Domain-Specific Grammars From a Small Number of Examples" -- Title
 			  "Natural Language Processing in Artificial Intelligence" -- Book title
 			  "Springer International Publishing" -- Publisher
-			  "Cham, Switzerland" -- Address
+			  (NewAddress Cham Switzerland)
 			  (OnlyYear 2021)
 			  "Studies in Computational Intelligence (SCI)" -- Series
 			  "939" -- Volume
@@ -72,10 +80,10 @@ abstract FullCV = CV ** {
 			  Published
 	 )
       (ConsPublication (ThesisPublication
-			  (BaseAuthor (NewAuthor "Herbert" "Lange"))
+			  (BaseAuthor Myself)
 			  "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars" -- Title
-			  "Department of Computer Science and Engineering. University of Gothenburg" -- School
-			  "Gothenburg, Sweden" -- Address
+			  (NewDepartment "Department of Computer Science and Engineering" UniGot) -- School
+			  (NewAddress Gothenburg Sweden)
 			  (OnlyYear 2018) -- Date
 			  PhDThesis
 			  (Just "http://hdl.handle.net/2077/65453") -- Url
@@ -83,10 +91,10 @@ abstract FullCV = CV ** {
 	 )
 	 
       (ConsPublication (ConferencePublication
-			  (ConsAuthor (NewAuthor "Herbert" "Lange") (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
+			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
 			  "Learning Domain-specific Grammars from a Small Number of Examples"
 			  "Proceedings of the 12th International Conference on Agents and Artificial Intelligence - Volume 1: NLPinAI"
-			  "Valetta, Malta" -- Address
+			  (NewAddress Valetta Malta)
 			  (OnlyYear 2020)
 			  (Just "INSTICC. SciTePress") -- Publisher
 			  Nothing -- Series
@@ -98,10 +106,10 @@ abstract FullCV = CV ** {
 	 )
 	  
        (ConsPublication (ConferencePublication
-			   (BaseAuthor (NewAuthor "Herbert" "Lange"))
+			   (BaseAuthor Myself)
 			   "An Open-Source Computational Latin Grammar: Overview and Evaluation"
 			   "Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019)"
-			   "Las Palmas de Gran Canaria, Canary Islands" -- Address
+			   (NewAddress LasPalmas CanaryIslands)
 			   (OnlyYear 2019)
 			   Nothing -- Publisher
 			   Nothing -- Series
@@ -112,10 +120,10 @@ abstract FullCV = CV ** {
 			   Forthcoming
 	  )
       (ConsPublication (ConferencePublication
-			  (ConsAuthor (NewAuthor "Herbert" "Lange") (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
+			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
 			  "Demonstrating the MUSTE Language Learning Environment"
 			  "Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018"
-			  "Stockholm, Sweden"
+			  (NewAddress Stockholm Sweden)
 			  (OnlyYear 2020)
 			  (Just "Linköping University Electronic Press")
 			  Nothing -- Series
@@ -126,20 +134,20 @@ abstract FullCV = CV ** {
 			  Published
 	 )
       (ConsPublication (ThesisPublication
-			  (BaseAuthor (NewAuthor "Herbert" "Lange"))
+			  (BaseAuthor Myself)
 			  "Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning"
-			  "Department of Computer Science and Engineering. University of Gothenburg" -- School
-			  "Gothenburg, Sweden"
+			  (NewDepartment "Department of Computer Science and Engineering" UniGot) -- School
+			  (NewAddress Gothenburg Sweden)
 			  (OnlyYear 2018)
 			  LicentiateThesis
 			  (Just "https://gup.ub.gu.se/file/207536")
 			  Published
 	 )
       (ConsPublication (ConferencePublication
-			  (ConsAuthor (NewAuthor "Herbert" "Lange") (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
+			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
 			  "Putting Control into Language Learning"
 			  "Proceedings of the Sixth International Workshop on Controlled Natural Languages"
-			  "Maynooth. Ireland"
+			  (NewAddress Maynooth Ireland)
 			  (OnlyYear 2018)
 			  (Just "IOS Press") -- Publisher
 			  (Just "Frontiers in Artificial Intelligence and Applications") -- Series
@@ -150,10 +158,10 @@ abstract FullCV = CV ** {
 			  Published
 	 )
       (ConsPublication (ConferencePublication
-			  (ConsAuthor (NewAuthor "Herbert" "Lange") (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
+			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
 			  "MULLE: A Grammar-based Latin Language Learning Tool to Supplement the Classroom Setting"
 			  "Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications (NLPTEA '18) at ACL"
-			  "Melbourn. Australia"
+			  (NewAddress Melbourne Australia)
 			  (OnlyYear 2018)
 			  (Just "Association for Computational Linguistics") -- Publisher
 			  Nothing -- Series
@@ -164,10 +172,10 @@ abstract FullCV = CV ** {
 			  Published
 	 )
       (ConsPublication (ConferencePublication
-			  (BaseAuthor (NewAuthor "Herbert" "Lange"))
+			  (BaseAuthor Myself)
 			  "Implementation of a Latin Grammar in Grammatical Framework"
 			  "Proceedings of the 2nd International Conference on Digital Access to Textual Cultural Heritage (DATeCH2017)"
-			   "Göttingen, Germany"
+			  (NewAddress Gottingen Germany)
 			  (OnlyYear 2017)
 			  (Just "Association for Computing Machinery") -- Publisher
 			  Nothing -- Series
@@ -178,37 +186,358 @@ abstract FullCV = CV ** {
 			  Published
 	    )
       (ConsPublication (ThesisPublication
-			(BaseAuthor (NewAuthor "Herbert" "Lange"))
+			(BaseAuthor Myself)
 			"Erstellen einer Grammatik für das Lateinische im \"Grammatical Framework\""
-			"Centrum für Informations- und Sprachverarbeitung, Ludwig-Maximilians-University"
-			"Munich, Germany"
+			  (NewDepartment "Centrum für Informations- und Sprachverarbeitung" LMU)
+			(NewAddress Munich Germany)
 			(OnlyYear 2013)
 			MastersThesis
 			Nothing
 			Published
 	 )
       BasePublication)))))))))) ;
-    Talks    : ListTalk = BaseTalk ;
-    Skills   : ListSkill = BaseSkill ;
-    
+    Presentations    : ListPresentation =
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Type theory and meaning in linguistics"
+			   "rC3 - remote Chaos Experience"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2020)
+			   (NonAcademic FullTalk)
+			   (Just "https://media.ccc.de/v/rc3-232856-type_theory_and_meaning_in_linguistics")
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "A Type-Theoretic Approach to Generating Pictures and Descriptions"
+			   "8th Swedish Language Technology Conference"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2020)
+			   (Academic ConferencePresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Learning Domain-specific Grammars from Examples"
+			   "CLASP Seminar, University of Gothenburg"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2020)
+			   (Academic SeminarPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Learning Domain-specific Grammars from a Small Number of Examples"
+			   "Special Session NLPinAI, 12th International Conference on Agents and Artificial Intelligence"
+			   (NewAddress Valetta Malta)
+			   (OnlyYear 2020)
+			   (Academic ConferencePresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Using Dependent Types in GF"
+			   "Functional Programming Winter Meeting, Chalmers University of Technology"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2020)
+			   (Academic SeminarPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Empirical Evaluation of a Computational Latin Grammar"
+			   "20th International Colloquium on Latin Linguistics"
+			   (NewAddress LasPalmas CanaryIslands)
+			   (OnlyYear 2019)
+			   (Academic ConferencePresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "A short history of end-user programming"
+			   "Update mini conference"
+			   (NewAddress Uppsala Sweden)
+			   (OnlyYear 2019)
+			   (NonAcademic FullTalk)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Computer-Assisted Language Learning for Latin"
+			   "Latin Seminar, Uppsala University"
+			   (NewAddress Uppsala Sweden)
+			   (OnlyYear 2019)
+			   (Academic SeminarPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Restricting Grammars to Reduce Ambiguity"
+			   "Functional Programming Seminar, Chalmers University of Technology"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2019)
+			   (Academic SeminarPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "MULLE for Latin: Computer-Generated Translation Exercises for Latin"
+			   "Workshop on Digital Approaches to Teaching Historical Languages"
+			   (NewAddress Berlin Germany)
+			   (OnlyYear 2019)
+			   (Academic ConferencePresentation)
+			   (Just "https://www.projekte.hu-berlin.de/en/callidus-en/DAtTeL-workshop/digital-approaches-to-teaching-historical-languages-dattel") -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))-- Speaker
+			   "Demonstrating the MUSTE Language Learning Environment"
+			   "7th Workshop on Natural Language Processing for Computer-Assisted Language Learning at the Swedish Language Technology Conference (SLTC)"
+			   (NewAddress Stockholm Sweden)
+			   (OnlyYear 2018)
+			   (Academic PosterPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "MULLE: A grammar-based Latin language learning tool to supplement the classroom setting"
+			   "5th Workshop on Natural Language Processing Techniques for Educational Applications"
+			   (NewAddress Melbourne Australia)
+			   (OnlyYear 2018)
+			   (Academic PosterPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "Computational Linguistics vs. Natural Language Processing - A bit of a rant"
+			   "Free Society Conference and Nordic Summit (FSCONS)"
+			   (NewAddress Oslo Norway)
+			   (OnlyYear 2018)
+			   (NonAcademic LightningTalk)
+			   (Just "https://youtu.be/Xrb3ULik1vc?t=3127") -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "Let's talk about Old Computer; Or: Why old computers are cool, why we should care, and stuff I discovered"
+			   "Free Society Conference and Nordic Summit (FSCONS)"
+			   (NewAddress Oslo Norway)
+			   (OnlyYear 2018)
+			   (NonAcademic LightningTalk)
+			   (Just "https://youtu.be/_C5QUuU2vic?t=1386") -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "Implementation of a Latin Grammar in Grammatical Framework"
+			   "2nd International Conference on Digital Access to Textual Cultural Heritage"
+			   (NewAddress Gottingen Germany)
+			   (OnlyYear 2017)
+			   (Academic ConferencePresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "A Latin Language Learning Application"
+			   "Latin Seminar, University of Gothenburg"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2017)
+			   (Academic SeminarPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "From Word-based text editing to language learning"
+			   "Dublin Computational Linguistics Research Seminar, Trinity College Dublin"
+			   (NewAddress Dublin Ireland)
+			   (OnlyYear 2017)
+			   (Academic SeminarPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "From Word-based text editing to language learning"
+			   "Postgraduate Seminar in Computer Science, National University of Ireland"
+			   (NewAddress Maynooth Ireland)
+			   (OnlyYear 2017)
+			   (Academic SeminarPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "MUSTE - Behind the scenes"
+			   "REMU Research Seminar, University of Gothenburg"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2017)
+			   (Academic SeminarPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "Implementation of a Latin Grammar in Grammatical Framework"
+			   "6th Swedish Language Technology Conference (SLTC)"
+			   (NewAddress Umea Sweden)
+			   (OnlyYear 2016)
+			   (Academic PosterPresentation)
+			   Nothing -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "SHRDLU - Ein Programm das natürliche Sprache versteht"
+			   "Vintage Computing Festival Berlin (VCFB)"
+			   (NewAddress Berlin Germany)
+			   (OnlyYear 2016)
+			   (NonAcademic FullTalk)
+			   (Just "https://media.ccc.de/v/vcfb2016_-_52_-_en_-_medientheater_-_201610031530_-_shrdlu_-_herbert_lange") -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "Vintage Computing"
+			   "Free Society Conference and Nordic Summit (FSCONS)"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2015)
+			   (NonAcademic LightningTalk)
+			   (Just "https://youtu.be/8mSVMY74sOY?t=660") -- Url
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself)-- Speaker
+			   "Grammatical Framework"
+			   "Mehrvorträgewagen, muCCC Munich Hackerspace"
+			   (NewAddress Munich Germany)
+			   (OnlyYear 2013)
+			   (NonAcademic FullTalk)
+			   Nothing -- Url
+	 )
+	 BasePresentation
+	 ))))))))))))))))))))))) ;
+    Skills   : ListSkillCategory =
+      (ConsSkillCategory (NewSkillCategory
+			    Programming_Languages
+			    (ConsSkill (NewSkill Agda BasicKnowledge)
+			    (ConsSkill (NewSkill Basic BasicExperience)
+			    (ConsSkill (NewSkill C_Cpp {- C/C++ -} BasicExperience)
+			    (ConsSkill (NewSkill Coq BasicKnowledge)
+			    (ConsSkill (NewSkill Erlang BasicKnowledge)
+			    (ConsSkill (NewSkill Grammatical_Framework Expert)
+			    (ConsSkill (NewSkill Haskell Expert)
+			    (ConsSkill (NewSkill HTML_CSS {- HTML/CSS -} BasicExperience)
+			    (ConsSkill (NewSkill Java ProfessionalExperience)
+			    (ConsSkill (NewSkill JavaScript BasicExperience)
+			    (ConsSkill (NewSkill LISP BasicExperience)
+			    (ConsSkill (NewSkill Pascal BasicExperience)
+			    (ConsSkill (NewSkill Perl BasicExperience)
+			    (ConsSkill (NewSkill Prolog BasicExperience)
+			    (ConsSkill (NewSkill Python BasicExperience)
+			    (ConsSkill (NewSkill Ruby BasicKnowledge)
+			    (ConsSkill (NewSkill SML BasicExperience)
+			    BaseSkill
+			    )))))))))))))))))
+	 )
+      (ConsSkillCategory (NewSkillCategory
+			    Operating_Systems
+			    (ConsSkill (NewSkill Atari_TOS BasicKnowledge)
+			    (ConsSkill (NewSkill Gentoo_Linux Expert)
+			    (ConsSkill (NewSkill BeOS_Haiku {-BeOS/Haiku -} BasicKnowledge)
+			    (ConsSkill (NewSkill FreeBSD_NetBSD {- FreeBSD/NetBSD -} BasicExperience)
+			    (ConsSkill (NewSkill IRIX BasicExperience)
+			    (ConsSkill (NewSkill MacOS_Classic BasicExperience)
+			    (ConsSkill (NewSkill MacOS_X BasicExperience)
+			    (ConsSkill (NewSkill MS_DOS {- MS-DOS -} BasicExperience)
+			    (ConsSkill (NewSkill OpenVMS BasicKnowledge)
+			    (ConsSkill (NewSkill OS_2 {- OS/2 -} BasicKnowledge)
+			    (ConsSkill (NewSkill RISC_OS BasicKnowledge)
+			    (ConsSkill (NewSkill Windows ProfessionalExperience)
+			    BaseSkill
+			    ))))))))))))
+	 )
+      (ConsSkillCategory (NewSkillCategory
+			    IT_Other
+			    (ConsSkill (NewSkill Constraint_Programming BasicExperience)
+			    (ConsSkill (NewSkill Formal_Languages ProfessionalExperience)
+			    (ConsSkill (NewSkill GNU_make BasicExperience)
+			    (ConsSkill (NewSkill Icinga_Nagios {- Icinga/Nagios -} BasicExperience)
+			    (ConsSkill (NewSkill LaTeX ProfessionalExperience)
+			    (ConsSkill (NewSkill Machine_Learning BasicKnowledge)
+			    (ConsSkill (NewSkill MS_Office ProfessionalExperience)
+			    (ConsSkill (NewSkill Parser_Combinators ProfessionalExperience)
+			    (ConsSkill (NewSkill Property_Based_Testing ProfessionalExperience)
+			    (ConsSkill (NewSkill Software_Defined_Radio BasicExperience)
+			    (ConsSkill (NewSkill Databases ProfessionalExperience)
+			    (ConsSkill (NewSkill Version_Control_Systems ProfessionalExperience)
+			    BaseSkill
+			    ))))))))))))
+	 )
+      (ConsSkillCategory (NewSkillCategory
+			    Languages
+			    (ConsSkill (NewSkill English Expert)
+			    (ConsSkill (NewSkill Esperanto BasicExperience)
+			    (ConsSkill (NewSkill French BasicKnowledge)
+			    (ConsSkill (NewSkill German Expert)
+			    (ConsSkill (NewSkill Irish BasicKnowledge)
+			    (ConsSkill (NewSkill Italian BasicKnowledge)
+			    (ConsSkill (NewSkill Latin BasicExperience)
+			    (ConsSkill (NewSkill Medieval_German BasicKnowledge)
+			    (ConsSkill (NewSkill Spanish BasicKnowledge)
+			    (ConsSkill (NewSkill Swedish ProfessionalExperience)
+			    BaseSkill
+			    ))))))))))
+	 )
+      (ConsSkillCategory (NewSkillCategory
+			    Computational_Linguistics
+			    (ConsSkill (NewSkill Controlled_Natural_Languages Expert)
+			    (ConsSkill (NewSkill Discourse_Representation_Theory BasicExperience)
+			    (ConsSkill (NewSkill Formal_Syntax Expert)
+			    (ConsSkill (NewSkill Lexical_Semantics BasicExperience)
+			    (ConsSkill (NewSkill Montague_Grammars ProfessionalExperience)
+			    (ConsSkill (NewSkill Resource_Grammar_Development Guru)
+			    (ConsSkill (NewSkill Universal_Dependencies BasicExperience)
+			    (ConsSkill (NewSkill Type_Theoretic_Semantics BasicExperience)
+			    BaseSkill
+			    ))))))))
+	 )
+      (ConsSkillCategory (NewSkillCategory
+			    Research_and_Generic
+			    (ConsSkill (NewSkill Data_Analysis ProfessionalExperience)
+			    (ConsSkill (NewSkill Experiment_Design BasicExperience)
+			    (ConsSkill (NewSkill Independent_Work Expert)
+			    (ConsSkill (NewSkill Problem_Solving Expert)
+			    (ConsSkill (NewSkill Project_Management ProfessionalExperience)
+			    (ConsSkill (NewSkill Public_Presentation ProfessionalExperience)
+			    (ConsSkill (NewSkill Research Expert)
+			    (ConsSkill (NewSkill Research_Ethics ProfessionalExperience)
+			    (ConsSkill (NewSkill Scientific_Writing Expert)
+			    (ConsSkill (NewSkill Teaching ProfessionalExperience)
+			    (ConsSkill (NewSkill Teamwork ProfessionalExperience)
+			    BaseSkill
+			    )))))))))))
+	 )
+	 BaseSkillCategory ))))));
+
+  cat
+    AcademicPresentation ;
+    NonAcademicPresentation ;
   fun
     UniGot, LMU, TCD : University ;
+    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo : City ;
+    Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway : Country ;
     PhDCS  : Position ;
-    Munich : Address ;
     ErasmusDescription, PhDDescription, LicentiateDescription, MagisterDescription : EducationDescription ;
-    ITZCompany, GlanosCompany, FreelancerCompany, UniGotCompany : Company ;
+    ITZCompany, GlanosCompany, FreelancerCompany : Company ;
+    UniCompany : University -> Company ;
     ResearcherJob, SESysAdminJob, SoftwareEngineerJob, StudentAssistantJob : JobTitle ;
     UniGotJobDescription, FreelancerJobDescription, GlanosJobDescription, ITZJobDescription : JobDescription ;
     PhDDegree, LicentiateDegree, MagisterDegree : DegreeType ;
     ErasmusEducation, PhDEducation, MagisterEducation : EducationType ;
     MainSupervisor, CoSupervisor, Examiner : SupervisorRole ;
     PhDThesis, LicentiateThesis, MastersThesis: ThesisType ;
+    Academic : AcademicPresentation -> PresentationType ;
+    NonAcademic : NonAcademicPresentation -> PresentationType ;
+    ConferencePresentation, PosterPresentation, SeminarPresentation : AcademicPresentation ;
+    LightningTalk, FullTalk : NonAcademicPresentation ;
+    Programming_Languages, Operating_Systems, IT_Other, Languages, Computational_Linguistics, Research_and_Generic : Category ;
+    Agda, Basic, C_Cpp, Coq, Erlang, Grammatical_Framework, Haskell, HTML_CSS, Java, JavaScript, LISP, Pascal, Perl, Prolog, Python, Ruby, SML, Atari_TOS, Gentoo_Linux, BeOS_Haiku, FreeBSD_NetBSD, IRIX, MacOS_Classic, MacOS_X, MS_DOS, OpenVMS, OS_2, RISC_OS, Windows, Constraint_Programming, Formal_Languages, GNU_make, Icinga_Nagios, LaTeX, Machine_Learning, MS_Office, Parser_Combinators, Property_Based_Testing, Software_Defined_Radio, Databases, Version_Control_Systems, English, Esperanto, French, German, Irish, Italian, Latin, Medieval_German, Spanish, Swedish, Controlled_Natural_Languages, Discourse_Representation_Theory, Formal_Syntax, Lexical_Semantics, Montague_Grammars, Resource_Grammar_Development, Universal_Dependencies, Type_Theoretic_Semantics, Data_Analysis, Experiment_Design, Independent_Work, Problem_Solving, Project_Management, Public_Presentation, Research, Research_Ethics, Scientific_Writing, Teaching, Teamwork : SkillName ;
   def
     FullCV =
       NewCV
       Name
       PhDCS
-      Munich
+      (NewAddress Munich Germany)
       Mail
       Webpage
       Github
@@ -223,6 +552,6 @@ abstract FullCV = CV ** {
       Educations
       Jobs
       Publications
-      Talks
+      Presentations
       Skills ;
 }

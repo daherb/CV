@@ -1,25 +1,30 @@
 abstract CV = {
   cat CV ; -- The complete CV
       Address ;
+      City ;
+      Country ;
       Position ;
       Date ;
       Degree ;
       Education ;
       Job ;
       Publication ;
-      Talk ;
+      Presentation ;
+      SkillCategory ;
       Skill ;
       [Education]{0} ;
       [Degree]{0} ;
       [Job]{0} ;
       [Publication]{0} ;
-      [Talk]{0} ;
+      [Presentation]{0} ;
+      [SkillCategory]{0} ;
       [Skill]{0} ;
       DegreeType ;
       EducationType ;
       EducationDescription ;
       Month ;
       University ;
+      Department ;
       Supervisor ;
       [Supervisor]{0} ;
       SupervisorRole ;
@@ -30,6 +35,8 @@ abstract CV = {
       [Author]{1} ;
       ThesisType ;
       PublicationState ;
+      PresentationType ;
+      Category ;
       SkillName ;
       SkillLevel ;
       MaybeString ;
@@ -49,7 +56,10 @@ abstract CV = {
       -> MaybeString -- Skype
       -> MaybeString -- Reddit
       -> Date -- LastUpdated
-      -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListTalk ->  ListSkill -> CV ;
+      -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation ->  ListSkillCategory -> CV ;
+    NewAddress : City
+      -> Country
+      -> Address ;
     NewEducation : EducationType 
       -> University
       -> Date -- Start date
@@ -60,11 +70,13 @@ abstract CV = {
       -> Education ;
     NewDegree : DegreeType
       -> University
+      -> Address
       -> Date
       -> String -- Thesis title
       -> Degree ;
     NewJob : JobTitle
       -> Company
+      -> Address
       -> Date -- Start date
       -> Date -- End date
       -> JobDescription
@@ -72,7 +84,7 @@ abstract CV = {
     ConferencePublication : ListAuthor
       -> String -- Title
       -> String -- Book title
-      -> String -- Address
+      -> Address
       -> Date
       -> MaybeString -- Publisher
       -> MaybeString -- Series
@@ -86,7 +98,7 @@ abstract CV = {
       -> String -- Title
       -> String -- Book title
       -> String -- Publisher
-      -> String -- Address
+      -> Address
       -> Date
       -> String -- Series
       -> String -- Volume
@@ -97,14 +109,27 @@ abstract CV = {
       -> Publication ;
     ThesisPublication : ListAuthor
       -> String -- Title
-      -> String -- School
-      -> String -- Address
+      -> Department
+      -> Address
       -> Date
       -> ThesisType
       -> MaybeString -- Url
       -> PublicationState
       -> Publication ;
-    
+        NewDepartment : String -- Department name
+      -> University
+      -> Department ;
+    NewPresentation : ListAuthor -- Speaker
+      -> String -- Title
+      -> String -- Venue
+      -> Address
+      -> Date
+      -> PresentationType
+      -> MaybeString -- Url
+      -> Presentation ;
+    NewSkillCategory : Category
+      -> ListSkill
+      -> SkillCategory ;
     NewSkill : SkillName 
       -> SkillLevel -- Ranking 1 to 5, see below
       -> Skill ;
