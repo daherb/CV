@@ -7,10 +7,10 @@
 ## Kontakt:
 
 * E-Mail: *redacted*
-* Homepage: [http://www.cse.chalmers.se/~langeh/]()
-* Github: [daherb]()
-* LinkedIn: [https://www.linkedin.com/in/herbert-l-2474638a/]()
-* Twitter: [\@pietaetskirsche]()
+* Homepage: [http://www.cse.chalmers.se/~langeh/](http://www.cse.chalmers.se/~langeh/)
+* Github: [daherb](https://github.com/daherb)
+* LinkedIn: [https://www.linkedin.com/in/herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
+* Twitter: [\@pietaetskirsche](https://twitter.com/@pietaetskirsche)
 
 ---
 
@@ -83,29 +83,29 @@
 
 ## Wissenschaftliche Veröffentlichungen
 
-* Herbert Lange und Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples", Natural Language Processing in Artificial Intelligence, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, [https://doi.org/10.1007/978-3-030-63787-3_4](), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples", Natural Language Processing in Artificial Intelligence, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, [https://doi.org/10.1007/978-3-030-63787-3_4](10.1007/978-3-030-63787-3_4), Veröffentlicht.
 
-* Herbert Lange (2018): "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars", Doktorarbeit, Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, [http://hdl.handle.net/2077/65453](), Veröffentlicht.
+* Herbert Lange (2018): "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars", Doktorarbeit, Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, [http://hdl.handle.net/2077/65453](http://hdl.handle.net/2077/65453), Veröffentlicht.
 
-* Herbert Lange und Peter Ljunglöf (2020): "Learning Domain-specific Grammars from a Small Number of Examples", Proceedings of the 12th International Conference on Agents and Artificial Intelligence - Volume 1: NLPinAI, Valetta, Malta, INSTICC. SciTePress, 422–430, [https://doi.org/10.5220/0009371304220430](), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2020): "Learning Domain-specific Grammars from a Small Number of Examples", Proceedings of the 12th International Conference on Agents and Artificial Intelligence - Volume 1: NLPinAI, Valetta, Malta, INSTICC. SciTePress, 422–430, [10.5220/0009371304220430](https://doi.org/10.5220/0009371304220430), Veröffentlicht.
 
 * Herbert Lange (2019): "An Open-Source Computational Latin Grammar: Overview and Evaluation", Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019), Las Palmas de Gran Canaria, Kanarische Inseln, Erscheint in Kürze.
 
-* Herbert Lange und Peter Ljunglöf (2020): "Demonstrating the MUSTE Language Learning Environment", Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018, Stockholm, Schweden, Linköping University Electronic Press, 41–46, [https://www.aclweb.org/anthology/W18-7105](), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2020): "Demonstrating the MUSTE Language Learning Environment", Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018, Stockholm, Schweden, Linköping University Electronic Press, 41–46, [https://www.aclweb.org/anthology/W18-7105](https://www.aclweb.org/anthology/W18-7105), Veröffentlicht.
 
-* Herbert Lange (2018): "Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning", [LicentiateThesis], Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, [https://gup.ub.gu.se/file/207536](), Veröffentlicht.
+* Herbert Lange (2018): "Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning", [LicentiateThesis], Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, [https://gup.ub.gu.se/file/207536](https://gup.ub.gu.se/file/207536), Veröffentlicht.
 
-* Herbert Lange und Peter Ljunglöf (2018): "Putting Control into Language Learning", Proceedings of the Sixth International Workshop on Controlled Natural Languages, Maynooth, Irland, IOS Press, Frontiers in Artificial Intelligence and Applications (304), 61-70, [https://doi.org/10.3233/978-1-61499-904-1-61](), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2018): "Putting Control into Language Learning", Proceedings of the Sixth International Workshop on Controlled Natural Languages, Maynooth, Irland, IOS Press, Frontiers in Artificial Intelligence and Applications (304), 61-70, [10.3233/978-1-61499-904-1-61](https://doi.org/10.3233/978-1-61499-904-1-61), Veröffentlicht.
 
-* Herbert Lange und Peter Ljunglöf (2018): "MULLE: A Grammar-based Latin Language Learning Tool to Supplement the Classroom Setting", Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications (NLPTEA '18) at ACL, Melbourne, Australien, Association for Computational Linguistics, 108-112, [http://aclweb.org/anthology/W18-3715](), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2018): "MULLE: A Grammar-based Latin Language Learning Tool to Supplement the Classroom Setting", Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications (NLPTEA '18) at ACL, Melbourne, Australien, Association for Computational Linguistics, 108-112, [http://aclweb.org/anthology/W18-3715](http://aclweb.org/anthology/W18-3715), Veröffentlicht.
 
-* Herbert Lange (2017): "Implementation of a Latin Grammar in Grammatical Framework", Proceedings of the 2nd International Conference on Digital Access to Textual Cultural Heritage (DATeCH2017), Göttingen, Deutschland, Association for Computing Machinery, 97-102, [https://doi.org/10.1145/3078081.3078108](), Veröffentlicht.
+* Herbert Lange (2017): "Implementation of a Latin Grammar in Grammatical Framework", Proceedings of the 2nd International Conference on Digital Access to Textual Cultural Heritage (DATeCH2017), Göttingen, Deutschland, Association for Computing Machinery, 97-102, [10.1145/3078081.3078108](https://doi.org/10.1145/3078081.3078108), Veröffentlicht.
 
 * Herbert Lange (2013): "Erstellen einer Grammatik für das Lateinische im "Grammatical Framework"", Magisterarbeit, Centrum für Informations- und Sprachverarbeitung, Ludwig-Maximilians-Universität, München, Deutschland, Veröffentlicht.
 
 ## Vorträge und Präsentationen
 
-* Herbert Lange (2020): *Type theory and meaning in linguistics*, rC3 - remote Chaos Experience, Online, Vortrag: [https://media.ccc.de/v/rc3-232856-type_theory_and_meaning_in_linguistics]()
+* Herbert Lange (2020): *Type theory and meaning in linguistics*, rC3 - remote Chaos Experience, Online, Vortrag: [https://media.ccc.de/v/rc3-232856-type_theory_and_meaning_in_linguistics](https://media.ccc.de/v/rc3-232856-type_theory_and_meaning_in_linguistics)
 
 * Herbert Lange (2020): *A Type-Theoretic Approach to Generating Pictures and Descriptions*, 8th Swedish Language Technology Conference, Göteborg, Schweden, Konferenzpresentation
 
@@ -123,15 +123,15 @@
 
 * Herbert Lange (2019): *Restricting Grammars to Reduce Ambiguity*, Functional Programming Seminar, Chalmers University of Technology, Göteborg, Schweden, Seminar Talk
 
-* Herbert Lange (2019): *MULLE for Latin: Computer-Generated Translation Exercises for Latin*, Workshop on Digital Approaches to Teaching Historical Languages, Berlin, Deutschland, Konferenzpresentation: [https://www.projekte.hu-berlin.de/en/callidus-en/DAtTeL-workshop/digital-approaches-to-teaching-historical-languages-dattel]()
+* Herbert Lange (2019): *MULLE for Latin: Computer-Generated Translation Exercises for Latin*, Workshop on Digital Approaches to Teaching Historical Languages, Berlin, Deutschland, Konferenzpresentation: [https://www.projekte.hu-berlin.de/en/callidus-en/DAtTeL-workshop/digital-approaches-to-teaching-historical-languages-dattel](https://www.projekte.hu-berlin.de/en/callidus-en/DAtTeL-workshop/digital-approaches-to-teaching-historical-languages-dattel)
 
 * Herbert Lange und Peter Ljunglöf (2018): *Demonstrating the MUSTE Language Learning Environment*, 7th Workshop on Natural Language Processing for Computer-Assisted Language Learning at the Swedish Language Technology Conference (SLTC), Stockholm, Schweden, Poster
 
 * Herbert Lange (2018): *MULLE: A grammar-based Latin language learning tool to supplement the classroom setting*, 5th Workshop on Natural Language Processing Techniques for Educational Applications, Melbourne, Australien, Poster
 
-* Herbert Lange (2018): *Computational Linguistics vs. Natural Language Processing - A bit of a rant*, Free Society Conference and Nordic Summit (FSCONS), Oslo, Norwegen, Lightning Talk: [https://youtu.be/Xrb3ULik1vc?t=3127]()
+* Herbert Lange (2018): *Computational Linguistics vs. Natural Language Processing - A bit of a rant*, Free Society Conference and Nordic Summit (FSCONS), Oslo, Norwegen, Lightning Talk: [https://youtu.be/Xrb3ULik1vc?t=3127](https://youtu.be/Xrb3ULik1vc?t=3127)
 
-* Herbert Lange (2018): *Let's talk about Old Computer; Or: Why old computers are cool, why we should care, and stuff I discovered*, Free Society Conference and Nordic Summit (FSCONS), Oslo, Norwegen, Lightning Talk: [https://youtu.be/_C5QUuU2vic?t=1386]()
+* Herbert Lange (2018): *Let's talk about Old Computer; Or: Why old computers are cool, why we should care, and stuff I discovered*, Free Society Conference and Nordic Summit (FSCONS), Oslo, Norwegen, Lightning Talk: [https://youtu.be/_C5QUuU2vic?t=1386](https://youtu.be/_C5QUuU2vic?t=1386)
 
 * Herbert Lange (2017): *Implementation of a Latin Grammar in Grammatical Framework*, 2nd International Conference on Digital Access to Textual Cultural Heritage, Göttingen, Deutschland, Konferenzpresentation
 
@@ -145,9 +145,9 @@
 
 * Herbert Lange (2016): *Implementation of a Latin Grammar in Grammatical Framework*, 6th Swedish Language Technology Conference (SLTC), Umeå, Schweden, Poster
 
-* Herbert Lange (2016): *SHRDLU - Ein Programm das natürliche Sprache versteht*, Vintage Computing Festival Berlin (VCFB), Berlin, Deutschland, Vortrag: [https://media.ccc.de/v/vcfb2016_-_52_-_en_-_medientheater_-_201610031530_-_shrdlu_-_herbert_lange]()
+* Herbert Lange (2016): *SHRDLU - Ein Programm das natürliche Sprache versteht*, Vintage Computing Festival Berlin (VCFB), Berlin, Deutschland, Vortrag: [https://media.ccc.de/v/vcfb2016_-_52_-_en_-_medientheater_-_201610031530_-_shrdlu_-_herbert_lange](https://media.ccc.de/v/vcfb2016_-_52_-_en_-_medientheater_-_201610031530_-_shrdlu_-_herbert_lange)
 
-* Herbert Lange (2015): *Vintage Computing*, Free Society Conference and Nordic Summit (FSCONS), Göteborg, Schweden, Lightning Talk: [https://youtu.be/8mSVMY74sOY?t=660]()
+* Herbert Lange (2015): *Vintage Computing*, Free Society Conference and Nordic Summit (FSCONS), Göteborg, Schweden, Lightning Talk: [https://youtu.be/8mSVMY74sOY?t=660](https://youtu.be/8mSVMY74sOY?t=660)
 
 * Herbert Lange (2013): *Grammatical Framework*, Mehrvorträgewagen, muCCC Munich Hackerspace, München, Deutschland, Vortrag
 

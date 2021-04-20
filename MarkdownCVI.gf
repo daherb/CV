@@ -4,7 +4,7 @@ concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
   oper sp : Str = "#(chr(32))#" ;
   oper bindBracket : Str -> Str = \s -> "(" ++ Prelude.BIND ++ s ++ Prelude.BIND ++ ")" ;
   oper bindComma' : Str = Prelude.BIND ++ "," ;
-  oper bindUrl : Str -> Str -> Str = \s1,s2 -> "[" ++ Prelude.BIND ++ s1 ++ Prelude.BIND ++ "](" ++ Prelude.BIND ++ ")" ;
+  oper bindUrl : Str -> Str -> Str = \s1,s2 -> "[" ++ Prelude.BIND ++ s1 ++ Prelude.BIND ++ "](" ++ Prelude.BIND ++ s2 ++ Prelude.BIND ++ ")" ;
   lin
     -- NewAuthor : String -> String -> Author ;
     NewAuthor f l = ss (f.s ++ l.s) ;
@@ -28,7 +28,7 @@ concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
       ) ;
     -- NewPresentation : ListAuthor -> String -> String -> Address -> Date -> PresentationType -> MaybeString -> Presentation ;
     NewPresentation speakers title venue address date type url =
-      ss (speakers.s ++ bindBracket date.s  ++ Prelude.BIND ++ ": *" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "*," ++ venue.s ++ bindComma' ++ address.s ++ bindComma' ++ type.s ++ (if_then_Str url.empty "" (Prelude.BIND ++ ":" ++ bindUrl url.s "URL"))) ;
+      ss (speakers.s ++ bindBracket date.s  ++ Prelude.BIND ++ ": *" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "*," ++ venue.s ++ bindComma' ++ address.s ++ bindComma' ++ type.s ++ (if_then_Str url.empty "" (Prelude.BIND ++ ":" ++ bindUrl url.s url.s ))) ;
 
     NewDepartment d u = ss (d.s ++ bindComma' ++ u.s) ;
     -- JournalPublication : ListAuthor -> String -> String -> String -> Address -> Date -> String -> String -> MaybeString -> MaybeString -> MaybeString -> PublicationState -> Publication ;
@@ -48,7 +48,7 @@ concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
 	    if_then_Str series.empty "" (bindComma' ++ series.s) ++
 	    if_then_Str volume.empty "" (bindBracket volume.s) ++ 
 	    if_then_Str pages.empty "" (bindComma' ++ pages.s) ++
-	    if_then_Str doi.empty "" (bindComma' ++ bindUrl ("https://doi.org/" ++ Prelude.BIND ++ doi.s) doi.s) ++
+	    if_then_Str doi.empty "" (bindComma' ++ bindUrl doi.s ("https://doi.org/" ++ Prelude.BIND ++ doi.s)) ++
 	    if_then_Str url.empty "" (bindComma' ++ bindUrl url.s url.s) ++
 	    bindComma' ++ status.s ++ Prelude.BIND ++ "."
       );
