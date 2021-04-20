@@ -62,6 +62,7 @@ abstract CV = {
       -> Address ;
     NewEducation : EducationType 
       -> University
+      -> Address
       -> Date -- Start date
       -> Date -- End date
       -> [Supervisor]
