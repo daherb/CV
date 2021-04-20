@@ -12,7 +12,7 @@ abstract FullCV = CV ** {
     Twitter       : MaybeString = Just "@pietaetskirsche" ;
     Skype         : MaybeString = Nothing ;
     Reddit        : MaybeString = Nothing ;
-    LastUpdated   : Date = MonthYear March 2021 ;
+    LastUpdated   : Date = MonthYear April 2021 ;
     Degrees       : ListDegree =
       (ConsDegree (NewDegree PhDDegree UniGot {- University of Gothenburg -}
 		     (NewAddress Gothenburg Sweden)
@@ -32,16 +32,19 @@ abstract FullCV = CV ** {
 	 BaseDegree))) ;
     Educations     : ListEducation =
       (ConsEducation (NewEducation PhDEducation UniGot {- University of Gothenburg -}
+			(NewAddress Gothenburg Sweden)
 			(MonthYear August 2015) (MonthYear September 2020)
 			(ConsSupervisor (NewSupervisor "Peter Ljunglöf" MainSupervisor)
 			(ConsSupervisor (NewSupervisor "Koen Claessen" CoSupervisor)
 			(ConsSupervisor (NewSupervisor "Aarne Ranta" Examiner) BaseSupervisor)))
 			PhDDescription)
       (ConsEducation (NewEducation ErasmusEducation TCD {- Trinity College Dublin -}
+			(NewAddress Dublin Ireland)
 			(MonthYear October 2010) (MonthYear May 2011)
 			BaseSupervisor
 			ErasmusDescription)
       (ConsEducation (NewEducation MagisterEducation LMU {- Ludwig-Maximilians-University Munich -}
+			(NewAddress Munich Germany)
 			(MonthYear October 2008) (MonthYear July 2014)
 			(ConsSupervisor (NewSupervisor "Hans Leiss" MainSupervisor) BaseSupervisor)
 			MagisterDescription)
@@ -201,7 +204,7 @@ abstract FullCV = CV ** {
 			   (BaseAuthor Myself) -- Speaker
 			   "Type theory and meaning in linguistics"
 			   "rC3 - remote Chaos Experience"
-			   (NewAddress Gothenburg Sweden)
+			   Online
 			   (OnlyYear 2020)
 			   (NonAcademic FullTalk)
 			   (Just "https://media.ccc.de/v/rc3-232856-type_theory_and_meaning_in_linguistics")
@@ -512,10 +515,11 @@ abstract FullCV = CV ** {
   cat
     AcademicPresentation ;
     NonAcademicPresentation ;
-  fun
+ fun
     UniGot, LMU, TCD : University ;
     Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo : City ;
     Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway : Country ;
+    Online : Address ;
     PhDCS  : Position ;
     ErasmusDescription, PhDDescription, LicentiateDescription, MagisterDescription : EducationDescription ;
     ITZCompany, GlanosCompany, FreelancerCompany : Company ;
