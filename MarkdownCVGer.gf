@@ -1,0 +1,48 @@
+concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] ** open Prelude in {
+  lin
+  -- NewCV : String -> Position -> Address -> String -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> Date -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListSkillCategory -> CV ;
+    NewCV name position address mail website github linkedin gitlab stackoverflow twitter skype reddit lastUpdated degrees education jobs publications presentations skills =
+      ss ("# Lebenslauf" ++ nlnl ++
+	    "###" ++ name.s ++ " -- " ++ 
+	    position.s ++ " -- " ++ 
+	    address.s ++ nlnl ++
+	    "---" ++ nlnl ++
+	    "## Kontakt:" ++ nlnl ++
+	    "* E-Mail:" ++ mail.s ++ nl ++
+	    (if_then_Str website.empty "" ("* Homepage:" ++ bindUrl website.s website.s ++ nl )) ++
+	    (if_then_Str github.empty "" ("* Github:" ++ bindUrl github.s ("https://github.com/" ++ Prelude.BIND ++ github.s) ++ nl )) ++
+	    (if_then_Str linkedin.empty "" ("* LinkedIn:" ++ bindUrl linkedin.s linkedin.s ++ nl )) ++ 
+	    (if_then_Str gitlab.empty "" ("* Gitlab:" ++ bindUrl gitlab.s ("https://gitlab,com/" ++ Prelude.BIND ++ gitlab.s) ++ nl )) ++ 
+	    (if_then_Str stackoverflow.empty "" ("* StackOverflow:" ++ bindUrl stackoverflow.s stackoverflow.s ++ nl )) ++ 
+	    (if_then_Str twitter.empty "" ("* Twitter:" ++ bindUrl ("\\" ++ Prelude.BIND ++ twitter.s) ("https://twitter.com/" ++ Prelude.BIND ++ twitter.s) ++ nl )) ++ 
+	    (if_then_Str skype.empty "" ("* Skype: " ++ Prelude.BIND ++ skype.s ++ nl )) ++
+	    (if_then_Str reddit.empty "" ("* Reddit: " ++ bindUrl reddit.s ("https://reddit.com/user/" ++ Prelude.BIND ++ reddit.s) ++ nl)) ++ nl ++
+	    "---" ++ nlnl ++
+	    "## Universitätsabschlüsse" ++ nlnl ++
+	    degrees.s ++ nlnl ++
+	    "---" ++ nlnl ++
+	    "## Universitäre Ausbildung" ++ nlnl ++
+	    education.s ++ nlnl ++
+	    "## Beruflicher Werdegang" ++ nlnl ++
+	    jobs.s ++ nlnl ++
+	    "## Wissenschaftliche Veröffentlichungen" ++ nlnl ++
+	    publications.s ++ nlnl ++
+	    "## Vorträge und Präsentationen" ++ nlnl ++
+	    presentations.s ++ nlnl ++
+	    "## Fertigkeiten" ++ nlnl ++
+	    "Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionelle Erfahrung (3), Experte (4),  Guru (5)" ++ nlnl ++
+	    skills.s ++ nlnl ++
+	    -- Footer
+	    "---" ++ nlnl ++
+	    "Letzte Aktualisierung:" ++ lastUpdated.s
+      ) ;
+
+    ConsAuthor a as =
+      { s = a.s ++ (case as.last of { True => "und" ; False => bindComma' }) ++ as.s ; last = False } ;
+	    
+    -- NewDegree : DegreeType -> University -> Address -> Date -> String -> Degree ;
+    NewDegree degree university address date thesisTitle =
+      ss (degree.s ++ bindBracket date.s ++ nlnl ++
+	    sp ++ university.s ++ bindBracket address.s ++ nlnl ++
+	    sp ++ degree.t ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ thesisTitle.s ++ Prelude.BIND ++ "\"" );
+}
