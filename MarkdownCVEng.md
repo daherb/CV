@@ -306,7 +306,7 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 * Typ-theoretic semantics: Basic experience
 
-### Research and generic skulls
+### Research and generic skills
 * Data analysis: Professional Experience
 
 * Experimental design in social sciences: Basic experience
