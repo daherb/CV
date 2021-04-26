@@ -9,3 +9,5 @@ $ gf MarkdownCVGer.gf
 ```
 
 This generates the file [MarkdownCVGer.md](MarkdownCVGer.md)
+
+In a similar fashion the English version [MarkdownCVEng.md](MarkdownCVEng.md) can be generated.
