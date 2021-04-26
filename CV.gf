@@ -10,6 +10,9 @@ abstract CV = {
       Job ;
       Publication ;
       Presentation ;
+      Grant ;
+      ConferenceInvolvement ;
+      PeerReview ;
       SkillCategory ;
       Skill ;
       [Education]{0} ;
@@ -17,6 +20,9 @@ abstract CV = {
       [Job]{0} ;
       [Publication]{0} ;
       [Presentation]{0} ;
+      [Grant]{0} ;
+      [ConferenceInvolvement]{0} ;
+      [PeerReview]{0} ;
       [SkillCategory]{0} ;
       [Skill]{0} ;
       DegreeType ;
@@ -36,6 +42,7 @@ abstract CV = {
       ThesisType ;
       PublicationState ;
       PresentationType ;
+      GrantType ;
       Category ;
       SkillName ;
       SkillLevel ;
@@ -56,7 +63,7 @@ abstract CV = {
       -> MaybeString -- Skype
       -> MaybeString -- Reddit
       -> Date -- LastUpdated
-      -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation ->  ListSkillCategory -> CV ;
+      -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListGrant -> ListConferenceInvolvement -> ListPeerReview -> ListSkillCategory -> CV ;
     NewAddress : City
       -> Country
       -> Address ;
@@ -128,6 +135,20 @@ abstract CV = {
       -> PresentationType
       -> MaybeString -- Url
       -> Presentation ;
+    NewGrant : GrantType
+      -> String -- Reason
+      -> Address
+      -> String -- Funding unit
+      -> Date
+      -> Grant ;
+    NewConferenceInvolvement : String -- Position
+      -> String -- Conference
+      -> Address
+      -> Date
+      -> ConferenceInvolvement ;
+    NewPeerReview : String -- Conference
+      -> Date
+      -> PeerReview ;
     NewSkillCategory : Category
       -> ListSkill
       -> SkillCategory ;

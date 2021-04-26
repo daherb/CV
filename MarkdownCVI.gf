@@ -58,7 +58,16 @@ concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
 	    if_then_Str url.empty "" (bindComma' ++ bindUrl url.s url.s) ++
 	    bindComma' ++ status.s ++ Prelude.BIND ++ "."
       );
+    -- NewGrant : GrantType -> String -> Address -> String -> Date -> Grant ;
+    NewGrant type reason address agency date =
+      ss (type.s ++ reason.s ++ bindComma' ++ address.s ++ bindComma' ++ agency.s ++ bindBracket date.s ) ;
+    -- NewConferenceInvolvement : String -> String -> Address -> Date -> ConferenceInvolvement ;
+    NewConferenceInvolvement position name address date =
+      ss (position.s ++ bindComma' ++ name.s ++ bindComma' ++ address.s ++ bindBracket date.s ) ;
     -- NewSkill : SkillName -> SkillLevel -> Skill ;
+    -- NewPeerReview : String -> Date -> PeerReview ;
+    NewPeerReview conference date =
+     ss (conference.s ++ bindBracket date.s) ;
     NewSkill name level =
       ss (name.s ++ Prelude.BIND ++ ":" ++ level.s) ;
     -- NewSkillCategory : Category -> ListSkill -> SkillCategory ;
@@ -67,10 +76,10 @@ concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
 
     -- List constructors
     ConsSkillCategory s ss = { s = s.s ++ (if_then_Str ss.empty "" (nlnl ++ ss.s )) ; empty = False };
-    ConsDegree, ConsEducation, ConsJob, ConsPresentation, ConsPublication, ConsSkill = \e,es -> { s = "*" ++ e.s ++ (if_then_Str es.empty "" (nlnl ++ es.s )) ; empty = False };
+    ConsDegree, ConsEducation, ConsJob, ConsPresentation, ConsPublication, ConsGrant, ConsConferenceInvolvement, ConsPeerReview, ConsSkill = \e,es -> { s = "*" ++ e.s ++ (if_then_Str es.empty "" (nlnl ++ es.s )) ; empty = False };
     ConsSupervisor c cs =
       ss (c.s ++ (if_then_Str cs.empty "" (bindComma' ++ cs.s ))) ** { empty = False };
     BaseAuthor a = { s = a.s ; last = True } ;
-    BaseDegree, BaseEducation, BaseJob, BasePresentation, BasePublication, BaseSkill, BaseSkillCategory, BaseSupervisor = { s = "" ; empty = True } ;
+    BaseDegree, BaseEducation, BaseJob, BasePresentation, BasePublication, BaseGrant, BaseConferenceInvolvement, BasePeerReview, BaseSkill, BaseSkillCategory, BaseSupervisor = { s = "" ; empty = True } ;
     
 }

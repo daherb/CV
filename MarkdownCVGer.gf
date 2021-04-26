@@ -1,7 +1,7 @@
 concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] ** open Prelude in {
   lin
-  -- NewCV : String -> Position -> Address -> String -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> Date -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListSkillCategory -> CV ;
-    NewCV name position address mail website github linkedin gitlab stackoverflow twitter skype reddit lastUpdated degrees education jobs publications presentations skills =
+  -- NewCV : String -> Position -> Address -> String -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> Date -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListGrant -> ListConferenceInvolvement -> ListPeerReview -> ListSkillCategory -> CV ;
+    NewCV name position address mail website github linkedin gitlab stackoverflow twitter skype reddit lastUpdated degrees education jobs publications presentations grants confs peer skills =
       ss ("# Lebenslauf" ++ nlnl ++
 	    "###" ++ name.s ++ " -- " ++ 
 	    position.s ++ " -- " ++ 
@@ -29,6 +29,12 @@ concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] **
 	    publications.s ++ nlnl ++
 	    "## Vorträge und Präsentationen" ++ nlnl ++
 	    presentations.s ++ nlnl ++
+	    "## Stipendien" ++ nlnl ++
+	    grants.s ++ nlnl ++
+	    "## Konferenzbeteiligung" ++ nlnl ++
+	    confs.s ++ nlnl ++
+	    "## Peer Review" ++ nlnl ++
+	    peer.s ++ nlnl ++
 	    "## Fertigkeiten" ++ nlnl ++
 	    "Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionelle Erfahrung (3), Experte (4),  Guru (5)" ++ nlnl ++
 	    skills.s ++ nlnl ++

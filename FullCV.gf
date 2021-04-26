@@ -409,6 +409,24 @@ abstract FullCV = CV ** {
 	 )
 	 BasePresentation
 	 ))))))))))))))))))))))) ;
+    Grants : ListGrant =
+      (ConsGrant (NewGrant TravelGrant "Grammatical Framework Summer School" (NewAddress Gozo Malta) "Centre for Language Technology, University of Gothenburg" (OnlyYear 2015))
+      (ConsGrant (NewGrant TravelGrant "Grammatical Framework Summer School" (NewAddress Frauenchiemsee Germany) "Volkswagenstiftung" (OnlyYear 2013))
+      (ConsGrant (NewGrant ErasmusGrant "Trinity College" (NewAddress Dublin Ireland) "European Union" (OnlyYear 2010))
+      BaseGrant))) ;
+    ConferenceInvolvements : ListConferenceInvolvement =
+      (ConsConferenceInvolvement (NewConferenceInvolvement "Co-Organizer" "9th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (NewAddress Gothenburg Sweden) (OnlyYear 2020))
+      (ConsConferenceInvolvement (NewConferenceInvolvement "Co-Organizer" "8th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (NewAddress Turku Finland) (OnlyYear 2019))
+      (ConsConferenceInvolvement (NewConferenceInvolvement "Co-Chair Logic and Computation" "European Summerschool in Logic, Language and Information Student Session" (NewAddress Toulouse France) (OnlyYear 2017))
+      BaseConferenceInvolvement))) ;
+    PeerReviews : ListPeerReview =
+--      (ConsPeerReview (NewPeerReview "7th International Workshop on Controlled Natural Languages" (OnlyYear 2021))
+      (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2021))
+      (ConsPeerReview (NewPeerReview "8th Swedish Language Technology Conference post-proceedings" (OnlyYear 2021))
+      (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2020))     
+      (ConsPeerReview (NewPeerReview "8th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2019))
+      (ConsPeerReview (NewPeerReview "5th Workshop on Natural Language Processing Techniques for Educational Applications" (OnlyYear 2018))
+      BasePeerReview))))) ;
     Skills   : ListSkillCategory =
       (ConsSkillCategory (NewSkillCategory
 			    Programming_Languages
@@ -517,8 +535,8 @@ abstract FullCV = CV ** {
     NonAcademicPresentation ;
  fun
     UniGot, LMU, TCD : University ;
-    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo : City ;
-    Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway : Country ;
+    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse : City ;
+    Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France : Country ;
     Online : Address ;
     PhDCS  : Position ;
     ErasmusDescription, PhDDescription, LicentiateDescription, MagisterDescription : EducationDescription ;
@@ -534,6 +552,7 @@ abstract FullCV = CV ** {
     NonAcademic : NonAcademicPresentation -> PresentationType ;
     ConferencePresentation, PosterPresentation, SeminarPresentation : AcademicPresentation ;
     LightningTalk, FullTalk : NonAcademicPresentation ;
+    TravelGrant, ErasmusGrant : GrantType ;
     Programming_Languages, Operating_Systems, IT_Other, Languages, Computational_Linguistics, Research_and_Generic : Category ;
     Agda, Basic, C_Cpp, Coq, Erlang, Grammatical_Framework, Haskell, HTML_CSS, Java, JavaScript, LISP, Pascal, Perl, Prolog, Python, Ruby, SML, Atari_TOS, Gentoo_Linux, BeOS_Haiku, FreeBSD_NetBSD, IRIX, MacOS_Classic, MacOS_X, MS_DOS, OpenVMS, OS_2, RISC_OS, Windows, Constraint_Programming, Formal_Languages, GNU_make, Icinga_Nagios, LaTeX, Machine_Learning, MS_Office, Parser_Combinators, Property_Based_Testing, Software_Defined_Radio, Databases, Version_Control_Systems, English, Esperanto, French, German, Irish, Italian, Latin, Medieval_German, Spanish, Swedish, Controlled_Natural_Languages, Discourse_Representation_Theory, Formal_Syntax, Lexical_Semantics, Montague_Grammars, Resource_Grammar_Development, Universal_Dependencies, Type_Theoretic_Semantics, Data_Analysis, Experiment_Design, Independent_Work, Problem_Solving, Project_Management, Public_Presentation, Research, Research_Ethics, Scientific_Writing, Teaching, Teamwork : SkillName ;
   def
@@ -557,5 +576,8 @@ abstract FullCV = CV ** {
       Jobs
       Publications
       Presentations
+      Grants
+      ConferenceInvolvements
+      PeerReviews
       Skills ;
 }

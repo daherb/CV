@@ -151,6 +151,34 @@
 
 * Herbert Lange (2013): *Grammatical Framework*, Mehrvorträgewagen, muCCC Munich Hackerspace, München, Deutschland, Vortrag
 
+## Stipendien
+
+* Reisestipendium Grammatical Framework Summer School, Gozo, Malta, Centre for Language Technology, University of Gothenburg (2015)
+
+* Reisestipendium Grammatical Framework Summer School, Frauenchiemsee, Deutschland, Volkswagenstiftung (2013)
+
+* Erasmusstipendium Trinity College, Dublin, Irland, European Union (2010)
+
+## Konferenzbeteiligung
+
+* Co-Organizer, 9th Workshop on Natural Language Processing for Computer-Assisted Language Learning, Göteborg, Schweden (2020)
+
+* Co-Organizer, 8th Workshop on Natural Language Processing for Computer-Assisted Language Learning, Turku, Finnland (2019)
+
+* Co-Chair Logic and Computation, European Summerschool in Logic, Language and Information Student Session, Toulouse, Frankreich (2017)
+
+## Peer Review
+
+* 10th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2021)
+
+* 8th Swedish Language Technology Conference post-proceedings (2021)
+
+* 10th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2020)
+
+* 8th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2019)
+
+* 5th Workshop on Natural Language Processing Techniques for Educational Applications (2018)
+
 ## Fertigkeiten
 
 Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionelle Erfahrung (3), Experte (4), Guru (5)
