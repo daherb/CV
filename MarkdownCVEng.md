@@ -200,7 +200,7 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 * HTML/CSS: Basic experience
 
-* Java: Professionelle Experience
+* Java: Professional Experience
 
 * JavaScript: Basic experience
 
@@ -241,32 +241,32 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 * RISC OS: Basic knowledge
 
-* Windows: Professionelle Experience
+* Windows: Professional Experience
 
 ### Other IT skills
 * Constraint Programming: Basic experience
 
-* Formal languages: Professionelle Experience
+* Formal languages: Professional Experience
 
 * GNU make: Basic experience
 
 * Icinga/Nagios: Basic experience
 
-* LaTeX: Professionelle Experience
+* LaTeX: Professional Experience
 
 * Machine Learning: Basic knowledge
 
-* MS Office: Professionelle Experience
+* MS Office: Professional Experience
 
-* Parser combinators: Professionelle Experience
+* Parser combinators: Professional Experience
 
-* Property-based Testing: Professionelle Experience
+* Property-based Testing: Professional Experience
 
 * Software-defined Radio: Basic experience
 
-* Databases: Professionelle Experience
+* Databases: Professional Experience
 
-* Version control systems: Professionelle Experience
+* Version control systems: Professional Experience
 
 ### Language
 * English: Expert
@@ -287,7 +287,7 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 * Spanish: Basic knowledge
 
-* Swedisch: Professionelle Experience
+* Swedisch: Professional Experience
 
 ### Computational linguistics
 * Controlled Natural Languages: Expert
@@ -298,7 +298,7 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 * Lexikal semantics: Basic experience
 
-* Montague grammars: Professionelle Experience
+* Montague grammars: Professional Experience
 
 * Resource grammar development: Guru
 
@@ -307,7 +307,7 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 * Typ-theoretic semantics: Basic experience
 
 ### Research and generic skulls
-* Data analysis: Professionelle Experience
+* Data analysis: Professional Experience
 
 * Experimental design in social sciences: Basic experience
 
@@ -315,19 +315,19 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 * Problem solving: Expert
 
-* Project management: Professionelle Experience
+* Project management: Professional Experience
 
-* Public presentation: Professionelle Experience
+* Public presentation: Professional Experience
 
 * Research: Expert
 
-* Research ethics: Professionelle Experience
+* Research ethics: Professional Experience
 
 * Scientific writing: Expert
 
-* Teaching: Professionelle Experience
+* Teaching: Professional Experience
 
-* Team work: Professionelle Experience
+* Team work: Professional Experience
 
 ---
 
