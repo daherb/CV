@@ -33,7 +33,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     Latin = ss "Latein" ;
     Lexical_Semantics = ss "Lexikalische Semantik" ;
     LicentiateDegree = { s = "Lizentiat in der Informatik" ; t = "Lizentitasarbeit" } ;
-    Licentiatethesis = ss "Lizentiatsarbeit" ; 
+    LicentiateThesis = ss "Lizentiatsarbeit" ; 
     LMU = ss "Ludwig-Maximilians-Universität";
     MagisterDegree = { s = "Magister Artium der Computerlinguistik" ; t = "Magisterarbeit" } ;
     MagisterEducation = ss "Magisterstudium der Computerlinguistik" ;

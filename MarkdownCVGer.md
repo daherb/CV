@@ -93,7 +93,7 @@
 
 * Herbert Lange und Peter Ljunglöf (2020): "Demonstrating the MUSTE Language Learning Environment", Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018, Stockholm, Schweden, Linköping University Electronic Press, 41–46, [https://www.aclweb.org/anthology/W18-7105](https://www.aclweb.org/anthology/W18-7105), Veröffentlicht.
 
-* Herbert Lange (2018): "Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning", [LicentiateThesis], Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, [https://gup.ub.gu.se/file/207536](https://gup.ub.gu.se/file/207536), Veröffentlicht.
+* Herbert Lange (2018): "Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning", Lizentiatsarbeit, Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, [https://gup.ub.gu.se/file/207536](https://gup.ub.gu.se/file/207536), Veröffentlicht.
 
 * Herbert Lange und Peter Ljunglöf (2018): "Putting Control into Language Learning", Proceedings of the Sixth International Workshop on Controlled Natural Languages, Maynooth, Irland, IOS Press, Frontiers in Artificial Intelligence and Applications (304), 61-70, [10.3233/978-1-61499-904-1-61](https://doi.org/10.3233/978-1-61499-904-1-61), Veröffentlicht.
 
