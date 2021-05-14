@@ -11,4 +11,5 @@ concrete CVI of CV = open Prelude in {
     Guru = ss "Guru" ;
     OnlyYear y = y ;
     MonthYear m y = cc2 m y ;
+    NewDate d m y = cc2 m y ; -- Usually nobody cares about the exacty date
 }

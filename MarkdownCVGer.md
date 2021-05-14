@@ -16,13 +16,13 @@
 
 ## Universitätsabschlüsse
 
-* Doktor der Informatik (Semptember 2020)
+* Doktor der Informatik (März 2021)
 
   Universität Göteborg (Göteborg, Schweden)
 
   Doktorarbeit: "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars"
 
-* Lizentiat in der Informatik (Semptember 2018)
+* Lizentiat in der Informatik (November 2018)
 
   Universität Göteborg (Göteborg, Schweden)
 
@@ -44,12 +44,12 @@
   * Betreuer: Peter Ljunglöf, Zweitbetreuer: Koen Claessen, Interner Gutachter: Aarne Ranta
   * Forschungsausbildung, Forschung in der Computerlinguistik, Studien und Lehre in der Computerlinguistik, Linguistik und Informatik
 
-* Erasmusaufenthalt (Oktober 2010-Mai 2011)
+* Erasmusaufenthalt (Semptember 2010-Mai 2011)
 
   Trinity College Dublin (Dublin, Irland)
   * Auslandsaufenthalt zur Verbesserung von Sprachfertigkeiten und zum erfahrungsgewinn im Ausland
 
-* Magisterstudium der Computerlinguistik (Oktober 2008-Juli 2014)
+* Magisterstudium der Computerlinguistik (Oktober 2008-Semptember 2014)
 
   Ludwig-Maximilians-Universität (München, Deutschland)
   * Betreuer: Hans Leiss
@@ -75,7 +75,13 @@
 
   Java-Backendentwicklung zur Behandlung von XML/JSON-Daten und manuelle Datenannotation und -auswertung für Named Entity Recognition
 
-* Studentische Hilfskraft (2009-Oktober 2014)
+* Studentische Hilfskraft (November 2011-Dezember 2011)
+
+  Institut für Deutsche Philologie, Ludwig-Maximilians-Universität (München, Deutschland)
+
+  Datenannotation für die Onlinepublikation des Deutschen Verfasserlexikons der Frühen Neuzeit
+
+* Studentische Hilfskraft (Februar 2009-Oktober 2014)
 
   IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-Universität (München, Deutschland)
 
@@ -331,4 +337,4 @@ Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionel
 
 ---
 
-Letzte Aktualisierung: April 2021
+Letzte Aktualisierung: Mai 2021

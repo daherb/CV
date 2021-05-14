@@ -161,6 +161,7 @@ abstract CV = {
     NewAuthor : String -- First name
       -> String -- Last name
       -> Author ;
+    NewDate: Int -> Month -> Int -> Date ;
     MonthYear : Month -> Int -> Date ;
     OnlyYear : Int -> Date ;
     January, February, March, April, May, June, July, August, September, October, November, December : Month ;

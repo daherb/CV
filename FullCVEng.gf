@@ -20,6 +20,7 @@ concrete FullCVEng of FullCV = CVEng, FullCVI-[DegreeType] ** open Prelude in {
     French = ss "French" ;
     FullTalk = ss "Talk" ;
     German = ss "German" ;
+    GermanistikLMUCompany = ss "Institute for German Philology, Ludwig-Maximilians-University" ;
     Germany = ss "Germany" ;
     Gothenburg = ss "Gothenburg" ;
     ITZCompany = ss "IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-University" ;
@@ -81,4 +82,5 @@ concrete FullCVEng of FullCV = CVEng, FullCVI-[DegreeType] ** open Prelude in {
     FreelancerJobDescription = ss "Development of a monitoring solution ofr a segment of the university network at Ludwig-Maximilians-University, Munich" ;
     GlanosJobDescription = ss "Java backend development handling XML/JSON data and manual data annotation and analysis for Named Entity Recognition" ;
     ITZJobDescription = ss "System administration for a segment of the university network consisting of Linux/Mac/Windows servers and Windows/Mac clients" ;
+    GermanistikJobDescription = ss "Data annotation for online publication of the \" Deutschen Verfasserlexikons der Frühen Neuzeit\"" ;
 }

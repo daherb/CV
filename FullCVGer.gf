@@ -20,6 +20,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     French = ss "Französisch" ;
     FullTalk = ss "Vortrag" ;
     German = ss "Deutsch" ;
+    GermanistikLMUCompany = ss "Institut für Deutsche Philologie, Ludwig-Maximilians-Universität" ;
     Germany = ss "Deutschland" ;
     Gothenburg = ss "Göteborg" ;
     ITZCompany = ss "IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-Universität" ;
@@ -81,4 +82,5 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     FreelancerJobDescription = ss "Entwicklung einer Monitoringlösung für ein Segment des Universitätsnetzwerkes der Ludwig-Maximilians-Universität München" ;
     GlanosJobDescription = ss "Java-Backendentwicklung zur Behandlung von XML/JSON-Daten und manuelle Datenannotation und -auswertung für Named Entity Recognition" ;
     ITZJobDescription = ss "Systemadministration für ein Segment des Universitätsnetzwerkes bestehend aus Linux/Mac/Windows-Servern und Windows- und Mac-Clients" ;
+    GermanistikJobDescription = ss "Datenannotation für die Onlinepublikation des Deutschen Verfasserlexikons der Frühen Neuzeit" ;
 }

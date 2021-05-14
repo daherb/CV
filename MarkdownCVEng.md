@@ -16,13 +16,13 @@
 
 ## University Degrees
 
-* PhD in computer science (Semptember 2020)
+* PhD in computer science (March 2021)
 
   University of Gothenburg (Gothenburg, Sweden)
 
   Thesis: "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars"
 
-* Licentiate in computer Science (Semptember 2018)
+* Licentiate in computer Science (November 2018)
 
   University of Gothenburg (Gothenburg, Sweden)
 
@@ -44,12 +44,12 @@
   * Supervisor: Peter Ljunglöf, Co-supervisor: Koen Claessen, Internal examinor: Aarne Ranta
   * Research erducation; research in computational linguistics; Studies and teaching in computational linguistics, linguistics and computer science
 
-* Erasmus stay (October 2010-May 2011)
+* Erasmus stay (Semptember 2010-May 2011)
 
   Trinity College Dublin (Dublin, Ireland)
   * Study exchange to improve language skills and gather study experience abroad
 
-* Master's in computational linguistics (October 2008-July 2014)
+* Master's in computational linguistics (October 2008-Semptember 2014)
 
   Ludwig-Maximilians-University (Munich, Germany)
   * Supervisor: Hans Leiss
@@ -75,7 +75,13 @@
 
   Java backend development handling XML/JSON data and manual data annotation and analysis for Named Entity Recognition
 
-* Student assistant (2009-October 2014)
+* Student assistant (November 2011-December 2011)
+
+  Institute for German Philology, Ludwig-Maximilians-University (Munich, Germany)
+
+  Data annotation for online publication of the " Deutschen Verfasserlexikons der Frühen Neuzeit"
+
+* Student assistant (February 2009-October 2014)
 
   IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-University (Munich, Germany)
 
@@ -331,4 +337,4 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 ---
 
-Last update: April 2021
+Last update: May 2021

@@ -12,61 +12,65 @@ abstract FullCV = CV ** {
     Twitter       : MaybeString = Just "@pietaetskirsche" ;
     Skype         : MaybeString = Nothing ;
     Reddit        : MaybeString = Nothing ;
-    LastUpdated   : Date = MonthYear April 2021 ;
+    LastUpdated   : Date = MonthYear May 2021 ;
     Degrees       : ListDegree =
       (ConsDegree (NewDegree PhDDegree UniGot {- University of Gothenburg -}
 		     (NewAddress Gothenburg Sweden)
-		     (MonthYear September 2020)
+		     (NewDate 9 March 2021)
 		     "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars" {- Thesis title -}
 	 )
       (ConsDegree (NewDegree LicentiateDegree UniGot {- University of Gothenburg -}
 		     (NewAddress Gothenburg Sweden)
-		     (MonthYear September 2018)
+		     (NewDate 21 November 2018)
 		     "Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning" {- Thesis title -}
 	 )
       (ConsDegree (NewDegree MagisterDegree LMU {- Ludwig-Maximilians-University Munich -}
 		     (NewAddress Munich Germany)
-		     (MonthYear July 2014)
+		     (NewDate 17 July 2014)
 		     "Implementierung einer Lateingrammatik im Grammatical Framework" {- Thesis title -}
 	 )
 	 BaseDegree))) ;
     Educations     : ListEducation =
       (ConsEducation (NewEducation PhDEducation UniGot {- University of Gothenburg -}
 			(NewAddress Gothenburg Sweden)
-			(MonthYear August 2015) (MonthYear September 2020)
+			(NewDate 24 August 2015) (NewDate 18 September 2020)
 			(ConsSupervisor (NewSupervisor "Peter Ljunglöf" MainSupervisor)
 			(ConsSupervisor (NewSupervisor "Koen Claessen" CoSupervisor)
 			(ConsSupervisor (NewSupervisor "Aarne Ranta" Examiner) BaseSupervisor)))
 			PhDDescription)
       (ConsEducation (NewEducation ErasmusEducation TCD {- Trinity College Dublin -}
 			(NewAddress Dublin Ireland)
-			(MonthYear October 2010) (MonthYear May 2011)
+			(NewDate 20 September 2010) (NewDate 27 May 2011)
 			BaseSupervisor
 			ErasmusDescription)
       (ConsEducation (NewEducation MagisterEducation LMU {- Ludwig-Maximilians-University Munich -}
 			(NewAddress Munich Germany)
-			(MonthYear October 2008) (MonthYear July 2014)
+			(NewDate 1 October 2008) (NewDate 30 September 2014)
 			(ConsSupervisor (NewSupervisor "Hans Leiss" MainSupervisor) BaseSupervisor)
 			MagisterDescription)
       BaseEducation))) ;
     Jobs     : ListJob =
       (ConsJob (NewJob ResearcherJob (UniCompany UniGot) {- University of Gothenburg -}
 		  (NewAddress Gothenburg Sweden)
-		  (MonthYear August 2015) (MonthYear September 2020)
+		  (NewDate 24 August 2015) (NewDate 18 September 2020)
 		  UniGotJobDescription)
       (ConsJob (NewJob SESysAdminJob {- Software engineer and system administrator -} FreelancerCompany
 		  (NewAddress Munich Germany)
-		  (MonthYear April 2015) (MonthYear May 2015)
+		  (NewDate 1 April 2015) (NewDate 31 May 2015)
 		  FreelancerJobDescription)
       (ConsJob (NewJob SoftwareEngineerJob GlanosCompany {- Glanos Gmbh -}
 		  (NewAddress Munich Germany)
-		  (MonthYear November 2014) (MonthYear January 2015)
+		  (NewDate 1 November 2014) (NewDate 31 January 2015)
 		  GlanosJobDescription)
+      (ConsJob (NewJob StudentAssistantJob GermanistikLMUCompany {- Institute for German Philology, Ludwig-Maximilians University Munich -}
+		  (NewAddress Munich Germany)
+		  (NewDate 15 November 2011) (NewDate 31 December 2011)
+		  GermanistikJobDescription)
       (ConsJob (NewJob StudentAssistantJob ITZCompany {- IT-Centre for Languages and Literature, Ludwig-Maximilians University Munich -}
 		  (NewAddress Munich Germany)
-		  (OnlyYear 2009) (MonthYear October 2014)
+		  (NewDate 1 February 2009) (NewDate 31 October 2014)
 		  ITZJobDescription)
-	 BaseJob)))) ;
+	 BaseJob))))) ;
     Publications : ListPublication =
       (ConsPublication (JournalPublication
 			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
@@ -540,10 +544,10 @@ abstract FullCV = CV ** {
     Online : Address ;
     PhDCS  : Position ;
     ErasmusDescription, PhDDescription, LicentiateDescription, MagisterDescription : EducationDescription ;
-    ITZCompany, GlanosCompany, FreelancerCompany : Company ;
+    ITZCompany, GermanistikLMUCompany, GlanosCompany, FreelancerCompany : Company ;
     UniCompany : University -> Company ;
     ResearcherJob, SESysAdminJob, SoftwareEngineerJob, StudentAssistantJob : JobTitle ;
-    UniGotJobDescription, FreelancerJobDescription, GlanosJobDescription, ITZJobDescription : JobDescription ;
+    UniGotJobDescription, FreelancerJobDescription, GlanosJobDescription, ITZJobDescription, GermanistikJobDescription : JobDescription ;
     PhDDegree, LicentiateDegree, MagisterDegree : DegreeType ;
     ErasmusEducation, PhDEducation, MagisterEducation : EducationType ;
     MainSupervisor, CoSupervisor, Examiner : SupervisorRole ;
