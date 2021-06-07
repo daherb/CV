@@ -91,7 +91,7 @@ abstract FullCV = CV ** {
 			  "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars" -- Title
 			  (NewDepartment "Department of Computer Science and Engineering" UniGot) -- School
 			  (NewAddress Gothenburg Sweden)
-			  (OnlyYear 2018) -- Date
+			  (OnlyYear 2020) -- Date
 			  PhDThesis
 			  (Just "http://hdl.handle.net/2077/65453") -- Url
 			  Published
