@@ -12,7 +12,7 @@ abstract FullCV = CV ** {
     Twitter       : MaybeString = Just "@pietaetskirsche" ;
     Skype         : MaybeString = Nothing ;
     Reddit        : MaybeString = Nothing ;
-    LastUpdated   : Date = MonthYear May 2021 ;
+    LastUpdated   : Date = MonthYear June 2021 ;
     Degrees       : ListDegree =
       (ConsDegree (NewDegree PhDDegree UniGot {- University of Gothenburg -}
 		     (NewAddress Gothenburg Sweden)

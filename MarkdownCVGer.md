@@ -337,4 +337,6 @@ Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionel
 
 ---
 
-Letzte Aktualisierung: Mai 2021
+Letzte Aktualisierung: Juni 2021
+
+Erzeugt mit [Grammatical Framework](https://www.grammaticalframework.org/) ([Quelle](https://github.com/daherb/CV/))
