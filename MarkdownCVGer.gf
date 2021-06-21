@@ -41,7 +41,7 @@ concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] **
 	    -- Footer
 	    "---" ++ nlnl ++
 	    "Letzte Aktualisierung:" ++ lastUpdated.s ++ nlnl ++
-	    "Erzeugt mit [Grammatical Framework](https://www.grammaticalframework.org/) ([Quelle](https://github.com/daherb/CV/))"
+	    "Erzeugt mit [Grammatical Framework](https://www.grammaticalframework.org/) und [Pandoc](https://pandoc.org/) ([Quelle](https://github.com/daherb/CV/))"
       ) ;
 
     ConsAuthor a as =
