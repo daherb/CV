@@ -50,7 +50,7 @@ concrete MarkdownCVEng of FullCV = CVEng, FullCVEng, MarkdownCVI-[DegreeType] **
     
     -- ProceedingsPublication : ListAuthor -> String -> String -> Address -> Date -> String -> String -> (Maybe String) -> (Maybe String) -> PublicationState -> Publication ;
     ProceedingsPublication editors bookTitle publisher address date series volume pages doi status =
-      ss (bookTitle.s ++ bindBracket date.s ++ bindComma' ++ editors.s ++ "(eds.)" ++ bindComma' ++
+      ss (bookTitle.s ++ bindBracket date.s ++ Prelude.BIND ++ ";" ++ editors.s ++ "(eds.)" ++ bindComma' ++
 	    publisher.s ++ bindComma' ++ address.s ++ bindComma' ++ series.s ++ bindBracket volume.s ++
 	    if_then_Str pages.empty "" (bindComma' ++ pages.s ++  "pages") ++
 	    if_then_Str doi.empty "" (bindComma' ++ bindUrl doi.s ("https://doi.org/" ++ Prelude.BIND ++ doi.s)) ++

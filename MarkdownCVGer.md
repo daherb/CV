@@ -6,8 +6,8 @@
 
 ## Kontakt:
 
-* E-Mail: *redacted*
-* Homepage: [http://www.cse.chalmers.se/~langeh/](http://www.cse.chalmers.se/~langeh/)
+* E-Mail: contact (AT) hackerbrau.se
+* Homepage: [https://hackerbrau.se](https://hackerbrau.se)
 * Github: [daherb](https://github.com/daherb)
 * LinkedIn: [https://www.linkedin.com/in/herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
 * Twitter: [\@pietaetskirsche](https://twitter.com/@pietaetskirsche)
