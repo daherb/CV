@@ -86,6 +86,18 @@ abstract FullCV = CV ** {
 			  Nothing  -- Url
 			  Published
 	 )
+      (ConsPublication (ProceedingsPublication
+			   (ConsAuthor (NewAuthor "David" "Alfter") (ConsAuthor (NewAuthor "Elena" "Volodina") (ConsAuthor (NewAuthor "Ildikó" "Pilán") (ConsAuthor Myself (BaseAuthor (NewAuthor "Lars" "Borin")))))) -- Editors
+			   "Proceedings of the 9th Workshop on Natural Language Processing for Computer Assisted Language Learning (NLP4CALL 2020)" -- book title
+			   "Linköping University Electronic Press"
+			   (NewAddress Linkoeping Sweden)
+			   (OnlyYear 2020)
+			   "Linköping Electronic Conference Proceedings" -- series
+			   "175" -- volume
+			   (Just "45") -- pages
+			   (Just "10.3384/ecp20175") -- doi
+			   Published
+	 )
       (ConsPublication (ThesisPublication
 			  (BaseAuthor Myself)
 			  "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars" -- Title
@@ -111,7 +123,18 @@ abstract FullCV = CV ** {
 			  Nothing -- Url
 			  Published
 	 )
-	  
+      (ConsPublication (ProceedingsPublication
+			   (ConsAuthor (NewAuthor "David" "Alfter") (ConsAuthor (NewAuthor "Elena" "Volodina") (ConsAuthor (NewAuthor "Lars" "Borin") (ConsAuthor (NewAuthor "Ildikó" "Pilán") (BaseAuthor Myself))))) -- Editors
+			   "Proceedings of the 8th Workshop on Natural Language Processing for Computer Assisted Language Learning (NLP4CALL 2019), September 30, Turku Finland" -- book title
+			   "Linköping University Electronic Press"
+			   (NewAddress Linkoeping Sweden)
+			   (OnlyYear 2019)
+			   "NEALT Proceedings Series " -- series
+			   "39" -- volume
+			   (Just "99") -- pages
+			   Nothing -- DOI
+			   Published
+	 )	  
        (ConsPublication (ConferencePublication
 			   (BaseAuthor Myself)
 			   "An Open-Source Computational Latin Grammar: Overview and Evaluation"
@@ -202,7 +225,7 @@ abstract FullCV = CV ** {
 			Nothing
 			Published
 	 )
-      BasePublication)))))))))) ;
+      BasePublication)))))))))))) ;
     Presentations    : ListPresentation =
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
@@ -539,7 +562,7 @@ abstract FullCV = CV ** {
     NonAcademicPresentation ;
  fun
     UniGot, LMU, TCD : University ;
-    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse : City ;
+    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoeping : City ;
     Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France : Country ;
     Online : Address ;
     PhDCS  : Position ;

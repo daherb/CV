@@ -47,7 +47,15 @@ concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] **
     -- ConsAuthor : Author -> AuthorList -> AuthorList
     ConsAuthor a as =
       { s = a.s ++ (case as.last of { True => "und" ; False => bindComma' }) ++ as.s ; last = False } ;
-	    
+    
+    -- ProceedingsPublication : ListAuthor -> String -> String -> Address -> Date -> String -> String -> (Maybe String) -> (Maybe String) -> PublicationState -> Publication ;
+    ProceedingsPublication editors bookTitle publisher address date series volume pages doi status =
+      ss (bookTitle.s ++ bindBracket date.s ++ bindComma' ++ editors.s ++ "(Hrsg.)" ++ bindComma' ++
+	    publisher.s ++ bindComma' ++ address.s ++ bindComma' ++ series.s ++ bindBracket volume.s ++
+	    if_then_Str pages.empty "" (bindComma' ++ pages.s ++  "Seiten") ++
+	    if_then_Str doi.empty "" (bindComma' ++ bindUrl doi.s ("https://doi.org/" ++ Prelude.BIND ++ doi.s)) ++
+	    status.s ++ Prelude.BIND ++ ".") ;
+    
     -- NewDegree : DegreeType -> University -> Address -> Date -> String -> Degree ;
     NewDegree degree university address date thesisTitle =
       ss (degree.s ++ bindBracket date.s ++ nlnl ++
