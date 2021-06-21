@@ -44,6 +44,7 @@ concrete MarkdownCVEng of FullCV = CVEng, FullCVEng, MarkdownCVI-[DegreeType] **
 	    "Generated using [Grammatical Framework](https://www.grammaticalframework.org/) and [Pandoc](https://pandoc.org/) ([Source](https://github.com/daherb/CV/))"
       ) ;
 
+    -- ConsAuthor : Author -> AuthorList -> AuthorList
     ConsAuthor a as =
       { s = a.s ++ (case as.last of { True => "and" ; False => bindComma' }) ++ as.s ; last = False } ;
 
