@@ -447,13 +447,13 @@ abstract FullCV = CV ** {
       (ConsConferenceInvolvement (NewConferenceInvolvement "Co-Chair Logic and Computation" "European Summerschool in Logic, Language and Information Student Session" (NewAddress Toulouse France) (OnlyYear 2017))
       BaseConferenceInvolvement))) ;
     PeerReviews : ListPeerReview =
---      (ConsPeerReview (NewPeerReview "7th International Workshop on Controlled Natural Languages" (OnlyYear 2021))
+      (ConsPeerReview (NewPeerReview "7th International Workshop on Controlled Natural Languages" (OnlyYear 2021))      
       (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2021))
       (ConsPeerReview (NewPeerReview "8th Swedish Language Technology Conference post-proceedings" (OnlyYear 2021))
       (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2020))     
       (ConsPeerReview (NewPeerReview "8th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2019))
       (ConsPeerReview (NewPeerReview "5th Workshop on Natural Language Processing Techniques for Educational Applications" (OnlyYear 2018))
-      BasePeerReview))))) ;
+      BasePeerReview)))))) ;
     Skills   : ListSkillCategory =
       (ConsSkillCategory (NewSkillCategory
 			    Programming_Languages
