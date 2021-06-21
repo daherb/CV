@@ -6,8 +6,8 @@
 
 ## Contact:
 
-* E-Mail: *redacted*
-* Homepage: [http://www.cse.chalmers.se/~langeh/](http://www.cse.chalmers.se/~langeh/)
+* E-Mail: contact (AT) hackerbrau.se
+* Homepage: [https://hackerbrau.se](https://hackerbrau.se)
 * Github: [daherb](https://github.com/daherb)
 * LinkedIn: [https://www.linkedin.com/in/herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
 * Twitter: [\@pietaetskirsche](https://twitter.com/@pietaetskirsche)
@@ -91,9 +91,13 @@
 
 * Herbert Lange and Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples", Natural Language Processing in Artificial Intelligence, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Switzerland, [https://doi.org/10.1007/978-3-030-63787-3_4](10.1007/978-3-030-63787-3_4), Published.
 
+* Proceedings of the 9th Workshop on Natural Language Processing for Computer Assisted Language Learning (2020); David Alfter, Elena Volodina, Ildikó Pilán, Herbert Lange and Lars Borin (eds.), Linköping University Electronic Press, [Linkoeping], Sweden, Linköping Electronic Conference Proceedings (175), 45 pages, [10.3384/ecp20175](https://doi.org/10.3384/ecp20175) Published.
+
 * Herbert Lange (2020): "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars", PhD thesis, Department of Computer Science and Engineering, University of Gothenburg, Gothenburg, Sweden, [http://hdl.handle.net/2077/65453](http://hdl.handle.net/2077/65453), Published.
 
 * Herbert Lange and Peter Ljunglöf (2020): "Learning Domain-specific Grammars from a Small Number of Examples", Proceedings of the 12th International Conference on Agents and Artificial Intelligence - Volume 1: NLPinAI, Valetta, Malta, INSTICC. SciTePress, 422–430, [10.5220/0009371304220430](https://doi.org/10.5220/0009371304220430), Published.
+
+* Proceedings of the 8th Workshop on Natural Language Processing for Computer Assisted Language Learning (2019); David Alfter, Elena Volodina, Lars Borin, Ildikó Pilán and Herbert Lange (eds.), Linköping University Electronic Press, [Linkoeping], Sweden, NEALT Proceedings Series  (39), 99 pages Published.
 
 * Herbert Lange (2019): "An Open-Source Computational Latin Grammar: Overview and Evaluation", Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019), Las Palmas de Gran Canaria, Canary Islands, Forthcoming.
 
