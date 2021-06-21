@@ -37,7 +37,7 @@ concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
 	    bindBracket volume.s ++ 
 	    if_then_Str pages.empty "" (bindComma' ++ pages.s) ++
 	    bindComma' ++ publisher.s ++ bindComma' ++ address.s ++
-	    if_then_Str doi.empty "" (bindComma' ++ bindUrl ("https://doi.org/" ++ Prelude.BIND ++ doi.s) doi.s) ++
+	    if_then_Str doi.empty "" (bindComma' ++ bindUrl doi.s ("https://doi.org/" ++ Prelude.BIND ++ doi.s)) ++
 	    if_then_Str url.empty "" (bindComma' ++ bindUrl url.s url.s) ++
 	    bindComma' ++ status.s ++ Prelude.BIND ++ "."
       );
