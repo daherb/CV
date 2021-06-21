@@ -54,7 +54,7 @@ concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] **
 	    publisher.s ++ bindComma' ++ address.s ++ bindComma' ++ series.s ++ bindBracket volume.s ++
 	    if_then_Str pages.empty "" (bindComma' ++ pages.s ++  "Seiten") ++
 	    if_then_Str doi.empty "" (bindComma' ++ bindUrl doi.s ("https://doi.org/" ++ Prelude.BIND ++ doi.s)) ++
-	    status.s ++ Prelude.BIND ++ ".") ;
+	    bindComma' ++ status.s ++ Prelude.BIND ++ ".") ;
     
     -- NewDegree : DegreeType -> University -> Address -> Date -> String -> Degree ;
     NewDegree degree university address date thesisTitle =
