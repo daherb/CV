@@ -57,6 +57,12 @@
 
 ## Work Experience
 
+* Researcher (June 2021-now)
+
+  University of Hamburg (Hamburg, Germany)
+
+  Development of quality assurance solutions for audiovidual corpora
+
 * Researcher (August 2015-Semptember 2020)
 
   University of Gothenburg (Gothenburg, Sweden)

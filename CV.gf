@@ -175,6 +175,7 @@ abstract CV = {
     NewDate: Int -> Month -> Int -> Date ;
     MonthYear : Month -> Int -> Date ;
     OnlyYear : Int -> Date ;
+    Now : Date ;
     January, February, March, April, May, June, July, August, September, October, November, December : Month ;
     FullCV : CV ;
 }

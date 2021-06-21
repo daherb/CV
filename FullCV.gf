@@ -50,6 +50,10 @@ abstract FullCV = CV ** {
 			MagisterDescription)
       BaseEducation))) ;
     Jobs     : ListJob =
+      (ConsJob (NewJob ResearcherJob (UniCompany UniHH) {- University of Hamburg -}
+		  (NewAddress Hamburg Germany)
+		  (NewDate 1 June 2021) Now
+		  UniHHJobDescription)
       (ConsJob (NewJob ResearcherJob (UniCompany UniGot) {- University of Gothenburg -}
 		  (NewAddress Gothenburg Sweden)
 		  (NewDate 24 August 2015) (NewDate 18 September 2020)
@@ -70,7 +74,7 @@ abstract FullCV = CV ** {
 		  (NewAddress Munich Germany)
 		  (NewDate 1 February 2009) (NewDate 31 October 2014)
 		  ITZJobDescription)
-	 BaseJob))))) ;
+	 BaseJob)))))) ;
     Publications : ListPublication =
       (ConsPublication (JournalPublication
 			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
@@ -90,7 +94,7 @@ abstract FullCV = CV ** {
 			   (ConsAuthor (NewAuthor "David" "Alfter") (ConsAuthor (NewAuthor "Elena" "Volodina") (ConsAuthor (NewAuthor "Ildikó" "Pilán") (ConsAuthor Myself (BaseAuthor (NewAuthor "Lars" "Borin")))))) -- Editors
 			   "Proceedings of the 9th Workshop on Natural Language Processing for Computer Assisted Language Learning" -- book title
 			   "Linköping University Electronic Press"
-			   (NewAddress Linkoeping Sweden)
+			   (NewAddress Linkoping Sweden)
 			   (OnlyYear 2020)
 			   "Linköping Electronic Conference Proceedings" -- series
 			   "175" -- volume
@@ -127,7 +131,7 @@ abstract FullCV = CV ** {
 			   (ConsAuthor (NewAuthor "David" "Alfter") (ConsAuthor (NewAuthor "Elena" "Volodina") (ConsAuthor (NewAuthor "Lars" "Borin") (ConsAuthor (NewAuthor "Ildikó" "Pilán") (BaseAuthor Myself))))) -- Editors
 			   "Proceedings of the 8th Workshop on Natural Language Processing for Computer Assisted Language Learning" -- book title
 			   "Linköping University Electronic Press"
-			   (NewAddress Linkoeping Sweden)
+			   (NewAddress Linkoping Sweden)
 			   (OnlyYear 2019)
 			   "NEALT Proceedings Series " -- series
 			   "39" -- volume
@@ -561,8 +565,8 @@ abstract FullCV = CV ** {
     AcademicPresentation ;
     NonAcademicPresentation ;
  fun
-    UniGot, LMU, TCD : University ;
-    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoeping : City ;
+    UniGot, LMU, TCD, UniHH : University ;
+    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg : City ;
     Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France : Country ;
     Online : Address ;
     PhDCS  : Position ;
@@ -570,7 +574,7 @@ abstract FullCV = CV ** {
     ITZCompany, GermanistikLMUCompany, GlanosCompany, FreelancerCompany : Company ;
     UniCompany : University -> Company ;
     ResearcherJob, SESysAdminJob, SoftwareEngineerJob, StudentAssistantJob : JobTitle ;
-    UniGotJobDescription, FreelancerJobDescription, GlanosJobDescription, ITZJobDescription, GermanistikJobDescription : JobDescription ;
+    UniGotJobDescription, FreelancerJobDescription, GlanosJobDescription, ITZJobDescription, GermanistikJobDescription, UniHHJobDescription : JobDescription ;
     PhDDegree, LicentiateDegree, MagisterDegree : DegreeType ;
     ErasmusEducation, PhDEducation, MagisterEducation : EducationType ;
     MainSupervisor, CoSupervisor, Examiner : SupervisorRole ;

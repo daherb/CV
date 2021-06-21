@@ -57,6 +57,12 @@
 
 ## Beruflicher Werdegang
 
+* Wissenschaftlicher Mitarbeiter (Juni 2021-jetzt)
+
+  Universität Hamburg (Hamburg, Deutschland)
+
+  Entwicklung von Qualitätssicherungsmaßnahmen für audiovisuelle Corpora
+
 * Wissenschaftlicher Mitarbeiter (August 2015-Semptember 2020)
 
   Universität Göteborg (Göteborg, Schweden)

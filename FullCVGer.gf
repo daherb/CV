@@ -44,6 +44,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     Munich = ss "München" ;
     Montague_Grammars = ss "Montaguegrammatiken" ;
     Norway = ss "Norwegen" ;
+    Now = ss "jetzt" ;
     Operating_Systems = ss "Betriebssysteme" ;
     Parser_Combinators = ss "Parserkombinatoren" ;
     PhDCS = ss "Doktor der Informatik" ;
@@ -73,6 +74,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     Turku = ss "Turku" ;
     Type_Theoretic_Semantics = ss "Typ-theoretische Semantik" ;
     UniGot = ss "Universität Göteborg" ;
+    UniHH = ss "Universität Hamburg" ;
     Version_Control_Systems = ss "Versionskontrollsysteme" ;
 
     PhDDescription = ss "Forschungsausbildung, Forschung in der Computerlinguistik, Studien und Lehre in der Computerlinguistik, Linguistik und Informatik" ;
@@ -83,4 +85,5 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     GlanosJobDescription = ss "Java-Backendentwicklung zur Behandlung von XML/JSON-Daten und manuelle Datenannotation und -auswertung für Named Entity Recognition" ;
     ITZJobDescription = ss "Systemadministration für ein Segment des Universitätsnetzwerkes bestehend aus Linux/Mac/Windows-Servern und Windows- und Mac-Clients" ;
     GermanistikJobDescription = ss "Datenannotation für die Onlinepublikation des Deutschen Verfasserlexikons der Frühen Neuzeit" ;
+    UniHHJobDescription = ss "Entwicklung von Qualitätssicherungsmaßnahmen für audiovisuelle Corpora" ;
 }
