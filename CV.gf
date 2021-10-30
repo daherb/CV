@@ -10,9 +10,12 @@ abstract CV = {
       Job ;
       Publication ;
       Presentation ;
+      TeachingDuty;
       Grant ;
       ConferenceInvolvement ;
       PeerReview ;
+      OtherInvolvement ;
+      InvolvementType ;
       SkillCategory ;
       Skill ;
       [Education]{0} ;
@@ -20,11 +23,14 @@ abstract CV = {
       [Job]{0} ;
       [Publication]{0} ;
       [Presentation]{0} ;
+      [TeachingDuty]{0};
       [Grant]{0} ;
       [ConferenceInvolvement]{0} ;
       [PeerReview]{0} ;
+      [OtherInvolvement]{0};
       [SkillCategory]{0} ;
       [Skill]{0} ;
+      [Term]{1};
       DegreeType ;
       EducationType ;
       EducationDescription ;
@@ -42,6 +48,11 @@ abstract CV = {
       ThesisType ;
       PublicationState ;
       PresentationType ;
+      TeachingType;
+      CourseName;
+      Term;
+      Semester;
+      Venue ;
       GrantType ;
       Category ;
       SkillName ;
@@ -63,7 +74,7 @@ abstract CV = {
       -> MaybeString -- Skype
       -> MaybeString -- Reddit
       -> Date -- LastUpdated
-      -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListGrant -> ListConferenceInvolvement -> ListPeerReview -> ListSkillCategory -> CV ;
+      -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListTeachingDuty -> ListGrant -> ListConferenceInvolvement -> ListPeerReview -> ListOtherInvolvement -> ListSkillCategory -> CV ;
     NewAddress : City
       -> Country
       -> Address ;
@@ -146,6 +157,14 @@ abstract CV = {
       -> PresentationType
       -> MaybeString -- Url
       -> Presentation ;
+    NewTeachingDuty : TeachingType
+      -> CourseName
+      -> Venue
+      -> ListTerm
+      -> TeachingDuty ;
+    NewTerm : Semester
+      -> Date
+      -> Term ;
     NewGrant : GrantType
       -> String -- Reason
       -> Address
@@ -160,6 +179,10 @@ abstract CV = {
     NewPeerReview : String -- Conference
       -> Date
       -> PeerReview ;
+    NewOtherInvolvement : InvolvementType
+      -> Date
+      -> Date
+      -> OtherInvolvement ;
     NewSkillCategory : Category
       -> ListSkill
       -> SkillCategory ;
@@ -176,6 +199,11 @@ abstract CV = {
     MonthYear : Month -> Int -> Date ;
     OnlyYear : Int -> Date ;
     Now : Date ;
+    UniVenue : University
+      -> Venue ;
+    CompanyVenue : Company
+      -> Venue ;
     January, February, March, April, May, June, July, August, September, October, November, December : Month ;
+    Spring, Autumn, Summer, NoSemester : Semester ;
     FullCV : CV ;
 }

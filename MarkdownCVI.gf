@@ -58,6 +58,9 @@ concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
 	    if_then_Str url.empty "" (bindComma' ++ bindUrl url.s url.s) ++
 	    bindComma' ++ status.s ++ Prelude.BIND ++ "."
       );
+    -- NewTeachingDuty : TeachingType -> CourseName -> Venue -> ListTerm -> TeachingDuty ;
+    NewTeachingDuty teachingType course venue terms =
+      ss (teachingType.s ++ Prelude.BIND ++ ":" ++ course.s ++ bindComma' ++ venue.s ++ bindBracket terms.s) ;
     -- NewGrant : GrantType -> String -> Address -> String -> Date -> Grant ;
     NewGrant type reason address agency date =
       ss (type.s ++ reason.s ++ bindComma' ++ address.s ++ bindComma' ++ agency.s ++ bindBracket date.s ) ;
@@ -67,7 +70,9 @@ concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
     -- NewSkill : SkillName -> SkillLevel -> Skill ;
     -- NewPeerReview : String -> Date -> PeerReview ;
     NewPeerReview conference date =
-     ss (conference.s ++ bindBracket date.s) ;
+      ss (conference.s ++ bindBracket date.s) ;
+    NewOtherInvolvement involvementType startDate endDate =
+      ss (involvementType.s ++ bindBracket (startDate.s ++ Prelude.BIND ++ "-" ++ Prelude.BIND ++ endDate.s)) ;
     NewSkill name level =
       ss (name.s ++ Prelude.BIND ++ ":" ++ level.s) ;
     -- NewSkillCategory : Category -> ListSkill -> SkillCategory ;
@@ -76,10 +81,11 @@ concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
 
     -- List constructors
     ConsSkillCategory s ss = { s = s.s ++ (if_then_Str ss.empty "" (nlnl ++ ss.s )) ; empty = False };
-    ConsDegree, ConsEducation, ConsJob, ConsPresentation, ConsPublication, ConsGrant, ConsConferenceInvolvement, ConsPeerReview, ConsSkill = \e,es -> { s = "*" ++ e.s ++ (if_then_Str es.empty "" (nlnl ++ es.s )) ; empty = False };
+    ConsDegree, ConsEducation, ConsJob, ConsPresentation, ConsPublication, ConsGrant, ConsConferenceInvolvement, ConsPeerReview, ConsSkill, ConsTeachingDuty, ConsOtherInvolvement = \e,es -> { s = "*" ++ e.s ++ (if_then_Str es.empty "" (nlnl ++ es.s )) ; empty = False };
     ConsSupervisor c cs =
       ss (c.s ++ (if_then_Str cs.empty "" (bindComma' ++ cs.s ))) ** { empty = False };
     BaseAuthor a = { s = a.s ; last = True } ;
-    BaseDegree, BaseEducation, BaseJob, BasePresentation, BasePublication, BaseGrant, BaseConferenceInvolvement, BasePeerReview, BaseSkill, BaseSkillCategory, BaseSupervisor = { s = "" ; empty = True } ;
-    
+    BaseDegree, BaseEducation, BaseJob, BasePresentation, BasePublication, BaseGrant, BaseConferenceInvolvement, BasePeerReview, BaseSkill, BaseSkillCategory, BaseSupervisor, BaseTeachingDuty, BaseOtherInvolvement = { s = "" ; empty = True } ;
+    BaseTerm t = t ;
+    ConsTerm t ts = ss (t.s ++ bindComma' ++ ts.s) ;
 }

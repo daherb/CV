@@ -183,6 +183,28 @@
 
 * Co-Chair Logic and Computation, European Summerschool in Logic, Language and Information Student Session, Toulouse, Frankreich (2017)
 
+## Lehrerfahrung
+
+* Tutor: Einführung in die nebenläufige Programmierung, Chalmers University of Technology und Universität Göteborg (Frühjahr 2019)
+
+* Tutor: Künstliche Intelligenz, Chalmers University of Technology und Universität Göteborg (Frühjahr 2018, Frühjahr 2019)
+
+* Tutor: Computergestützte Syntax, Universität Göteborg (Frühjahr 2017, Frühjahr 2018, Frühjahr 2019, Frühjahr 2020)
+
+* Tutor: Tutorial: GF für Pythonprogrammierer, Grammatical Framework Sommerschule, Rīga, Lettland (August 2017)
+
+* Tutor: Funktionale Programmierung, Chalmers University of Technology und Universität Göteborg (Herbst 2016, Herbst 2017, Herbst 2018, Herbst 2019)
+
+* Tutor: Datenbanken, Chalmers University of Technology und Universität Göteborg (Herbst 2015, Frühjahr 2016, Herbst 2016, Frühjahr 2017, Herbst 2017, Herbst 2018)
+
+* Tutor: Tutorial: Einführung in das Grammatical Framework, Tagung der Computerlinguistik-Studierenden (TaCoS), München (Mai 2015)
+
+* Tutor: Wissenschaftliches Arbeiten in LaTeX, IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-Universität (Februar 2014)
+
+* Tutor: Logik und modell-theoretische Semantik, Center für Invormations- und Sprachverarbeitung, Ludwing-Maximilians-Universität München (Sommer 2012)
+
+* Tutor: Korpusbearbeitung, Center für Invormations- und Sprachverarbeitung, Ludwing-Maximilians-Universität München (Sommer 2011)
+
 ## Peer Review
 
 * 7th International Workshop on Controlled Natural Languages (2021)
@@ -196,6 +218,14 @@
 * 8th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2019)
 
 * 5th Workshop on Natural Language Processing Techniques for Educational Applications (2018)
+
+## Weiteres Mitwirkend
+
+* Graduate Students' Council, Universität Göteborg (2018-2020)
+
+* PhD Council, Department for Computer Science and Engineering, Chalmers University of Technology und Universität Göteborg (2016-2020)
+
+* Gewählter Fachschaftsvertreter, Ludwig-Maximilians-Universität, München (2012-2013)
 
 ## Fertigkeiten
 
@@ -216,11 +246,11 @@ Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionel
 
 * Haskell: Experte
 
-* HTML/CSS: Grundlegende Erfahrung
+* HTML/CSS: Professionelle Erfahrung
 
 * Java: Professionelle Erfahrung
 
-* JavaScript: Grundlegende Erfahrung
+* JavaScript: Professionelle Erfahrung
 
 * LISP: Grundlegende Erfahrung
 
@@ -230,7 +260,7 @@ Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionel
 
 * Prolog: Grundlegende Erfahrung
 
-* Python: Grundlegende Erfahrung
+* Python: Professionelle Erfahrung
 
 * Ruby: Grundlegendes Wissen
 
@@ -349,6 +379,6 @@ Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionel
 
 ---
 
-Letzte Aktualisierung: Juni 2021
+Letzte Aktualisierung: Oktober 2021
 
 Erzeugt mit [Grammatical Framework](https://www.grammaticalframework.org/) und [Pandoc](https://pandoc.org/) ([Quelle](https://github.com/daherb/CV/))

@@ -12,7 +12,7 @@ abstract FullCV = CV ** {
     Twitter       : MaybeString = Just "@pietaetskirsche" ;
     Skype         : MaybeString = Nothing ;
     Reddit        : MaybeString = Nothing ;
-    LastUpdated   : Date = MonthYear June 2021 ;
+    LastUpdated   : Date = MonthYear October 2021 ;
     Degrees       : ListDegree =
       (ConsDegree (NewDegree PhDDegree UniGot {- University of Gothenburg -}
 		     (NewAddress Gothenburg Sweden)
@@ -440,6 +440,28 @@ abstract FullCV = CV ** {
 	 )
 	 BasePresentation
 	 ))))))))))))))))))))))) ;
+    TeachingDuties : ListTeachingDuty =
+      (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ConcurrentProgramming ChalmersAndUniGot
+			   (BaseTerm (NewTerm Spring (OnlyYear 2019))))
+      (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ArtificialIntelligence ChalmersAndUniGot
+			   (ConsTerm (NewTerm Spring (OnlyYear 2018)) (BaseTerm (NewTerm Spring (OnlyYear 2019)))))
+      (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ComputationalSyntax (UniVenue UniGot)
+			   (ConsTerm (NewTerm Spring (OnlyYear 2017)) (ConsTerm (NewTerm Spring (OnlyYear 2018)) (ConsTerm (NewTerm Spring (OnlyYear 2019)) (BaseTerm (NewTerm Spring (OnlyYear 2020)))))))
+      (ConsTeachingDuty (NewTeachingDuty Tutor GFForPythonProgrammers GFSummerSchoolRiga
+			   (BaseTerm (NewTerm NoSemester (MonthYear August 2017))))
+      (ConsTeachingDuty (NewTeachingDuty TeachingAssistant FunctionalProgramming ChalmersAndUniGot
+			   (ConsTerm (NewTerm Autumn (OnlyYear 2016)) (ConsTerm (NewTerm Autumn (OnlyYear 2017)) (ConsTerm (NewTerm Autumn (OnlyYear 2018)) (BaseTerm (NewTerm Autumn (OnlyYear 2019)))))))
+      (ConsTeachingDuty (NewTeachingDuty TeachingAssistant DatabasesCourse ChalmersAndUniGot
+			   (ConsTerm (NewTerm Autumn (OnlyYear 2015)) (ConsTerm (NewTerm Spring (OnlyYear 2016)) (ConsTerm (NewTerm Autumn (OnlyYear 2016)) (ConsTerm (NewTerm Spring (OnlyYear 2017)) (ConsTerm (NewTerm Autumn (OnlyYear 2017)) (BaseTerm (NewTerm Autumn (OnlyYear 2018)))))))))
+      (ConsTeachingDuty (NewTeachingDuty Tutor IntroductionToGF TaCoSMunich
+			   (BaseTerm (NewTerm NoSemester (MonthYear May 2015))))
+      (ConsTeachingDuty (NewTeachingDuty Tutor ScientificWritingInLaTeX (CompanyVenue ITZCompany)
+			   (BaseTerm (NewTerm NoSemester (MonthYear February 2014))))
+      (ConsTeachingDuty (NewTeachingDuty TeachingAssistant LogicAndModeltheoreticSemantics CISLMU
+			   (BaseTerm (NewTerm Summer (OnlyYear 2012))))
+      (ConsTeachingDuty (NewTeachingDuty TeachingAssistant CorpusAndUnixTools CISLMU
+			   (BaseTerm (NewTerm Summer (OnlyYear 2011))))
+      BaseTeachingDuty)))))))))) ; 
     Grants : ListGrant =
       (ConsGrant (NewGrant TravelGrant "Grammatical Framework Summer School" (NewAddress Gozo Malta) "Centre for Language Technology, University of Gothenburg" (OnlyYear 2015))
       (ConsGrant (NewGrant TravelGrant "Grammatical Framework Summer School" (NewAddress Frauenchiemsee Germany) "Volkswagenstiftung" (OnlyYear 2013))
@@ -457,7 +479,12 @@ abstract FullCV = CV ** {
       (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2020))     
       (ConsPeerReview (NewPeerReview "8th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2019))
       (ConsPeerReview (NewPeerReview "5th Workshop on Natural Language Processing Techniques for Educational Applications" (OnlyYear 2018))
-      BasePeerReview)))))) ;
+	 BasePeerReview)))))) ;
+    OtherInvolvements : ListOtherInvolvement =
+      (ConsOtherInvolvement (NewOtherInvolvement GraduateCouncilGU (OnlyYear 2018) (OnlyYear 2020))
+      (ConsOtherInvolvement (NewOtherInvolvement PhDCouncilCSE (OnlyYear 2016) (OnlyYear 2020))
+      (ConsOtherInvolvement (NewOtherInvolvement StudentCouncilCIS (OnlyYear 2012) (OnlyYear 2013))
+      BaseOtherInvolvement))) ;
     Skills   : ListSkillCategory =
       (ConsSkillCategory (NewSkillCategory
 			    Programming_Languages
@@ -468,14 +495,14 @@ abstract FullCV = CV ** {
 			    (ConsSkill (NewSkill Erlang BasicKnowledge)
 			    (ConsSkill (NewSkill Grammatical_Framework Expert)
 			    (ConsSkill (NewSkill Haskell Expert)
-			    (ConsSkill (NewSkill HTML_CSS {- HTML/CSS -} BasicExperience)
+			    (ConsSkill (NewSkill HTML_CSS {- HTML/CSS -} ProfessionalExperience)
 			    (ConsSkill (NewSkill Java ProfessionalExperience)
-			    (ConsSkill (NewSkill JavaScript BasicExperience)
+			    (ConsSkill (NewSkill JavaScript ProfessionalExperience)
 			    (ConsSkill (NewSkill LISP BasicExperience)
 			    (ConsSkill (NewSkill Pascal BasicExperience)
 			    (ConsSkill (NewSkill Perl BasicExperience)
 			    (ConsSkill (NewSkill Prolog BasicExperience)
-			    (ConsSkill (NewSkill Python BasicExperience)
+			    (ConsSkill (NewSkill Python ProfessionalExperience)
 			    (ConsSkill (NewSkill Ruby BasicKnowledge)
 			    (ConsSkill (NewSkill SML BasicExperience)
 			    BaseSkill
@@ -583,7 +610,11 @@ abstract FullCV = CV ** {
     NonAcademic : NonAcademicPresentation -> PresentationType ;
     ConferencePresentation, PosterPresentation, SeminarPresentation : AcademicPresentation ;
     LightningTalk, FullTalk : NonAcademicPresentation ;
+    TeachingAssistant, Tutor : TeachingType;
+    ConcurrentProgramming, ArtificialIntelligence, ComputationalSyntax, GFForPythonProgrammers, FunctionalProgramming,DatabasesCourse, IntroductionToGF, ScientificWritingInLaTeX, LogicAndModeltheoreticSemantics, CorpusAndUnixTools : CourseName ;
+    ChalmersAndUniGot, GFSummerSchoolRiga, TaCoSMunich, CISLMU : Venue ;
     TravelGrant, ErasmusGrant : GrantType ;
+    GraduateCouncilGU, PhDCouncilCSE, StudentCouncilCIS : InvolvementType ;
     Programming_Languages, Operating_Systems, IT_Other, Languages, Computational_Linguistics, Research_and_Generic : Category ;
     Agda, Basic, C_Cpp, Coq, Erlang, Grammatical_Framework, Haskell, HTML_CSS, Java, JavaScript, LISP, Pascal, Perl, Prolog, Python, Ruby, SML, Atari_TOS, Gentoo_Linux, BeOS_Haiku, FreeBSD_NetBSD, IRIX, MacOS_Classic, MacOS_X, MS_DOS, OpenVMS, OS_2, RISC_OS, Windows, Constraint_Programming, Formal_Languages, GNU_make, Icinga_Nagios, LaTeX, Machine_Learning, MS_Office, Parser_Combinators, Property_Based_Testing, Software_Defined_Radio, Databases, Version_Control_Systems, English, Esperanto, French, German, Irish, Italian, Latin, Medieval_German, Spanish, Swedish, Controlled_Natural_Languages, Discourse_Representation_Theory, Formal_Syntax, Lexical_Semantics, Montague_Grammars, Resource_Grammar_Development, Universal_Dependencies, Type_Theoretic_Semantics, Data_Analysis, Experiment_Design, Independent_Work, Problem_Solving, Project_Management, Public_Presentation, Research, Research_Ethics, Scientific_Writing, Teaching, Teamwork : SkillName ;
   def
@@ -607,8 +638,10 @@ abstract FullCV = CV ** {
       Jobs
       Publications
       Presentations
+      TeachingDuties
       Grants
       ConferenceInvolvements
       PeerReviews
+      OtherInvolvements
       Skills ;
 }

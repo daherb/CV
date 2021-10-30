@@ -49,5 +49,9 @@ concrete CVEng of CV = CVI ** open Prelude in {
    ProfessionalExperience = ss "Professional Experience" ;
    Published = ss "Published" ;
    September = ss "Semptember" ;
+   Spring = ss "Spring" ;
+   Summer = ss "Summer" ;
+   Autumn = ss "Autumn" ;
+   Winter = ss "Winter" ;
 --   ThesisPublication
 }

@@ -45,6 +45,7 @@ concrete FullCVI of FullCV = CVI ** open Prelude in {
     Malta = ss "Malta" ;
     Maynooth = ss "Maynooth" ;
     Melbourne = ss "Melbourne" ;
+    NoSemester = ss "" ;
     NonAcademic p = p ;
     Online = ss "Online" ;
     OS_2 = ss "OS/2" ;

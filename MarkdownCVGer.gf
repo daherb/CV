@@ -1,7 +1,20 @@
 concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] ** open Prelude in {
   lin
-  -- NewCV : String -> Position -> Address -> String -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> Date -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListGrant -> ListConferenceInvolvement -> ListPeerReview -> ListSkillCategory -> CV ;
-    NewCV name position address mail website github linkedin gitlab stackoverflow twitter skype reddit lastUpdated degrees education jobs publications presentations grants confs peer skills =
+    -- NewCV : String -- Name
+    -- -> Position
+    -- -> Address
+    -- -> String -- Mail
+    -- -> MaybeString -- Webpage
+    -- -> MaybeString -- Github
+    -- -> MaybeString -- LinkedIn
+    -- -> MaybeString -- Gitlab
+    -- -> MaybeString -- StackOverflow
+    -- -> MaybeString -- Twitter
+    -- -> MaybeString -- Skype
+    -- -> MaybeString -- Reddit
+    -- -> Date -- LastUpdated
+    -- -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListTeachingDuty -> ListGrant -> ListConferenceInvolvement -> ListPeerReview -> ListOtherInvolvement -> ListSkillCategory -> CV ;
+    NewCV name position address mail website github linkedin gitlab stackoverflow twitter skype reddit lastUpdated degrees education jobs publications presentations teachings grants confs peer involvements skills =
       ss ("# Lebenslauf" ++ nlnl ++
 	    "###" ++ name.s ++ " -- " ++ 
 	    position.s ++ " -- " ++ 
@@ -29,12 +42,16 @@ concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] **
 	    publications.s ++ nlnl ++
 	    "## Vorträge und Präsentationen" ++ nlnl ++
 	    presentations.s ++ nlnl ++
+	    "## Lehrerfahrung" ++ nlnl ++
+	    teachings.s ++ nlnl ++
 	    "## Stipendien" ++ nlnl ++
 	    grants.s ++ nlnl ++
 	    "## Konferenzbeteiligung" ++ nlnl ++
 	    confs.s ++ nlnl ++
 	    "## Peer Review" ++ nlnl ++
 	    peer.s ++ nlnl ++
+	    "## Weiteres Mitwirkend" ++ nlnl ++
+	    involvements.s ++ nlnl ++
 	    "## Fertigkeiten" ++ nlnl ++
 	    "Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionelle Erfahrung (3), Experte (4),  Guru (5)" ++ nlnl ++
 	    skills.s ++ nlnl ++

@@ -167,6 +167,28 @@
 
 * Herbert Lange (2013): *Grammatical Framework*, Mehrvorträgewagen, muCCC Munich Hackerspace, Munich, Germany, Talk
 
+## Teaching experience
+
+* Teaching Assistant: Introduction to concurrent programming, Chalmers University of Technology and University of Gothenburg (Spring 2019)
+
+* Teaching Assistant: Artificial Intelligence, Chalmers University of Technology and University of Gothenburg (Spring 2018, Spring 2019)
+
+* Teaching Assistant: Computational Synax, University of Gothenburg (Spring 2017, Spring 2018, Spring 2019, Spring 2020)
+
+* Tutor: Tutorial: GF for Python programmers, Grammatical Framework Summer School, Rīga, Latvia (August 2017)
+
+* Teaching Assistant: Functional Programming, Chalmers University of Technology and University of Gothenburg (Autumn 2016, Autumn 2017, Autumn 2018, Autumn 2019)
+
+* Teaching Assistant: Databases, Chalmers University of Technology and University of Gothenburg (Autumn 2015, Spring 2016, Autumn 2016, Spring 2017, Autumn 2017, Autumn 2018)
+
+* Tutor: Tutorial: Introduction to Grammatical Framework, TaCoS, German Student Conference for Computational Linguistics), Munich, Germany (May 2015)
+
+* Tutor: Scientific writing in LaTeX, IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-University (February 2014)
+
+* Teaching Assistant: Logic and model-theoretic Semantics, Centre for Information and Language Processing, Ludwig-Maximilians-University Munich (Summer 2012)
+
+* Teaching Assistant: Corpus and Unix tools, Centre for Information and Language Processing, Ludwig-Maximilians-University Munich (Summer 2011)
+
 ## Grants
 
 * Travel grant Grammatical Framework Summer School, Gozo, Malta, Centre for Language Technology, University of Gothenburg (2015)
@@ -197,6 +219,14 @@
 
 * 5th Workshop on Natural Language Processing Techniques for Educational Applications (2018)
 
+## Other Involvements
+
+* Graduate Students' Council, University of Gothenburg (2018-2020)
+
+* PhD Council, Department for Computer Science and Engineering, Chalmers University of Technology and University of Gothenburg (2016-2020)
+
+* Student Council, Centre for Information and Language Processing, Ludwig-Maximilians-University Munich (2012-2013)
+
 ## Skill
 
 Five levels: Basic knowledge (1), Basic experience (2), Professional experience (3), Expert (4), Guru (5)
@@ -216,11 +246,11 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 * Haskell: Expert
 
-* HTML/CSS: Basic experience
+* HTML/CSS: Professional Experience
 
 * Java: Professional Experience
 
-* JavaScript: Basic experience
+* JavaScript: Professional Experience
 
 * LISP: Basic experience
 
@@ -230,7 +260,7 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 * Prolog: Basic experience
 
-* Python: Basic experience
+* Python: Professional Experience
 
 * Ruby: Basic knowledge
 
@@ -349,6 +379,6 @@ Five levels: Basic knowledge (1), Basic experience (2), Professional experience 
 
 ---
 
-Last update: June 2021
+Last update: October 2021
 
 Generated using [Grammatical Framework](https://www.grammaticalframework.org/) and [Pandoc](https://pandoc.org/) ([Source](https://github.com/daherb/CV/))

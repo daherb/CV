@@ -4,7 +4,8 @@ concrete CVGer of CV = CVI-[DegreeType] ** open Prelude in {
   lin
     April = ss "April" ;
     August = ss "August" ;
-   -- BaseAuthor
+    Autumn = ss "Herbst" ;
+    -- BaseAuthor
    -- BaseDegree
    -- BaseEducation
    -- BaseJob
@@ -51,5 +52,8 @@ concrete CVGer of CV = CVI-[DegreeType] ** open Prelude in {
    ProfessionalExperience = ss "Professionelle Erfahrung" ;
    Published = ss "Veröffentlicht" ;
    September = ss "Semptember" ;
+   Spring = ss "Frühjahr" ;
+   Summer = ss "Sommer" ;
+  
 --   ThesisPublication
 }
