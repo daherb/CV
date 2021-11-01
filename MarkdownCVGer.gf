@@ -17,17 +17,17 @@ concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] **
     NewCV name position address mail website github linkedin gitlab stackoverflow twitter skype reddit lastUpdated degrees education jobs publications presentations teachings grants confs peer involvements skills =
       ss ("# Lebenslauf" ++ nlnl ++
 	    "###" ++ name.s ++ " -- " ++ 
-	    position.s ++ " -- " ++ 
+	    position.s1 ++ " -- " ++ if_then_Str position.emptys2 "" (position.s2 ++ " -- ") ++ 
 	    address.s ++ nlnl ++
 	    "---" ++ nlnl ++
 	    "## Kontakt:" ++ nlnl ++
 	    "* E-Mail:" ++ mail.s ++ nl ++
 	    (if_then_Str website.empty "" ("* Homepage:" ++ bindUrl website.s website.s ++ nl )) ++
 	    (if_then_Str github.empty "" ("* Github:" ++ bindUrl github.s ("https://github.com/" ++ Prelude.BIND ++ github.s) ++ nl )) ++
-	    (if_then_Str linkedin.empty "" ("* LinkedIn:" ++ bindUrl linkedin.s linkedin.s ++ nl )) ++ 
+	    (if_then_Str linkedin.empty "" ("* LinkedIn:" ++ bindUrl linkedin.s ("https://www.linkedin.com/in/" ++ Prelude.BIND ++ linkedin.s) ++ nl )) ++ 
 	    (if_then_Str gitlab.empty "" ("* Gitlab:" ++ bindUrl gitlab.s ("https://gitlab,com/" ++ Prelude.BIND ++ gitlab.s) ++ nl )) ++ 
 	    (if_then_Str stackoverflow.empty "" ("* StackOverflow:" ++ bindUrl stackoverflow.s stackoverflow.s ++ nl )) ++ 
-	    (if_then_Str twitter.empty "" ("* Twitter:" ++ bindUrl ("\\" ++ Prelude.BIND ++ twitter.s) ("https://twitter.com/" ++ Prelude.BIND ++ twitter.s) ++ nl )) ++ 
+	    (if_then_Str twitter.empty "" ("* Twitter:" ++ bindUrl ("\\" ++ Prelude.BIND ++ twitter.s) ("https://twitter.com/@" ++ Prelude.BIND ++ twitter.s) ++ nl )) ++ 
 	    (if_then_Str skype.empty "" ("* Skype: " ++ Prelude.BIND ++ skype.s ++ nl )) ++
 	    (if_then_Str reddit.empty "" ("* Reddit: " ++ bindUrl reddit.s ("https://reddit.com/user/" ++ Prelude.BIND ++ reddit.s) ++ nl)) ++ nl ++
 	    "---" ++ nlnl ++

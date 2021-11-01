@@ -61,7 +61,7 @@ concrete FullCVEng of FullCV = CVEng, FullCVI-[DegreeType] ** open Prelude in {
     Operating_Systems = ss "Operating systems" ;
     Parser_Combinators = ss "Parser combinators" ;
     PhDCouncilCSE = ss "PhD Council, Department for Computer Science and Engineering, Chalmers University of Technology and University of Gothenburg" ; 
-    PhDCS = ss "PhD in Computer Science" ;
+    PhDCS = { s1 = "Doctor of Philosophy" ;  s2 = "Computer Science" ; emptys2 = False };
     PhDDegree = ss "PhD in computer science" ;
     PhDEducation = ss "PhD studies in computer science" ;
     PhDThesis = ss "PhD thesis" ;
@@ -75,7 +75,7 @@ concrete FullCVEng of FullCV = CVEng, FullCVI-[DegreeType] ** open Prelude in {
     ResearcherJob = ss "Researcher" ;
     Resource_Grammar_Development = ss "Resource grammar development" ;
     Scientific_Writing = ss "Scientific writing" ;
-    ScientificWritingInLaTeX = ss "Scientific writing in LaTeX" ;
+    ScientificWritingInLaTeX = ss "Seminar: Scientific writing in LaTeX" ;
     SESysAdminJob = ss "Software developer and system administrator" ;
     SoftwareEngineerJob = ss "Software engineer" ;
     Spanish = ss "Spanish" ;

@@ -61,7 +61,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     Operating_Systems = ss "Betriebssysteme" ;
     Parser_Combinators = ss "Parserkombinatoren" ;
     PhDCouncilCSE = ss "PhD Council, Department for Computer Science and Engineering, Chalmers University of Technology und Universität Göteborg" ; 
-    PhDCS = ss "Doktor der Informatik" ;
+    PhDCS = { s1 = "Doktor der Informatik" ; s2 = "" ; emptys2 = True };
     PhDDegree = { s = "Doktor der Informatik" ; t = "Doktorarbeit" } ;
     PhDEducation = ss "Promotion in der Informatik" ;
     PhDThesis = ss "Doktorarbeit" ;
@@ -75,7 +75,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     ResearcherJob = ss "Wissenschaftlicher Mitarbeiter" ;
     Resource_Grammar_Development = ss "Entwicklung von Resource Grammars" ;
     Scientific_Writing = ss "Verfassen wissenschaftlicher Texte" ;
-    ScientificWritingInLaTeX = ss "Wissenschaftliches Arbeiten in LaTeX" ;
+    ScientificWritingInLaTeX = ss "Seminar: Wissenschaftliches Arbeiten in LaTeX" ;
     SESysAdminJob = ss "Softwareentwickler und Systemadministrator" ;
     SoftwareEngineerJob = ss "Software-Engineer" ;
     Spanish = ss "Spanisch" ;
