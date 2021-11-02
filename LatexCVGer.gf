@@ -126,14 +126,14 @@ concrete LatexCVGer of FullCV = CVGer-[Company,GermanistikLMUCompany,FreelancerC
 	    grants.s ++
 	    "\\end{cvhonors}" ++ nl ++
 	    "\\vspace{-10px}" ++ nl ++ 
-	    "\\cvsection{Konferenzorganisation}" ++ nl ++ nl ++
-	    "\\begin{cvhonors}" ++ nl ++
-	    confs.s ++
-	    "\\end{cvhonors}" ++ nl ++
-	    "\\vspace{-10px}" ++ nl ++ 
 	    "\\cvsection{Peer Review}" ++ nl ++ nl ++
 	    "\\begin{cvhonors}" ++ nl ++
 	    peer.s ++
+	    "\\end{cvhonors}" ++ nl ++
+	    "\\vspace{-10px}" ++ nl ++ 
+	    "\\cvsection{Konferenzorganisation}" ++ nl ++ nl ++
+	    "\\begin{cvhonors}" ++ nl ++
+	    confs.s ++
 	    "\\end{cvhonors}" ++ nl ++
 	    "\\vspace{-10px}" ++ nl ++ 
 	    "\\cvsection{Weiteres Mitwirken}" ++ nl ++ nl ++
