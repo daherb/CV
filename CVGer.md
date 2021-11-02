@@ -9,8 +9,8 @@
 * E-Mail: contact (AT) hackerbrau.se
 * Homepage: [https://hackerbrau.se](https://hackerbrau.se)
 * Github: [daherb](https://github.com/daherb)
-* LinkedIn: [https://www.linkedin.com/in/herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
-* Twitter: [\@pietaetskirsche](https://twitter.com/@pietaetskirsche)
+* LinkedIn: [herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
+* Twitter: [\pietaetskirsche](https://twitter.com/@pietaetskirsche)
 
 ---
 
@@ -167,22 +167,6 @@
 
 * Herbert Lange (2013): *Grammatical Framework*, Mehrvorträgewagen, muCCC Munich Hackerspace, München, Deutschland, Vortrag
 
-## Stipendien
-
-* Reisestipendium Grammatical Framework Summer School, Gozo, Malta, Centre for Language Technology, University of Gothenburg (2015)
-
-* Reisestipendium Grammatical Framework Summer School, Frauenchiemsee, Deutschland, Volkswagenstiftung (2013)
-
-* Erasmusstipendium Trinity College, Dublin, Irland, European Union (2010)
-
-## Konferenzbeteiligung
-
-* Co-Organizer, 9th Workshop on Natural Language Processing for Computer-Assisted Language Learning, Göteborg, Schweden (2020)
-
-* Co-Organizer, 8th Workshop on Natural Language Processing for Computer-Assisted Language Learning, Turku, Finnland (2019)
-
-* Co-Chair Logic and Computation, European Summerschool in Logic, Language and Information Student Session, Toulouse, Frankreich (2017)
-
 ## Lehrerfahrung
 
 * Tutor: Einführung in die nebenläufige Programmierung, Chalmers University of Technology und Universität Göteborg (Frühjahr 2019)
@@ -199,11 +183,27 @@
 
 * Tutor: Tutorial: Einführung in das Grammatical Framework, Tagung der Computerlinguistik-Studierenden (TaCoS), München (Mai 2015)
 
-* Tutor: Wissenschaftliches Arbeiten in LaTeX, IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-Universität (Februar 2014)
+* Tutor: Seminar: Wissenschaftliches Arbeiten in LaTeX, IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-Universität (Februar 2014)
 
 * Tutor: Logik und modell-theoretische Semantik, Center für Invormations- und Sprachverarbeitung, Ludwing-Maximilians-Universität München (Sommer 2012)
 
 * Tutor: Korpusbearbeitung, Center für Invormations- und Sprachverarbeitung, Ludwing-Maximilians-Universität München (Sommer 2011)
+
+## Stipendien
+
+* Reisestipendium Grammatical Framework Summer School, Gozo, Malta, Centre for Language Technology, University of Gothenburg (2015)
+
+* Reisestipendium Grammatical Framework Summer School, Frauenchiemsee, Deutschland, Volkswagenstiftung (2013)
+
+* Erasmusstipendium Trinity College, Dublin, Irland, European Union (2010)
+
+## Konferenzbeteiligung
+
+* Co-Organizer, 9th Workshop on Natural Language Processing for Computer-Assisted Language Learning, Göteborg, Schweden (2020)
+
+* Co-Organizer, 8th Workshop on Natural Language Processing for Computer-Assisted Language Learning, Turku, Finnland (2019)
+
+* Co-Chair Logic and Computation, European Summerschool in Logic, Language and Information Student Session, Toulouse, Frankreich (2017)
 
 ## Peer Review
 

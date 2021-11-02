@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-### Herbert Lange -- PhD in Computer Science -- Munich, Germany
+### Herbert Lange -- Doctor of Philosophy -- Computer Science -- Munich, Germany
 
 ---
 
@@ -9,8 +9,8 @@
 * E-Mail: contact (AT) hackerbrau.se
 * Homepage: [https://hackerbrau.se](https://hackerbrau.se)
 * Github: [daherb](https://github.com/daherb)
-* LinkedIn: [https://www.linkedin.com/in/herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
-* Twitter: [\@pietaetskirsche](https://twitter.com/@pietaetskirsche)
+* LinkedIn: [herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
+* Twitter: [\pietaetskirsche](https://twitter.com/@pietaetskirsche)
 
 ---
 
@@ -22,7 +22,7 @@
 
   Thesis: "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars"
 
-* Licentiate in computer Science (November 2018)
+* Licentiate in computer science (November 2018)
 
   University of Gothenburg (Gothenburg, Sweden)
 
@@ -61,7 +61,7 @@
 
   University of Hamburg (Hamburg, Germany)
 
-  Development of quality assurance solutions for audiovidual corpora
+  Development of quality assurance solutions for audio-visual corpora
 
 * Researcher (August 2015-Semptember 2020)
 
@@ -183,7 +183,7 @@
 
 * Tutor: Tutorial: Introduction to Grammatical Framework, TaCoS, German Student Conference for Computational Linguistics), Munich, Germany (May 2015)
 
-* Tutor: Scientific writing in LaTeX, IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-University (February 2014)
+* Tutor: Seminar: Scientific writing in LaTeX, IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-University (February 2014)
 
 * Teaching Assistant: Logic and model-theoretic Semantics, Centre for Information and Language Processing, Ludwig-Maximilians-University Munich (Summer 2012)
 
