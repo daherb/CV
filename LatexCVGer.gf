@@ -1,6 +1,6 @@
-concrete LatexCVGer of FullCV = CVGer ---[Company,FreelancerCompany,GermanistikLMUCompany,GlanosCompany,ITZCompany]
-  , FullCVGer ---[Company,FreelancerCompany,GermanistikLMUCompany,GlanosCompany,ITZCompany]
-  , LatexCVI-[DegreeType] ** open Prelude in {
+concrete LatexCVGer of FullCV = CVGer-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
+  , FullCVGer-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
+  ** LatexCVI with (FullCV=FullCVGer) ** open Prelude in {
   lin
     -- NewCV : String -- Name
     -- -> Position
@@ -48,6 +48,7 @@ concrete LatexCVGer of FullCV = CVGer ---[Company,FreelancerCompany,GermanistikL
 	    "" ++ nl ++ nl ++  
 	    "\\usepackage{hyperref}" ++ nl ++
 	    "\\usepackage{csquotes}" ++ nl ++
+	    "\\usepackage{adjustbox}" ++ nl ++
 	    "" ++ nl ++ nl ++
 	    "%-------------------------------------------------------------------------------" ++ nl ++
 	    "%	PERSONAL INFORMATION" ++ nl ++
@@ -167,7 +168,9 @@ concrete LatexCVGer of FullCV = CVGer ---[Company,FreelancerCompany,GermanistikL
     NewDegree degree university address date thesisTitle =
       ss ("\\cventry" ++ nl ++
 	    bindSurround "{" degree.s "} % Degree" ++ nl ++
-	    bindSurround "{" university.s "} % Institution" ++ nl ++
+	    bindSurround "{"
+	    (if_then_Str university.hasicon (bindSurround "\\adjustbox{valign=t}{\\includegraphics[width=30px]{" university.icon "}}") "" ++ university.s)
+	    "} % Institution" ++ nl ++
 	    bindSurround "{" address.s "} % Location" ++ nl ++
 	    bindSurround "{" date.s "} % Date(s)" ++ nl ++
 	    bindSurround "{Abschlussarbeit: ``" thesisTitle.s "''}" ++ nl

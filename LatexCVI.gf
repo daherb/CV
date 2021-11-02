@@ -4,8 +4,8 @@ incomplete concrete LatexCVI of FullCV = PredefCnc ** open FullCV, Prelude, Pred
   oper bindBracket : Str -> Str = \s -> bindSurround "(" s ")" ;
   oper bindComma' : Str = Prelude.BIND ++ "," ;
   oper bindUrl : Str -> Str -> Str = \s1,s2 -> "[" ++ Prelude.BIND ++ s1 ++ Prelude.BIND ++ "](" ++ Prelude.BIND ++ s2 ++ Prelude.BIND ++ ")" ;
-  -- lincat
-  --   Company = { s : Str ; hasicon : Bool ; icon : Str };
+  lincat
+    Company, University = { s : Str ; hasicon : Bool ; icon : Str };
   lin
 
     -- NewAuthor : String -> String -> Author ;
@@ -19,7 +19,9 @@ incomplete concrete LatexCVI of FullCV = PredefCnc ** open FullCV, Prelude, Pred
 
       ss ("\\cventry" ++ nl ++
 	    bindSurround "{" type.s "} % Degree" ++ nl ++
-	    bindSurround "{" university.s "} % Institution" ++ nl ++
+	    bindSurround "{"
+	    (if_then_Str university.hasicon (bindSurround "\\adjustbox{valign=t}{\\includegraphics[width=30px]{" university.icon "}}") "" ++ university.s)
+	    "} % Institution" ++ nl ++
 	    bindSurround "{" address.s "} % Location" ++ nl ++
 	    bindSurround "{" (startDate.s ++ "--" ++ endDate.s) "} % Date(s)" ++ nl ++
 	    "{" ++ nl ++
@@ -40,11 +42,11 @@ incomplete concrete LatexCVI of FullCV = PredefCnc ** open FullCV, Prelude, Pred
       ss ("\\cventry" ++ nl ++
 	    bindSurround "{" title.s "} % Degree" ++ nl ++
 	    bindSurround "{" 
-	    -- (if_then_Str company.hasicon (bindSurround "\\adjustbox{valign=t}{\\includegraphics[width=30px]{" company.icon "}}") "" ++ company.s)
-	    -- "} % Institution" ++ nl ++
-	    	    -- bindSurround "{" 
-	    company.s
+	    (if_then_Str company.hasicon (bindSurround "\\adjustbox{valign=t}{\\includegraphics[width=30px]{" company.icon "}}") "" ++ company.s)
 	    "} % Institution" ++ nl ++
+	    -- bindSurround "{" 
+	    --company.s
+	    --"} % Institution" ++ nl ++
 	    bindSurround "{" address.s "} % Location" ++ nl ++
 	    bindSurround "{" (startDate.s ++ "--" ++ endDate.s) "} % Date(s)" ++ nl ++
 	    "{" ++ nl ++
@@ -174,8 +176,15 @@ incomplete concrete LatexCVI of FullCV = PredefCnc ** open FullCV, Prelude, Pred
     BaseTerm t = t ;
     ConsTerm t ts = ss (t.s ++ bindComma' ++ ts.s) ;
 
-    -- FreelancerCompany = { s = FullCV.GermanistikLMUCompany.s ; icon = "" ; hasicon = False } ;
-    -- GermanistikLMUCompany  = { s = FullCV.GermanistikLMUCompany.s ; icon = "icons/lmu.png" ; hasicon = True} ;
-    -- GlanosCompany  = { s = FullCV.GermanistikLMUCompany.s ; icon = "icons/glanos.png" ; hasicon = True} ;
-    -- ITZCompany  = { s = FullCV.GermanistikLMUCompany.s ; icon = "icons/lmu.png" ; hasicon = True} ;
+    FreelancerCompany = { s = FullCV.FreelancerCompany.s ; icon = "" ; hasicon = False } ;
+    GermanistikLMUCompany  = { s = FullCV.GermanistikLMUCompany.s ; icon = "icons/lmu.png" ; hasicon = True} ;
+    GlanosCompany  = { s = FullCV.GlanosCompany.s ; icon = "icons/glanos.png" ; hasicon = True} ;
+    ITZCompany  = { s = FullCV.ITZCompany.s ; icon = "icons/lmu.png" ; hasicon = True} ;
+    LMU = { s = FullCV.LMU.s ; icon = "icons/lmu.png" ; hasicon = True} ;
+    TCD = { s = FullCV.TCD.s ; icon = "icons/tcd.jpg" ; hasicon = True} ;
+    UniGot = { s = FullCV.UniGot.s ; icon = "icons/gu.png" ; hasicon = True} ;
+    UniHH = { s = FullCV.UniHH.s ; icon = "icons/unihh.jpg" ; hasicon = True} ;
+    UniCompany u = u ;
+    UniVenue u = ss u.s;
+    CompanyVenue c = ss c.s;
 }
