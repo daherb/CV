@@ -1,4 +1,4 @@
-concrete MarkdownCVI of FullCV = FullCVI ** open Prelude in {
+incomplete concrete MarkdownCVI of FullCV = FullCVI ** {
   oper nlnl : Str = Prelude.BIND ++ "#(\"\\n\\n\")#" ++ Prelude.BIND;
   oper nl : Str = Prelude.BIND ++ "#(\"\\n\")#" ++ Prelude.BIND ;
   oper sp : Str = "#(chr(32))#" ;
