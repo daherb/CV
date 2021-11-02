@@ -1,4 +1,4 @@
-concrete FullCVI of FullCV = CVI ** open Prelude in {
+incomplete concrete FullCVI of FullCV = {
   lincat
     AcademicPresentation, NonAcademicPresentation = SS ;
   lin
