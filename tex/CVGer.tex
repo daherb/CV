@@ -1,0 +1,833 @@
+%!TEX encoding = UTF-8 Unicode
+% LaTeX Template for CV/Resume
+%
+% This template has been downloaded and modified from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Original Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Modified (March 2019) by:
+% Jessica A. Rick <jrick@uwyo.edu>
+% http://www.jessicarick.com
+%
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4]{academic-cv}
+% Configure page margins with geometry
+\geometry{left=0.75in, top=0.75in, right=0.75in, bottom=0.75in, footskip=.5cm}
+
+
+%% % Specify the location of the included fonts
+%% \fontdir[fonts/]
+
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{adjustbox}
+
+
+%-------------------------------------------------------------------------------
+% PERSONAL INFORMATION
+% Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{Herbert Lange}{}
+\position{Doktor der Informatik}
+\address{München, Deutschland}
+%\mobile{+1 000-000-0000}
+\email{contact (AT) hackerbrau.se}
+\homepage{https://hackerbrau.se}
+\github{daherb}
+\linkedin{herbert-l-2474638a/}
+
+\twitter{@pietaetskirsche}
+
+
+% \extrainfo{extra informations}
+%-------------------------------------------------------------------------------
+\begin{document}
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+{ Oktober 2021 }
+{ Herbert Lange ~~~·~~~ Lebenslauf}
+{\thepage}
+
+
+%-------------------------------------------------------------------------------
+% CV/RESUME CONTENT
+% Each section is imported separately, open each file in turn to modify content
+% Comment out any sections that are not appropriate for your CV
+%-------------------------------------------------------------------------------
+%% \input{cv/degrees.tex}
+%-------------------------------------------------------------------------------
+% SECTION TITLE
+%-------------------------------------------------------------------------------
+\vspace{-10px}
+\cvsection{Universitsabschlüsse}
+
+\begin{cventries}
+\cventry
+{Doktor der Informatik} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/gu.png}} Universität Göteborg} % Institution
+{Göteborg, Schweden} % Location
+{März 2021} % Date(s)
+{Abschlussarbeit: ``Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars''}
+
+\cventry
+{Lizentiat in der Informatik} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/gu.png}} Universität Göteborg} % Institution
+{Göteborg, Schweden} % Location
+{November 2018} % Date(s)
+{Abschlussarbeit: ``Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning''}
+
+\cventry
+{Magister Artium der Computerlinguistik} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/lmu.png}} Ludwig-Maximilians-Universität} % Institution
+{München, Deutschland} % Location
+{Juli 2014} % Date(s)
+{Abschlussarbeit: ``Implementierung einer Lateingrammatik im Grammatical Framework''}
+
+
+\end{cventries}
+\vspace{-10px}
+\cvsection{Universitäre Ausbildung}
+
+\begin{cventries}
+\cventry
+{Promotion in der Informatik} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/gu.png}} Universität Göteborg} % Institution
+{Göteborg, Schweden} % Location
+{August 2015 -- Semptember 2020} % Date(s)
+{
+\begin{cvitems} % Description(s) bullet points
+\item Betreuer: Peter Ljunglöf
+\item Zweitbetreuer: Koen Claessen
+\item Interner Gutachter: Aarne Ranta
+\end{cvitems}
+}
+
+\cventry
+{Erasmusaufenthalt} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/tcd.jpg}} Trinity College Dublin} % Institution
+{Dublin, Irland} % Location
+{Semptember 2010 -- Mai 2011} % Date(s)
+{
+}
+
+\cventry
+{Magisterstudium der Computerlinguistik} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/lmu.png}} Ludwig-Maximilians-Universität} % Institution
+{München, Deutschland} % Location
+{Oktober 2008 -- Semptember 2014} % Date(s)
+{
+\begin{cvitems} % Description(s) bullet points
+\item Betreuer: Hans Leiss
+\end{cvitems}
+}
+
+\end{cventries}
+\vspace{-10px}
+\cvsection{Beruflicher Werdegang}
+
+\begin{cventries}
+\cventry
+{Wissenschaftlicher Mitarbeiter} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/unihh.jpg}} Universität Hamburg} % Institution
+{Hamburg, Deutschland} % Location
+{Juni 2021 -- jetzt} % Date(s)
+{
+Entwicklung von Qualitätssicherungsmaßnahmen für audiovisuelle Corpora
+}
+
+\cventry
+{Wissenschaftlicher Mitarbeiter} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/gu.png}} Universität Göteborg} % Institution
+{Göteborg, Schweden} % Location
+{August 2015 -- Semptember 2020} % Date(s)
+{
+Promotion in der Informatik mit Forschungsschwerpunkt Computerlinguistik
+}
+
+\cventry
+{Softwareentwickler und Systemadministrator} % Degree
+{Freiberuflich} % Institution
+{München, Deutschland} % Location
+{April 2015 -- Mai 2015} % Date(s)
+{
+Entwicklung einer Monitoringlösung für ein Segment des Universitätsnetzwerkes der Ludwig-Maximilians-Universität München
+}
+
+\cventry
+{Software-Engineer} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/glanos.png}} Glanos GmbH} % Institution
+{München, Deutschland} % Location
+{November 2014 -- Januar 2015} % Date(s)
+{
+Java-Backendentwicklung zur Behandlung von XML/JSON-Daten und manuelle Datenannotation und -auswertung für Named Entity Recognition
+}
+
+\cventry
+{Studentische Hilfskraft} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/lmu.png}} Institut für Deutsche Philologie, Ludwig-Maximilians-Universität} % Institution
+{München, Deutschland} % Location
+{November 2011 -- Dezember 2011} % Date(s)
+{
+Datenannotation für die Onlinepublikation des Deutschen Verfasserlexikons der Frühen Neuzeit
+}
+
+\cventry
+{Studentische Hilfskraft} % Degree
+{\adjustbox{valign=t}{\includegraphics[width=30px]{icons/lmu.png}} IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-Universität} % Institution
+{München, Deutschland} % Location
+{Februar 2009 -- Oktober 2014} % Date(s)
+{
+Systemadministration für ein Segment des Universitätsnetzwerkes bestehend aus Linux/Mac/Windows-Servern und Windows- und Mac-Clients
+}
+
+\end{cventries}
+\vspace{-10px}
+\cvsection{Wissenschaftliche Veröffentlichungen}
+
+\begin{cvpubs}
+\cvpub{Herbert Lange und Peter Ljunglöf (2021): ``Learning Domain-Specific Grammars From a Small Number of Examples'', Natural Language Processing in Artificial Intelligence, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, \url{https://doi.org/10.1007/978-3-030-63787-3_4}, Veröffentlicht.}
+
+\cvpub{\emph{Proceedings of the 9th Workshop on Natural Language Processing for Computer Assisted Language Learning} (2020); David Alfter, Elena Volodina, Ildikó Pilán, Herbert Lange und Lars Borin (Hrsg.), Linköping University Electronic Press, Linköping, Schweden, Linköping Electronic Conference Proceedings (175), 45 Seiten, \url{https://doi.org/10.3384/ecp20175}, Veröffentlicht.}
+\cvpub{Herbert Lange (2020): ``Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars'', Doktorarbeit, Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, \url{http://hdl.handle.net/2077/65453}, Veröffentlicht.}
+
+\cvpub{Herbert Lange und Peter Ljunglöf (2020): ``Learning Domain-specific Grammars from a Small Number of Examples'', Proceedings of the 12th International Conference on Agents and Artificial Intelligence - Volume 1: NLPinAI, Valetta, Malta, INSTICC. SciTePress, 422–430, \url{https://doi.org/10.5220/0009371304220430}, Veröffentlicht.}
+
+\cvpub{\emph{Proceedings of the 8th Workshop on Natural Language Processing for Computer Assisted Language Learning} (2019); David Alfter, Elena Volodina, Lars Borin, Ildikó Pilán und Herbert Lange (Hrsg.), Linköping University Electronic Press, Linköping, Schweden, NEALT Proceedings Series  (39), 99 Seiten, Veröffentlicht.}
+\cvpub{Herbert Lange (2019): ``An Open-Source Computational Latin Grammar: Overview and Evaluation'', Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019), Las Palmas de Gran Canaria, Kanarische Inseln, Erscheint in Kürze.}
+
+\cvpub{Herbert Lange und Peter Ljunglöf (2020): ``Demonstrating the MUSTE Language Learning Environment'', Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018, Stockholm, Schweden, Linköping University Electronic Press, 41–46, \url{https://www.aclweb.org/anthology/W18-7105}, Veröffentlicht.}
+
+\cvpub{Herbert Lange (2018): ``Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning'', Lizentiatsarbeit, Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, \url{https://gup.ub.gu.se/file/207536}, Veröffentlicht.}
+
+\cvpub{Herbert Lange und Peter Ljunglöf (2018): ``Putting Control into Language Learning'', Proceedings of the Sixth International Workshop on Controlled Natural Languages, Maynooth, Irland, IOS Press, Frontiers in Artificial Intelligence and Applications (304), 61-70, \url{https://doi.org/10.3233/978-1-61499-904-1-61}, Veröffentlicht.}
+
+\cvpub{Herbert Lange und Peter Ljunglöf (2018): ``MULLE: A Grammar-based Latin Language Learning Tool to Supplement the Classroom Setting'', Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications (NLPTEA '18) at ACL, Melbourne, Australien, Association for Computational Linguistics, 108-112, \url{http://aclweb.org/anthology/W18-3715}, Veröffentlicht.}
+
+\cvpub{Herbert Lange (2017): ``Implementation of a Latin Grammar in Grammatical Framework'', Proceedings of the 2nd International Conference on Digital Access to Textual Cultural Heritage (DATeCH2017), Göttingen, Deutschland, Association for Computing Machinery, 97-102, \url{https://doi.org/10.1145/3078081.3078108}, Veröffentlicht.}
+
+\cvpub{Herbert Lange (2013): ``Erstellen einer Grammatik für das Lateinische im "Grammatical Framework"'', Magisterarbeit, Centrum für Informations- und Sprachverarbeitung, Ludwig-Maximilians-Universität, München, Deutschland, Veröffentlicht.}
+
+
+\end{cvpubs}
+\vspace{-10px}
+\cvsection{Vorträge und Präsentationen}
+
+\begin{cvpubs}
+\cvpub{Herbert Lange (2020): ``Type theory and meaning in linguistics'', rC3 - remote Chaos Experience, Online, Vortrag: \url{https://media.ccc.de/v/rc3-232856-type_theory_and_meaning_in_linguistics}}
+
+\cvpub{Herbert Lange (2020): ``A Type-Theoretic Approach to Generating Pictures and Descriptions'', 8th Swedish Language Technology Conference, Göteborg, Schweden, Konferenzpresentation}
+
+\cvpub{Herbert Lange (2020): ``Learning Domain-specific Grammars from Examples'', CLASP Seminar, University of Gothenburg, Göteborg, Schweden, Seminar Talk}
+
+\cvpub{Herbert Lange (2020): ``Learning Domain-specific Grammars from a Small Number of Examples'', Special Session NLPinAI, 12th International Conference on Agents and Artificial Intelligence, Valetta, Malta, Konferenzpresentation}
+
+\cvpub{Herbert Lange (2020): ``Using Dependent Types in GF'', Functional Programming Winter Meeting, Chalmers University of Technology, Göteborg, Schweden, Seminar Talk}
+
+\cvpub{Herbert Lange (2019): ``Empirical Evaluation of a Computational Latin Grammar'', 20th International Colloquium on Latin Linguistics, Las Palmas de Gran Canaria, Kanarische Inseln, Konferenzpresentation}
+
+\cvpub{Herbert Lange (2019): ``A short history of end-user programming'', Update mini conference, Uppsala, Schweden, Vortrag}
+
+\cvpub{Herbert Lange (2019): ``Computer-Assisted Language Learning for Latin'', Latin Seminar, Uppsala University, Uppsala, Schweden, Seminar Talk}
+
+\cvpub{Herbert Lange (2019): ``Restricting Grammars to Reduce Ambiguity'', Functional Programming Seminar, Chalmers University of Technology, Göteborg, Schweden, Seminar Talk}
+
+\cvpub{Herbert Lange (2019): ``MULLE for Latin: Computer-Generated Translation Exercises for Latin'', Workshop on Digital Approaches to Teaching Historical Languages, Berlin, Deutschland, Konferenzpresentation: \url{https://www.projekte.hu-berlin.de/en/callidus-en/DAtTeL-workshop/digital-approaches-to-teaching-historical-languages-dattel}}
+
+\cvpub{Herbert Lange und Peter Ljunglöf (2018): ``Demonstrating the MUSTE Language Learning Environment'', 7th Workshop on Natural Language Processing for Computer-Assisted Language Learning at the Swedish Language Technology Conference (SLTC), Stockholm, Schweden, Poster}
+
+\cvpub{Herbert Lange (2018): ``MULLE: A grammar-based Latin language learning tool to supplement the classroom setting'', 5th Workshop on Natural Language Processing Techniques for Educational Applications, Melbourne, Australien, Poster}
+
+\cvpub{Herbert Lange (2018): ``Computational Linguistics vs. Natural Language Processing - A bit of a rant'', Free Society Conference and Nordic Summit (FSCONS), Oslo, Norwegen, Lightning Talk: \url{https://youtu.be/Xrb3ULik1vc?t=3127}}
+
+\cvpub{Herbert Lange (2018): ``Let's talk about Old Computer; Or: Why old computers are cool, why we should care, and stuff I discovered'', Free Society Conference and Nordic Summit (FSCONS), Oslo, Norwegen, Lightning Talk: \url{https://youtu.be/_C5QUuU2vic?t=1386}}
+
+\cvpub{Herbert Lange (2017): ``Implementation of a Latin Grammar in Grammatical Framework'', 2nd International Conference on Digital Access to Textual Cultural Heritage, Göttingen, Deutschland, Konferenzpresentation}
+
+\cvpub{Herbert Lange (2017): ``A Latin Language Learning Application'', Latin Seminar, University of Gothenburg, Göteborg, Schweden, Seminar Talk}
+
+\cvpub{Herbert Lange (2017): ``From Word-based text editing to language learning'', Dublin Computational Linguistics Research Seminar, Trinity College Dublin, Dublin, Irland, Seminar Talk}
+
+\cvpub{Herbert Lange (2017): ``From Word-based text editing to language learning'', Postgraduate Seminar in Computer Science, National University of Ireland, Maynooth, Irland, Seminar Talk}
+
+\cvpub{Herbert Lange (2017): ``MUSTE - Behind the scenes'', REMU Research Seminar, University of Gothenburg, Göteborg, Schweden, Seminar Talk}
+
+\cvpub{Herbert Lange (2016): ``Implementation of a Latin Grammar in Grammatical Framework'', 6th Swedish Language Technology Conference (SLTC), Umeå, Schweden, Poster}
+
+\cvpub{Herbert Lange (2016): ``SHRDLU - Ein Programm das natürliche Sprache versteht'', Vintage Computing Festival Berlin (VCFB), Berlin, Deutschland, Vortrag: \url{https://media.ccc.de/v/vcfb2016_-_52_-_en_-_medientheater_-_201610031530_-_shrdlu_-_herbert_lange}}
+
+\cvpub{Herbert Lange (2015): ``Vintage Computing'', Free Society Conference and Nordic Summit (FSCONS), Göteborg, Schweden, Lightning Talk: \url{https://youtu.be/8mSVMY74sOY?t=660}}
+
+\cvpub{Herbert Lange (2013): ``Grammatical Framework'', Mehrvorträgewagen, muCCC Munich Hackerspace, München, Deutschland, Vortrag}
+
+\end{cvpubs}
+\vspace{-10px}
+\cvsection{Lehrerfahrung}
+
+\begin{cventries}
+\cventry
+{Chalmers University of Technology und Universität Göteborg}
+{Einführung in die nebenläufige Programmierung}
+{Tutor}
+{}
+{Frühjahr 2019}
+
+\cventry
+{Chalmers University of Technology und Universität Göteborg}
+{Künstliche Intelligenz}
+{Tutor}
+{}
+{Frühjahr 2018, Frühjahr 2019}
+
+\cventry
+{Universität Göteborg}
+{Computergestützte Syntax}
+{Tutor}
+{}
+{Frühjahr 2017, Frühjahr 2018, Frühjahr 2019, Frühjahr 2020}
+
+\cventry
+{Grammatical Framework Sommerschule, Rīga, Lettland}
+{Tutorial: GF für Pythonprogrammierer}
+{Tutor}
+{}
+{August 2017}
+
+\cventry
+{Chalmers University of Technology und Universität Göteborg}
+{Funktionale Programmierung}
+{Tutor}
+{}
+{Herbst 2016, Herbst 2017, Herbst 2018, Herbst 2019}
+
+\cventry
+{Chalmers University of Technology und Universität Göteborg}
+{Datenbanken}
+{Tutor}
+{}
+{Herbst 2015, Frühjahr 2016, Herbst 2016, Frühjahr 2017, Herbst 2017, Herbst 2018}
+
+\cventry
+{Tagung der Computerlinguistik-Studierenden (TaCoS), München}
+{Tutorial: Einführung in das Grammatical Framework}
+{Tutor}
+{}
+{Mai 2015}
+
+\cventry
+{IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-Universität}
+{Seminar: Wissenschaftliches Arbeiten in LaTeX}
+{Tutor}
+{}
+{Februar 2014}
+
+\cventry
+{Center für Invormations- und Sprachverarbeitung, Ludwing-Maximilians-Universität München}
+{Logik und modell-theoretische Semantik}
+{Tutor}
+{}
+{Sommer 2012}
+
+\cventry
+{Center für Invormations- und Sprachverarbeitung, Ludwing-Maximilians-Universität München}
+{Korpusbearbeitung}
+{Tutor}
+{}
+{Sommer 2011}
+
+\end{cventries}
+\vspace{-10px}
+\cvsection{Stipendien}
+
+\begin{cvhonors}
+\cvhonor
+{Grammatical Framework Summer School, Gozo, Malta}
+{\newline
+Reisestipendium, Centre for Language Technology, University of Gothenburg}
+{}
+{2015}
+
+\cvhonor
+{Grammatical Framework Summer School, Frauenchiemsee, Deutschland}
+{\newline
+Reisestipendium, Volkswagenstiftung}
+{}
+{2013}
+
+\cvhonor
+{Trinity College, Dublin, Irland}
+{\newline
+Erasmusstipendium, European Union}
+{}
+{2010}
+\end{cvhonors}
+\vspace{-10px}
+\cvsection{Peer Review}
+
+\begin{cvhonors}
+\cvhonor {7th International Workshop on Controlled Natural Languages}
+{}
+{}
+{2021}
+
+\cvhonor {10th Workshop on Natural Language Processing for Computer-Assisted Language Learning}
+{}
+{}
+{2021}
+
+\cvhonor {8th Swedish Language Technology Conference post-proceedings}
+{}
+{}
+{2021}
+
+\cvhonor {10th Workshop on Natural Language Processing for Computer-Assisted Language Learning}
+{}
+{}
+{2020}
+
+\cvhonor {8th Workshop on Natural Language Processing for Computer-Assisted Language Learning}
+{}
+{}
+{2019}
+
+\cvhonor {5th Workshop on Natural Language Processing Techniques for Educational Applications}
+{}
+{}
+{2018}
+\end{cvhonors}
+\vspace{-10px}
+\cvsection{Konferenzorganisation}
+
+\begin{cvhonors}
+\cvhonor {9th Workshop on Natural Language Processing for Computer-Assisted Language Learning}
+{Co-Organizer}
+{Göteborg, Schweden}
+{2020}
+
+\cvhonor {8th Workshop on Natural Language Processing for Computer-Assisted Language Learning}
+{Co-Organizer}
+{Turku, Finnland}
+{2019}
+
+\cvhonor {European Summerschool in Logic, Language and Information Student Session}
+{Co-Chair Logic and Computation}
+{Toulouse, Frankreich}
+{2017}
+\end{cvhonors}
+\vspace{-10px}
+\cvsection{Weiteres Mitwirken}
+
+\begin{cvhonors}
+\cvhonor {Graduate Students' Council, Universität Göteborg}
+{}
+{}
+{2018 -- 2020}
+
+\cvhonor {PhD Council, Department for Computer Science and Engineering, Chalmers University of Technology und Universität Göteborg}
+{}
+{}
+{2016 -- 2020}
+
+\cvhonor {Gewählter Fachschaftsvertreter, Ludwig-Maximilians-Universität, München}
+{}
+{}
+{2012 -- 2013}
+\end{cvhonors}
+\vspace{-10px}
+\cvsection{Fertigkeiten}
+
+Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionelle Erfahrung (3), Experte (4), Guru (5)
+
+\cvsubsection{Programmiersprachen}
+\begin{cvskills}
+\cvskill
+{}
+{Agda}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Basic}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{C/C++}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Coq}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Erlang}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Grammatical Framework}
+{Experte}
+
+\cvskill
+{}
+{Haskell}
+{Experte}
+
+\cvskill
+{}
+{HTML/CSS}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Java}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{JavaScript}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{LISP}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Pascal}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Perl}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Prolog}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Python}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Ruby}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{SML}
+{Grundlegende Erfahrung}
+
+\end{cvskills}
+
+\cvsubsection{Betriebssysteme}
+\begin{cvskills}
+\cvskill
+{}
+{Atari TOS}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Gentoo Linux}
+{Experte}
+
+\cvskill
+{}
+{BeOS/Haiku}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{FreeBSD/NetBSD}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{IRIX}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{MacOS Classic}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{MacOS X}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{MS-DOS}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{OpenVMS}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{OS/2}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{RISC OS}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Windows}
+{Professionelle Erfahrung}
+
+\end{cvskills}
+
+\cvsubsection{Weitere IT-Kompetenzen}
+\begin{cvskills}
+\cvskill
+{}
+{Constraint Programming}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Formale Sprachen}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{GNU make}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Icinga/Nagios}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{LaTeX}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Machine Learning}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{MS Office}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Parserkombinatoren}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Property-based Testing}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Software-defined Radio}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Datenbanken}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Versionskontrollsysteme}
+{Professionelle Erfahrung}
+
+\end{cvskills}
+
+\cvsubsection{Sprachen}
+\begin{cvskills}
+\cvskill
+{}
+{Englisch}
+{Experte}
+
+\cvskill
+{}
+{Esperanto}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Französisch}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Deutsch}
+{Experte}
+
+\cvskill
+{}
+{Irisch}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Italienisch}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Latein}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Mittelhochdeutsch}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Spanisch}
+{Grundlegendes Wissen}
+
+\cvskill
+{}
+{Schwedisch}
+{Professionelle Erfahrung}
+
+\end{cvskills}
+
+\cvsubsection{Computerlinguistik}
+\begin{cvskills}
+\cvskill
+{}
+{Controlled Natural Languages}
+{Experte}
+
+\cvskill
+{}
+{Discourse Representation Theory}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Formale Syntax}
+{Experte}
+
+\cvskill
+{}
+{Lexikalische Semantik}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Montaguegrammatiken}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Entwicklung von Resource Grammars}
+{Guru}
+
+\cvskill
+{}
+{Universal Dependencies}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Typ-theoretische Semantik}
+{Grundlegende Erfahrung}
+
+\end{cvskills}
+
+\cvsubsection{Forschungs- und allgemeine Fertigkeiten}
+\begin{cvskills}
+\cvskill
+{}
+{Datenanalyse}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Entwurf von sozialwissenschaftlichen Experimenten}
+{Grundlegende Erfahrung}
+
+\cvskill
+{}
+{Selbständiges Arbeiten}
+{Experte}
+
+\cvskill
+{}
+{Problemlösung}
+{Experte}
+
+\cvskill
+{}
+{Projektmanagement}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Öffentliche Vorträge}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Forschung}
+{Experte}
+
+\cvskill
+{}
+{Forschungsethik}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Verfassen wissenschaftlicher Texte}
+{Experte}
+
+\cvskill
+{}
+{Unterricht}
+{Professionelle Erfahrung}
+
+\cvskill
+{}
+{Teamarbeit}
+{Professionelle Erfahrung}
+
+\end{cvskills}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
+
