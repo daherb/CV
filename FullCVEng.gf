@@ -104,5 +104,5 @@ concrete FullCVEng of FullCV = CVEng, FullCVI-[DegreeType] ** open Prelude in {
     GlanosJobDescription = ss "Java backend development handling XML/JSON data and manual data annotation and analysis for Named Entity Recognition" ;
     ITZJobDescription = ss "System administration for a segment of the university network consisting of Linux/Mac/Windows servers and Windows/Mac clients" ;
     GermanistikJobDescription = ss "Data annotation for online publication of the \" Deutschen Verfasserlexikons der Frühen Neuzeit\"" ;
-    UniHHJobDescription = ss "Development of quality assurance solutions for audiovidual corpora";
+    UniHHJobDescription = ss "Development of quality assurance solutions for audio-visual corpora";
 }
