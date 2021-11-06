@@ -10,7 +10,7 @@
 * Homepage: [https://hackerbrau.se](https://hackerbrau.se)
 * Github: [daherb](https://github.com/daherb)
 * LinkedIn: [herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
-* Twitter: [\pietaetskirsche](https://twitter.com/@pietaetskirsche)
+* Twitter: [pietaetskirsche](https://twitter.com/@pietaetskirsche)
 
 ---
 

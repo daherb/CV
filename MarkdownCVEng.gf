@@ -27,7 +27,7 @@ concrete MarkdownCVEng of FullCV = CVEng, FullCVEng, MarkdownCVI-[DegreeType] **
 	    (if_then_Str linkedin.empty "" ("* LinkedIn:" ++ bindUrl linkedin.s ("https://www.linkedin.com/in/" ++ Prelude.BIND ++ linkedin.s) ++ nl )) ++ 
 	    (if_then_Str gitlab.empty "" ("* Gitlab:" ++ bindUrl gitlab.s ("https://gitlab,com/" ++ Prelude.BIND ++ gitlab.s) ++ nl )) ++ 
 	    (if_then_Str stackoverflow.empty "" ("* StackOverflow:" ++ bindUrl stackoverflow.s stackoverflow.s ++ nl )) ++ 
-	    (if_then_Str twitter.empty "" ("* Twitter:" ++ bindUrl ("\\" ++ Prelude.BIND ++ twitter.s) ("https://twitter.com/@" ++ Prelude.BIND ++ twitter.s) ++ nl )) ++ 
+	    (if_then_Str twitter.empty "" ("* Twitter:" ++ bindUrl twitter.s ("https://twitter.com/@" ++ Prelude.BIND ++ twitter.s) ++ nl )) ++ 
 	    (if_then_Str skype.empty "" ("* Skype: " ++ Prelude.BIND ++ skype.s ++ nl )) ++
 	    (if_then_Str reddit.empty "" ("* Reddit: " ++ bindUrl reddit.s ("https://reddit.com/user/" ++ Prelude.BIND ++ reddit.s) ++ nl)) ++ nl ++
 	    "---" ++ nlnl ++
