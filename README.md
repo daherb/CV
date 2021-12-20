@@ -25,3 +25,5 @@ To build the document you can e.g. type
 $ cd tex
 $ latexmk -lualatex -pvc
 ```
+
+Copyright (c) 2021 Herbert Lange
