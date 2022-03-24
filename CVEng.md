@@ -105,7 +105,7 @@
 
 * Proceedings of the 8th Workshop on Natural Language Processing for Computer Assisted Language Learning (2019); David Alfter, Elena Volodina, Lars Borin, Ildikó Pilán and Herbert Lange (eds.), Linköping University Electronic Press, Linköping, Sweden, NEALT Proceedings Series  (39), 99 pages, Published.
 
-* Herbert Lange (2019): "An Open-Source Computational Latin Grammar: Overview and Evaluation", Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019), Las Palmas de Gran Canaria, Canary Islands, Forthcoming.
+* Herbert Lange (2021): "An Open-Source Computational Latin Grammar: Overview and Evaluation", Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019), Madrid, Spain, Ediciones Clásicas, 559-578, Published.
 
 * Herbert Lange and Peter Ljunglöf (2020): "Demonstrating the MUSTE Language Learning Environment", Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018, Stockholm, Sweden, Linköping University Electronic Press, 41–46, [https://www.aclweb.org/anthology/W18-7105](https://www.aclweb.org/anthology/W18-7105), Published.
 

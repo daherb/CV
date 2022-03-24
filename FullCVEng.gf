@@ -78,6 +78,7 @@ concrete FullCVEng of FullCV = CVEng, FullCVI-[DegreeType] ** open Prelude in {
     ScientificWritingInLaTeX = ss "Seminar: Scientific writing in LaTeX" ;
     SESysAdminJob = ss "Software developer and system administrator" ;
     SoftwareEngineerJob = ss "Software engineer" ;
+    Spain = ss "Spain" ;
     Spanish = ss "Spanish" ;
     StudentAssistantJob = ss "Student assistant" ;
     StudentCouncilCIS = ss "Student Council, Centre for Information and Language Processing, Ludwig-Maximilians-University Munich" ;

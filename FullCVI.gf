@@ -42,6 +42,7 @@ incomplete concrete FullCVI of FullCV = {
     MacOS_Classic = ss "MacOS Classic" ;
     MacOS_X = ss "MacOS X" ;
     Machine_Learning = ss "Machine Learning" ;
+    Madrid = ss "Madrid" ;
     Malta = ss "Malta" ;
     Maynooth = ss "Maynooth" ;
     Melbourne = ss "Melbourne" ;

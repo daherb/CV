@@ -143,15 +143,15 @@ abstract FullCV = CV ** {
 			   (BaseAuthor Myself)
 			   "An Open-Source Computational Latin Grammar: Overview and Evaluation"
 			   "Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019)"
-			   (NewAddress LasPalmas CanaryIslands)
-			   (OnlyYear 2019)
-			   Nothing -- Publisher
+			   (NewAddress Madrid Spain)
+			   (OnlyYear 2021)
+			   (Just "Ediciones Clásicas") -- Publisher
 			   Nothing -- Series
 			   Nothing -- Volume
-			   Nothing -- Pages
+			   (Just "559-578") -- Pages
 			   Nothing -- DOI
 			   Nothing -- Url
-			   Forthcoming
+			   Published
 	  )
       (ConsPublication (ConferencePublication
 			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
@@ -593,8 +593,8 @@ abstract FullCV = CV ** {
     NonAcademicPresentation ;
  fun
     UniGot, LMU, TCD, UniHH : University ;
-    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg : City ;
-    Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France : Country ;
+    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg, Madrid : City ;
+    Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France, Spain : Country ;
     Online : Address ;
     PhDCS  : Position ;
     ErasmusDescription, PhDDescription, LicentiateDescription, MagisterDescription : EducationDescription ;

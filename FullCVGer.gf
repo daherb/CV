@@ -78,6 +78,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     ScientificWritingInLaTeX = ss "Seminar: Wissenschaftliches Arbeiten in LaTeX" ;
     SESysAdminJob = ss "Softwareentwickler und Systemadministrator" ;
     SoftwareEngineerJob = ss "Software-Engineer" ;
+    Spain = ss "Spanien" ;
     Spanish = ss "Spanisch" ;
     StudentAssistantJob = ss "Studentische Hilfskraft" ;
     StudentCouncilCIS = ss "Gewählter Fachschaftsvertreter, Ludwig-Maximilians-Universität, München" ;
