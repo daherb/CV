@@ -37,6 +37,7 @@ incomplete concrete FullCVI of FullCV = {
     LasPalmas = ss "Las Palmas de Gran Canaria" ;
     LightningTalk = ss "Lightning Talk" ;
     Linkoping = ss "Linköping" ;
+    Mannheim = ss "Mannheim" ;
     MS_DOS = ss "MS-DOS" ;
     MS_Office = ss "MS Office" ;
     MacOS_Classic = ss "MacOS Classic" ;

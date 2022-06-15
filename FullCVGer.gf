@@ -34,6 +34,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     GFSummerSchoolRiga = ss "Grammatical Framework Sommerschule, Rīga, Lettland";
     Gothenburg = ss "Göteborg" ;
     GraduateCouncilGU = ss "Graduate Students' Council, Universität Göteborg" ;
+    IDSCompany = ss "Leibniz-Institut für Deutsche Sprache" ;
     ITZCompany = ss "IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-Universität" ;
     IT_Other = ss "Weitere IT-Kompetenzen" ;
     Independent_Work = ss "Selbständiges Arbeiten" ;
@@ -106,4 +107,5 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     ITZJobDescription = ss "Systemadministration für ein Segment des Universitätsnetzwerkes bestehend aus Linux/Mac/Windows-Servern und Windows- und Mac-Clients" ;
     GermanistikJobDescription = ss "Datenannotation für die Onlinepublikation des Deutschen Verfasserlexikons der Frühen Neuzeit" ;
     UniHHJobDescription = ss "Entwicklung von Qualitätssicherungsmaßnahmen für audiovisuelle Corpora" ;
+    IDSJobDescription = ss "Entwicklung eines Langzeitarchivierungssystems für linguistische Forschungsdaten" ;
 }

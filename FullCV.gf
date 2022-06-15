@@ -50,6 +50,10 @@ abstract FullCV = CV ** {
 			MagisterDescription)
       BaseEducation))) ;
     Jobs     : ListJob =
+      (ConsJob (NewJob ResearcherJob IDSCompany {- Leibniz-Institute for the German Language -}
+		  (NewAddress Mannheim Germany)
+		  (NewDate 1 March 2021) Now
+		  IDSJobDescription)
       (ConsJob (NewJob ResearcherJob (UniCompany UniHH) {- University of Hamburg -}
 		  (NewAddress Hamburg Germany)
 		  (NewDate 1 June 2021) Now
@@ -74,7 +78,7 @@ abstract FullCV = CV ** {
 		  (NewAddress Munich Germany)
 		  (NewDate 1 February 2009) (NewDate 31 October 2014)
 		  ITZJobDescription)
-	 BaseJob)))))) ;
+	 BaseJob))))))) ;
     Publications : ListPublication =
       (ConsPublication (JournalPublication
 			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
@@ -602,15 +606,15 @@ abstract FullCV = CV ** {
     NonAcademicPresentation ;
  fun
     UniGot, LMU, TCD, UniHH : University ;
-    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg, Madrid : City ;
+    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg, Madrid, Mannheim : City ;
     Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France, Spain : Country ;
     Online : Address ;
     PhDCS  : Position ;
     ErasmusDescription, PhDDescription, LicentiateDescription, MagisterDescription : EducationDescription ;
-    ITZCompany, GermanistikLMUCompany, GlanosCompany, FreelancerCompany : Company ;
+    IDSCompany, ITZCompany, GermanistikLMUCompany, GlanosCompany, FreelancerCompany : Company ;
     UniCompany : University -> Company ;
     ResearcherJob, SESysAdminJob, SoftwareEngineerJob, StudentAssistantJob : JobTitle ;
-    UniGotJobDescription, FreelancerJobDescription, GlanosJobDescription, ITZJobDescription, GermanistikJobDescription, UniHHJobDescription : JobDescription ;
+    UniGotJobDescription, FreelancerJobDescription, GlanosJobDescription, ITZJobDescription, GermanistikJobDescription, UniHHJobDescription, IDSJobDescription : JobDescription ;
     PhDDegree, LicentiateDegree, MagisterDegree : DegreeType ;
     ErasmusEducation, PhDEducation, MagisterEducation : EducationType ;
     MainSupervisor, CoSupervisor, Examiner : SupervisorRole ;

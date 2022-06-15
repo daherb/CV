@@ -57,6 +57,12 @@
 
 ## Work Experience
 
+* Researcher (March 2021-now)
+
+  Leibniz-Institute for the German Language (Mannheim, Germany)
+
+  Development of a long-term archiving system for linguistic research data
+
 * Researcher (June 2021-now)
 
   University of Hamburg (Hamburg, Germany)

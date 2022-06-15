@@ -57,6 +57,12 @@
 
 ## Beruflicher Werdegang
 
+* Wissenschaftlicher Mitarbeiter (März 2021-jetzt)
+
+  Leibniz-Institut für Deutsche Sprache (Mannheim, Deutschland)
+
+  Entwicklung eines Langzeitarchivierungssystems für linguistische Forschungsdaten
+
 * Wissenschaftlicher Mitarbeiter (Juni 2021-jetzt)
 
   Universität Hamburg (Hamburg, Deutschland)
