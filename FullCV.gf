@@ -201,7 +201,7 @@ abstract FullCV = CV ** {
 			  Nothing -- Series
 			  Nothing -- Volume
 			  (Just "108-112") -- Pages
-			  Nothing -- DOI
+			  (Just "10.18653/v1/W18-3715") -- DOI
 			  (Just "http://aclweb.org/anthology/W18-3715") -- Url
 			  Published
 	 )
