@@ -233,6 +233,15 @@ abstract FullCV = CV ** {
     Presentations    : ListPresentation =
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
+			   "MULLE: A grammar-based language learning tool"
+			   "Seminar on Language Technology for Education in the South African languages"
+			   Online
+			   (OnlyYear 2022)
+			   (Academic SeminarPresentation)
+			   Nothing
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
 			   "Type theory and meaning in linguistics"
 			   "rC3 - remote Chaos Experience"
 			   Online
@@ -439,7 +448,7 @@ abstract FullCV = CV ** {
 			   Nothing -- Url
 	 )
 	 BasePresentation
-	 ))))))))))))))))))))))) ;
+	 )))))))))))))))))))))))) ;
     TeachingDuties : ListTeachingDuty =
       (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ConcurrentProgramming ChalmersAndUniGot
 			   (BaseTerm (NewTerm Spring (OnlyYear 2019))))
