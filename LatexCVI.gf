@@ -179,6 +179,7 @@ incomplete concrete LatexCVI of FullCV = PredefCnc ** open FullCV, Prelude, Pred
     FreelancerCompany = { s = FullCV.FreelancerCompany.s ; icon = "" ; hasicon = False } ;
     GermanistikLMUCompany  = { s = FullCV.GermanistikLMUCompany.s ; icon = "icons/lmu.png" ; hasicon = True} ;
     GlanosCompany  = { s = FullCV.GlanosCompany.s ; icon = "icons/glanos.png" ; hasicon = True} ;
+    IDSCompany  = { s = FullCV.IDSCompany.s ; icon = "icons/ids.png" ; hasicon = True} ;
     ITZCompany  = { s = FullCV.ITZCompany.s ; icon = "icons/lmu.png" ; hasicon = True} ;
     LMU = { s = FullCV.LMU.s ; icon = "icons/lmu.png" ; hasicon = True} ;
     TCD = { s = FullCV.TCD.s ; icon = "icons/tcd.jpg" ; hasicon = True} ;

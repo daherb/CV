@@ -1,5 +1,5 @@
-concrete LatexCVEng of FullCV = CVEng-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
-  , FullCVEng-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
+concrete LatexCVEng of FullCV = CVEng-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,IDSCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
+  , FullCVEng-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,IDSCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
   ** LatexCVI with (FullCV=FullCVEng) ** open Prelude in {
   lin
     -- NewCV : String -- Name

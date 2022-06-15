@@ -1,5 +1,5 @@
-concrete LatexCVGer of FullCV = CVGer-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
-  , FullCVGer-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
+concrete LatexCVGer of FullCV = CVGer-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,IDSCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
+  , FullCVGer-[Company,GermanistikLMUCompany,FreelancerCompany,GlanosCompany,IDSCompany,ITZCompany,University,LMU,TCD,UniGot,UniHH,UniCompany,CompanyVenue,UniVenue]
   ** LatexCVI with (FullCV=FullCVGer) ** open Prelude in {
   lin
     -- NewCV : String -- Name
