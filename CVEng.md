@@ -57,7 +57,7 @@
 
 ## Work Experience
 
-* Researcher (March 2021-now)
+* Researcher (March 2022-now)
 
   Leibniz-Institute for the German Language (Mannheim, Germany)
 

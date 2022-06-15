@@ -57,7 +57,7 @@
 
 ## Beruflicher Werdegang
 
-* Wissenschaftlicher Mitarbeiter (März 2021-jetzt)
+* Wissenschaftlicher Mitarbeiter (März 2022-jetzt)
 
   Leibniz-Institut für Deutsche Sprache (Mannheim, Deutschland)
 

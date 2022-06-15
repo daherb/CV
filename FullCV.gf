@@ -52,7 +52,7 @@ abstract FullCV = CV ** {
     Jobs     : ListJob =
       (ConsJob (NewJob ResearcherJob IDSCompany {- Leibniz-Institute for the German Language -}
 		  (NewAddress Mannheim Germany)
-		  (NewDate 1 March 2021) Now
+		  (NewDate 1 March 2022) Now
 		  IDSJobDescription)
       (ConsJob (NewJob ResearcherJob (UniCompany UniHH) {- University of Hamburg -}
 		  (NewAddress Hamburg Germany)
