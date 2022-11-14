@@ -235,7 +235,7 @@
 
 * 8th Swedish Language Technology Conference post-proceedings (2021)
 
-* 10th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2020)
+* 9th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2020)
 
 * 8th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2019)
 

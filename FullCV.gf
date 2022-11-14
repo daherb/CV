@@ -547,9 +547,9 @@ abstract FullCV = CV ** {
     PeerReviews : ListPeerReview =
       (ConsPeerReview (NewPeerReview "11th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2022))
       (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2021))
-      (ConsPeerReview (NewPeerReview "7th International Workshop on Controlled Natural Languages" (OnlyYear 2021))      
+      (ConsPeerReview (NewPeerReview "7th International Workshop on Controlled Natural Languages" (OnlyYear 2021))
       (ConsPeerReview (NewPeerReview "8th Swedish Language Technology Conference post-proceedings" (OnlyYear 2021))
-      (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2020))     
+      (ConsPeerReview (NewPeerReview "9th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2020))     
       (ConsPeerReview (NewPeerReview "8th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2019))
       (ConsPeerReview (NewPeerReview "5th Workshop on Natural Language Processing Techniques for Educational Applications" (OnlyYear 2018))
 	 BasePeerReview))))))) ;
