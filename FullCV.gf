@@ -90,7 +90,7 @@ abstract FullCV = CV ** {
 			  Nothing -- Series
 			  Nothing -- Volume
 			  (Just "2721--2729") -- Pages
-			  (Just "10.5220/0009371304220430") -- DOI
+			  Nothing -- DOI
 			  (Just "https://aclanthology.org/2022.lrec-1.291") -- Url
 			  Published
 	 )

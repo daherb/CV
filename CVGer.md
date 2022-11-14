@@ -101,7 +101,7 @@
 
 ## Wissenschaftliche Veröffentlichungen
 
-* Herbert Lange und Jocelyn Aznar (2022): "RefCo and its Checker: Improving Language Documentation Corpora’s Reusability Through a Semi-Automatic Review Process", Proceedings of the 13th Language Resources and Evaluation Conference (LREC), Marseille, Frankreich, European Language Resources Association, 2721--2729, [10.5220/0009371304220430](https://doi.org/10.5220/0009371304220430), [https://aclanthology.org/2022.lrec-1.291](https://aclanthology.org/2022.lrec-1.291), Veröffentlicht.
+* Herbert Lange und Jocelyn Aznar (2022): "RefCo and its Checker: Improving Language Documentation Corpora’s Reusability Through a Semi-Automatic Review Process", Proceedings of the 13th Language Resources and Evaluation Conference (LREC), Marseille, Frankreich, European Language Resources Association, 2721--2729, [https://aclanthology.org/2022.lrec-1.291](https://aclanthology.org/2022.lrec-1.291), Veröffentlicht.
 
 * Herbert Lange und Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples", Natural Language Processing in Artificial Intelligence, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, [10.1007/978-3-030-63787-3_4](https://doi.org/10.1007/978-3-030-63787-3_4), Veröffentlicht.
 
