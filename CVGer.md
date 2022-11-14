@@ -63,7 +63,7 @@
 
   Entwicklung eines Langzeitarchivierungssystems für linguistische Forschungsdaten
 
-* Wissenschaftlicher Mitarbeiter (Juni 2021-jetzt)
+* Wissenschaftlicher Mitarbeiter (Juni 2021-November 2022)
 
   Universität Hamburg (Hamburg, Deutschland)
 
@@ -101,6 +101,8 @@
 
 ## Wissenschaftliche Veröffentlichungen
 
+* Herbert Lange und Jocelyn Aznar (2022): "RefCo and its Checker: Improving Language Documentation Corpora’s Reusability Through a Semi-Automatic Review Process", Proceedings of the 13th Language Resources and Evaluation Conference (LREC), Marseille, Frankreich, European Language Resources Association, 2721--2729, [10.5220/0009371304220430](https://doi.org/10.5220/0009371304220430), [https://aclanthology.org/2022.lrec-1.291](https://aclanthology.org/2022.lrec-1.291), Veröffentlicht.
+
 * Herbert Lange und Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples", Natural Language Processing in Artificial Intelligence, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, [10.1007/978-3-030-63787-3_4](https://doi.org/10.1007/978-3-030-63787-3_4), Veröffentlicht.
 
 * Proceedings of the 9th Workshop on Natural Language Processing for Computer Assisted Language Learning (2020); David Alfter, Elena Volodina, Ildikó Pilán, Herbert Lange und Lars Borin (Hrsg.), Linköping University Electronic Press, Linköping, Schweden, Linköping Electronic Conference Proceedings (175), 45 Seiten, [10.3384/ecp20175](https://doi.org/10.3384/ecp20175), Veröffentlicht.
@@ -126,6 +128,16 @@
 * Herbert Lange (2013): "Erstellen einer Grammatik für das Lateinische im "Grammatical Framework"", Magisterarbeit, Centrum für Informations- und Sprachverarbeitung, Ludwig-Maximilians-Universität, München, Deutschland, Veröffentlicht.
 
 ## Vorträge und Präsentationen
+
+* Herbert Lange (2022): *The Hith-Hikers Guide to Artificial Intelligence - BBC Basic Version*, Updateringar - Update Computer Club Uppsala, Online, Vortrag: [https://wiki.dfupdate.se/projekt:updateringar](https://wiki.dfupdate.se/projekt:updateringar)
+
+* Herbert Lange (2022): *Semi-automatic quality assurance for audiovisual corpus data*, CLT Seminar. University of Gothenburg, Göteborg, Schweden, Seminar Talk
+
+* Herbert Lange (2022): *Demonstrating an Automatic Gloss Checker for Annotated Corpora*, Language Documentation and Archiving during the Decade of Indigenous LanguagesConference and training sessions, Berlin, Deutschland, Konferenzpresentation
+
+* Herbert Lange und Jocelyn Aznar (2022): *Training Session: Improving Corpus Quality in Language Documentation : Introduction to QUEST and the RefCo process*, Language Documentation and Archiving during the Decade of Indigenous LanguagesConference and training sessions, Online, Konferenzpresentation
+
+* Herbert Lange und Jocelyn Aznar (2022): *RefCo and its Checker: Improving Language Documentation Corpora's Reusability Through a Semi-Automatic Review Process*, Language Resoures and Evaluation Conference (LREC), Marseille, Frankreich, Konferenzpresentation
 
 * Herbert Lange (2022): *MULLE: A grammar-based language learning tool*, Seminar on Language Technology for Education in the South African languages, Online, Seminar Talk
 
@@ -215,9 +227,11 @@
 
 ## Peer Review
 
-* 7th International Workshop on Controlled Natural Languages (2021)
+* 11th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2022)
 
 * 10th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2021)
+
+* 7th International Workshop on Controlled Natural Languages (2021)
 
 * 8th Swedish Language Technology Conference post-proceedings (2021)
 

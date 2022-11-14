@@ -56,7 +56,7 @@ abstract FullCV = CV ** {
 		  IDSJobDescription)
       (ConsJob (NewJob ResearcherJob (UniCompany UniHH) {- University of Hamburg -}
 		  (NewAddress Hamburg Germany)
-		  (NewDate 1 June 2021) Now
+		  (NewDate 1 June 2021) (NewDate 30 November 2022)
 		  UniHHJobDescription)
       (ConsJob (NewJob ResearcherJob (UniCompany UniGot) {- University of Gothenburg -}
 		  (NewAddress Gothenburg Sweden)
@@ -80,6 +80,20 @@ abstract FullCV = CV ** {
 		  ITZJobDescription)
 	 BaseJob))))))) ;
     Publications : ListPublication =
+      (ConsPublication (ConferencePublication
+			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Jocelyn" "Aznar")))
+			  "RefCo and its Checker: Improving Language Documentation Corpora’s Reusability Through a Semi-Automatic Review Process"
+			  "Proceedings of the 13th Language Resources and Evaluation Conference (LREC)"
+			  (NewAddress Marseille France)
+			  (OnlyYear 2022)
+			  (Just "European Language Resources Association") -- Publisher
+			  Nothing -- Series
+			  Nothing -- Volume
+			  (Just "2721--2729") -- Pages
+			  (Just "10.5220/0009371304220430") -- DOI
+			  (Just "https://aclanthology.org/2022.lrec-1.291") -- Url
+			  Published
+	 )
       (ConsPublication (JournalPublication
 			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
 			  "Learning Domain-Specific Grammars From a Small Number of Examples" -- Title
@@ -233,14 +247,59 @@ abstract FullCV = CV ** {
 			Nothing
 			Published
 	 )
-      BasePublication)))))))))))) ;
+      BasePublication))))))))))))) ;
     Presentations    : ListPresentation =
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "The Hith-Hikers Guide to Artificial Intelligence - BBC Basic Version"
+			   "Updateringar - Update Computer Club Uppsala"
+			   Online
+			   (OnlyYear 2022) -- 20221112
+			   (NonAcademic FullTalk)
+			   (Just "https://wiki.dfupdate.se/projekt:updateringar")
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Semi-automatic quality assurance for audiovisual corpus data"
+			   "CLT Seminar. University of Gothenburg"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2022) -- 20221020
+			   (Academic SeminarPresentation)
+			   Nothing
+	)
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Demonstrating an Automatic Gloss Checker for Annotated Corpora"
+			   "Language Documentation and Archiving during the Decade of Indigenous LanguagesConference and training sessions"
+			   (NewAddress Berlin Germany)
+			   (OnlyYear 2022) -- 20221005
+			   (Academic ConferencePresentation)
+			   Nothing
+	 )
+      (ConsPresentation (NewPresentation
+			   (ConsAuthor Myself (BaseAuthor (NewAuthor "Jocelyn" "Aznar"))) -- Speaker
+			   "Training Session: Improving Corpus Quality in Language Documentation : Introduction to QUEST and the RefCo process"
+			   "Language Documentation and Archiving during the Decade of Indigenous LanguagesConference and training sessions"
+			   Online
+			   (OnlyYear 2022) -- 20221004
+			   (Academic ConferencePresentation)
+			   Nothing
+	 )
+      (ConsPresentation (NewPresentation
+			   (ConsAuthor Myself (BaseAuthor (NewAuthor "Jocelyn" "Aznar"))) -- Speaker
+			   "RefCo and its Checker: Improving Language Documentation Corpora's Reusability Through a Semi-Automatic Review Process"
+			   "Language Resoures and Evaluation Conference (LREC)"
+			   (NewAddress Marseille France)
+			   (OnlyYear 2022) -- 20220622
+			   (Academic ConferencePresentation)
+			   Nothing
+	 )
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
 			   "MULLE: A grammar-based language learning tool"
 			   "Seminar on Language Technology for Education in the South African languages"
 			   Online
-			   (OnlyYear 2022)
+			   (OnlyYear 2022) -- 20220615
 			   (Academic SeminarPresentation)
 			   Nothing
 	 )
@@ -452,7 +511,7 @@ abstract FullCV = CV ** {
 			   Nothing -- Url
 	 )
 	 BasePresentation
-	 )))))))))))))))))))))))) ;
+	 ))))))))))))))))))))))))))))) ;
     TeachingDuties : ListTeachingDuty =
       (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ConcurrentProgramming ChalmersAndUniGot
 			   (BaseTerm (NewTerm Spring (OnlyYear 2019))))
@@ -486,13 +545,14 @@ abstract FullCV = CV ** {
       (ConsConferenceInvolvement (NewConferenceInvolvement "Co-Chair Logic and Computation" "European Summerschool in Logic, Language and Information Student Session" (NewAddress Toulouse France) (OnlyYear 2017))
       BaseConferenceInvolvement))) ;
     PeerReviews : ListPeerReview =
-      (ConsPeerReview (NewPeerReview "7th International Workshop on Controlled Natural Languages" (OnlyYear 2021))      
+      (ConsPeerReview (NewPeerReview "11th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2022))
       (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2021))
+      (ConsPeerReview (NewPeerReview "7th International Workshop on Controlled Natural Languages" (OnlyYear 2021))      
       (ConsPeerReview (NewPeerReview "8th Swedish Language Technology Conference post-proceedings" (OnlyYear 2021))
       (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2020))     
       (ConsPeerReview (NewPeerReview "8th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2019))
       (ConsPeerReview (NewPeerReview "5th Workshop on Natural Language Processing Techniques for Educational Applications" (OnlyYear 2018))
-	 BasePeerReview)))))) ;
+	 BasePeerReview))))))) ;
     OtherInvolvements : ListOtherInvolvement =
       (ConsOtherInvolvement (NewOtherInvolvement GraduateCouncilGU (OnlyYear 2018) (OnlyYear 2020))
       (ConsOtherInvolvement (NewOtherInvolvement PhDCouncilCSE (OnlyYear 2016) (OnlyYear 2020))
@@ -606,7 +666,7 @@ abstract FullCV = CV ** {
     NonAcademicPresentation ;
  fun
     UniGot, LMU, TCD, UniHH : University ;
-    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg, Madrid, Mannheim : City ;
+    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg, Madrid, Mannheim, Marseille : City ;
     Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France, Spain : Country ;
     Online : Address ;
     PhDCS  : Position ;
