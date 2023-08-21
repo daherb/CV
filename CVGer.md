@@ -101,6 +101,8 @@
 
 ## Wissenschaftliche Veröffentlichungen
 
+* Herbert Lange (2022): "Metadata Formats for Learner Corpora: Case Study and Discussion", Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning, Louvain-la-Neuve, Belgien, Linköping University Press, 108--113, [https://aclanthology.org/2022.nlp4call-1.11.pdf](https://aclanthology.org/2022.nlp4call-1.11.pdf), Veröffentlicht.
+
 * Herbert Lange und Jocelyn Aznar (2022): "RefCo and its Checker: Improving Language Documentation Corpora’s Reusability Through a Semi-Automatic Review Process", Proceedings of the 13th Language Resources and Evaluation Conference (LREC), Marseille, Frankreich, European Language Resources Association, 2721--2729, [https://aclanthology.org/2022.lrec-1.291](https://aclanthology.org/2022.lrec-1.291), Veröffentlicht.
 
 * Herbert Lange und Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples", Natural Language Processing in Artificial Intelligence, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, [10.1007/978-3-030-63787-3_4](https://doi.org/10.1007/978-3-030-63787-3_4), Veröffentlicht.
@@ -129,13 +131,15 @@
 
 ## Vorträge und Präsentationen
 
+* Herbert Lange (2023): *Forschungsdateninfrastruktur und Langzeitarchivierung*, 21. Gulaschprogrammiernacht , Karlsruhe, Deutschland, Vortrag: [https://cfp.gulas.ch/gpn21/talk/AVLRFE/](https://cfp.gulas.ch/gpn21/talk/AVLRFE/)
+
 * Herbert Lange (2022): *The Hith-Hikers Guide to Artificial Intelligence - BBC Basic Version*, Updateringar - Update Computer Club Uppsala, Online, Vortrag: [https://wiki.dfupdate.se/projekt:updateringar](https://wiki.dfupdate.se/projekt:updateringar)
 
 * Herbert Lange (2022): *Semi-automatic quality assurance for audiovisual corpus data*, CLT Seminar. University of Gothenburg, Göteborg, Schweden, Seminar Talk
 
-* Herbert Lange (2022): *Demonstrating an Automatic Gloss Checker for Annotated Corpora*, Language Documentation and Archiving during the Decade of Indigenous LanguagesConference and training sessions, Berlin, Deutschland, Konferenzpresentation
+* Herbert Lange (2022): *Demonstrating an Automatic Gloss Checker for Annotated Corpora*, Language Documentation and Archiving during the Decade of Indigenous Languages Conference and training sessions, Berlin, Deutschland, Konferenzpresentation
 
-* Herbert Lange und Jocelyn Aznar (2022): *Training Session: Improving Corpus Quality in Language Documentation : Introduction to QUEST and the RefCo process*, Language Documentation and Archiving during the Decade of Indigenous LanguagesConference and training sessions, Online, Konferenzpresentation
+* Herbert Lange und Jocelyn Aznar (2022): *Training Session: Improving Corpus Quality in Language Documentation : Introduction to QUEST and the RefCo process*, Language Documentation and Archiving during the Decade of Indigenous Languages Conference and training sessions, Online, Konferenzpresentation
 
 * Herbert Lange und Jocelyn Aznar (2022): *RefCo and its Checker: Improving Language Documentation Corpora's Reusability Through a Semi-Automatic Review Process*, Language Resoures and Evaluation Conference (LREC), Marseille, Frankreich, Konferenzpresentation
 
@@ -401,6 +405,6 @@ Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionel
 
 ---
 
-Letzte Aktualisierung: Oktober 2021
+Letzte Aktualisierung: August 2023
 
 Erzeugt mit [Grammatical Framework](https://www.grammaticalframework.org/) und [Pandoc](https://pandoc.org/) ([Quelle](https://github.com/daherb/CV/))
