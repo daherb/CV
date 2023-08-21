@@ -292,7 +292,7 @@ abstract FullCV = CV ** {
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
 			   "Demonstrating an Automatic Gloss Checker for Annotated Corpora"
-			   "Language Documentation and Archiving during the Decade of Indigenous LanguagesConference and training sessions"
+			   "Language Documentation and Archiving during the Decade of Indigenous Languages Conference and training sessions"
 			   (NewAddress Berlin Germany)
 			   (OnlyYear 2022) -- 20221005
 			   (Academic ConferencePresentation)
@@ -301,7 +301,7 @@ abstract FullCV = CV ** {
       (ConsPresentation (NewPresentation
 			   (ConsAuthor Myself (BaseAuthor (NewAuthor "Jocelyn" "Aznar"))) -- Speaker
 			   "Training Session: Improving Corpus Quality in Language Documentation : Introduction to QUEST and the RefCo process"
-			   "Language Documentation and Archiving during the Decade of Indigenous LanguagesConference and training sessions"
+			   "Language Documentation and Archiving during the Decade of Indigenous Languages Conference and training sessions"
 			   Online
 			   (OnlyYear 2022) -- 20221004
 			   (Academic ConferencePresentation)
