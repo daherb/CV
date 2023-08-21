@@ -11,6 +11,7 @@
 * Github: [daherb](https://github.com/daherb)
 * LinkedIn: [herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
 * Twitter: [pietaetskirsche](https://twitter.com/@pietaetskirsche)
+* Mastodon: [chaos.social/@daherb](https://chaos.social/@daherb)
 
 ---
 

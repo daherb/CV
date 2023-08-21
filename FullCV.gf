@@ -10,6 +10,7 @@ abstract FullCV = CV ** {
     Gitlab        : MaybeString = Nothing ;
     StackOverflow : MaybeString = Nothing ;
     Twitter       : MaybeString = Just "pietaetskirsche" ;
+    Mastodon      : MaybeString = Just "chaos.social/@daherb" ;
     Skype         : MaybeString = Nothing ;
     Reddit        : MaybeString = Nothing ;
     LastUpdated   : Date = MonthYear August 2023 ;
@@ -725,6 +726,7 @@ abstract FullCV = CV ** {
       Gitlab
       StackOverflow
       Twitter
+      Mastodon
       Skype
       Reddit
       LastUpdated

@@ -10,11 +10,12 @@ concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] **
     -- -> MaybeString -- Gitlab
     -- -> MaybeString -- StackOverflow
     -- -> MaybeString -- Twitter
+    -- -> MaybeString -- Mastodon
     -- -> MaybeString -- Skype
     -- -> MaybeString -- Reddit
     -- -> Date -- LastUpdated
     -- -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListTeachingDuty -> ListGrant -> ListConferenceInvolvement -> ListPeerReview -> ListOtherInvolvement -> ListSkillCategory -> CV ;
-    NewCV name position address mail website github linkedin gitlab stackoverflow twitter skype reddit lastUpdated degrees education jobs publications presentations teachings grants confs peer involvements skills =
+    NewCV name position address mail website github linkedin gitlab stackoverflow twitter mastodon skype reddit lastUpdated degrees education jobs publications presentations teachings grants confs peer involvements skills =
       ss ("# Lebenslauf" ++ nlnl ++
 	    "###" ++ name.s ++ " -- " ++ 
 	    position.s1 ++ " -- " ++ if_then_Str position.emptys2 "" (position.s2 ++ " -- ") ++ 
@@ -27,7 +28,8 @@ concrete MarkdownCVGer of FullCV = CVGer, FullCVGer, MarkdownCVI-[DegreeType] **
 	    (if_then_Str linkedin.empty "" ("* LinkedIn:" ++ bindUrl linkedin.s ("https://www.linkedin.com/in/" ++ Prelude.BIND ++ linkedin.s) ++ nl )) ++ 
 	    (if_then_Str gitlab.empty "" ("* Gitlab:" ++ bindUrl gitlab.s ("https://gitlab,com/" ++ Prelude.BIND ++ gitlab.s) ++ nl )) ++ 
 	    (if_then_Str stackoverflow.empty "" ("* StackOverflow:" ++ bindUrl stackoverflow.s stackoverflow.s ++ nl )) ++ 
-	    (if_then_Str twitter.empty "" ("* Twitter:" ++ bindUrl twitter.s ("https://twitter.com/@" ++ Prelude.BIND ++ twitter.s) ++ nl )) ++ 
+	    (if_then_Str twitter.empty "" ("* Twitter:" ++ bindUrl twitter.s ("https://twitter.com/@" ++ Prelude.BIND ++ twitter.s) ++ nl )) ++
+	    (if_then_Str twitter.empty "" ("* Mastodon:" ++ bindUrl mastodon.s ("https://" ++ Prelude.BIND ++mastodon.s) ++ nl )) ++ 
 	    (if_then_Str skype.empty "" ("* Skype: " ++ Prelude.BIND ++ skype.s ++ nl )) ++
 	    (if_then_Str reddit.empty "" ("* Reddit: " ++ bindUrl reddit.s ("https://reddit.com/user/" ++ Prelude.BIND ++ reddit.s) ++ nl)) ++ nl ++
 	    "---" ++ nlnl ++

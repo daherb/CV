@@ -12,11 +12,12 @@ concrete LatexCVEng of FullCV = CVEng-[Company,GermanistikLMUCompany,FreelancerC
     -- -> MaybeString -- Gitlab
     -- -> MaybeString -- StackOverflow
     -- -> MaybeString -- Twitter
+    -- -> MaybeString -- Mastodon
     -- -> MaybeString -- Skype
     -- -> MaybeString -- Reddit
     -- -> Date -- LastUpdated
     -- -> ListDegree -> ListEducation -> ListJob -> ListPublication -> ListPresentation -> ListTeachingDuty -> ListGrant -> ListConferenceInvolvement -> ListPeerReview -> ListOtherInvolvement -> ListSkillCategory -> CV ;
-    NewCV name position address mail website github linkedin gitlab stackoverflow twitter skype reddit lastUpdated degrees education jobs publications presentations teachings grants confs peer involvements skills =
+    NewCV name position address mail website github linkedin gitlab stackoverflow twitter mastodon skype reddit lastUpdated degrees education jobs publications presentations teachings grants confs peer involvements skills =
       ss ("%!TEX encoding = UTF-8 Unicode" ++ nl ++
 	    "% LaTeX Template for CV/Resume" ++ nl ++
 	    "%" ++ nl ++

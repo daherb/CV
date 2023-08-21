@@ -71,6 +71,7 @@ abstract CV = {
       -> MaybeString -- Gitlab
       -> MaybeString -- StackOverflow
       -> MaybeString -- Twitter
+      -> MaybeString -- Mastodon
       -> MaybeString -- Skype
       -> MaybeString -- Reddit
       -> Date -- LastUpdated
