@@ -81,6 +81,19 @@ abstract FullCV = CV ** {
 	 BaseJob))))))) ;
     Publications : ListPublication =
       (ConsPublication (ConferencePublication
+			  (BaseAuthor Myself)
+			     "Metadata Formats for Learner Corpora: Case Study and Discussion"
+			     "Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning"
+			     (NewAddress LouvainLaNeuve Belgium)
+			     (OnlyYear 2022)
+			     (Just "Linköping University Press") -- Publisher
+			     Nothing --Series
+			     Nothing -- Volume
+			     (Just "108--113") -- Pages
+			     Nothing
+			     (Just "https://aclanthology.org/2022.nlp4call-1.11.pdf")
+			     Published)
+      (ConsPublication (ConferencePublication
 			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Jocelyn" "Aznar")))
 			  "RefCo and its Checker: Improving Language Documentation Corpora’s Reusability Through a Semi-Automatic Review Process"
 			  "Proceedings of the 13th Language Resources and Evaluation Conference (LREC)"
@@ -247,7 +260,7 @@ abstract FullCV = CV ** {
 			Nothing
 			Published
 	 )
-      BasePublication))))))))))))) ;
+      BasePublication)))))))))))))) ;
     Presentations    : ListPresentation =
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
