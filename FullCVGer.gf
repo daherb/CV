@@ -2,6 +2,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
   lin
     ArtificialIntelligence = ss "Künstliche Intelligenz" ;
     Australia = ss "Australien" ;
+    Belgium = ss "Belgien" ;
     CanaryIslands = ss "Kanarische Inseln" ;
     ChalmersAndUniGot = ss "Chalmers University of Technology und Universität Göteborg" ;
     CISLMU = ss "Center für Invormations- und Sprachverarbeitung, Ludwing-Maximilians-Universität München" ;

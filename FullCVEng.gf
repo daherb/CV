@@ -2,6 +2,7 @@ concrete FullCVEng of FullCV = CVEng, FullCVI-[DegreeType] ** open Prelude in {
   lin
     ArtificialIntelligence = ss "Artificial Intelligence";
     Australia = ss "Australia" ;
+    Belgium = ss "Belgium" ;
     CanaryIslands = ss "Canary Islands" ;
     ChalmersAndUniGot = ss "Chalmers University of Technology and University of Gothenburg" ;
     CISLMU = ss "Centre for Information and Language Processing, Ludwig-Maximilians-University Munich" ; 
