@@ -262,6 +262,15 @@ abstract FullCV = CV ** {
 	 )
       BasePublication)))))))))))))) ;
     Presentations    : ListPresentation =
+            (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Forschungsdateninfrastruktur und Langzeitarchivierung"
+			   "21. Gulaschprogrammiernacht "
+			   (NewAddress Karlsruhe Germany)
+			   (OnlyYear 2023) -- 20230608
+			   (NonAcademic FullTalk)
+			   (Just "https://cfp.gulas.ch/gpn21/talk/AVLRFE/")
+	 )
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
 			   "The Hith-Hikers Guide to Artificial Intelligence - BBC Basic Version"
@@ -524,7 +533,7 @@ abstract FullCV = CV ** {
 			   Nothing -- Url
 	 )
 	 BasePresentation
-	 ))))))))))))))))))))))))))))) ;
+	 )))))))))))))))))))))))))))))) ;
     TeachingDuties : ListTeachingDuty =
       (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ConcurrentProgramming ChalmersAndUniGot
 			   (BaseTerm (NewTerm Spring (OnlyYear 2019))))
