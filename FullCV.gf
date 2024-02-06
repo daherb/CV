@@ -52,9 +52,13 @@ abstract FullCV = CV ** {
 			MagisterDescription)
       BaseEducation))) ;
     Jobs     : ListJob =
+      (ConsJob (NewJob ResearchEngineerJob SBXCompany {- Språkbanken Text -}
+      	          (NewAddress Gothenburg Sweden)
+		  (NewDate 2 October 2023) Now
+		  SBXJobDescription)
       (ConsJob (NewJob ResearcherJob IDSCompany {- Leibniz-Institute for the German Language -}
 		  (NewAddress Mannheim Germany)
-		  (NewDate 1 March 2022) Now
+		  (NewDate 1 March 2022) (NewDate 30 September 2023)
 		  IDSJobDescription)
       (ConsJob (NewJob ResearcherJob (UniCompany UniHH) {- University of Hamburg -}
 		  (NewAddress Hamburg Germany)
@@ -80,7 +84,7 @@ abstract FullCV = CV ** {
 		  (NewAddress Munich Germany)
 		  (NewDate 1 February 2009) (NewDate 31 October 2014)
 		  ITZJobDescription)
-	 BaseJob))))))) ;
+	 BaseJob)))))))) ;
     Publications : ListPublication =
       (ConsPublication (ConferencePublication
 			  (BaseAuthor Myself)
@@ -264,7 +268,34 @@ abstract FullCV = CV ** {
 	 )
       BasePublication)))))))))))))) ;
     Presentations    : ListPresentation =
-            (ConsPresentation (NewPresentation
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Building research (data) infrastructure"
+			   "Språkbanken Text Forskarkollegium"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2024) -- 20240206
+			   (Academic SeminarPresentation)
+			   Nothing
+	 )
+       (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Corpus Services: En verktygslåda för att testa och förbättra kvaliteten på korpusdata"
+			   "Huminfra Conference (HiC 2024)"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2024) -- 20240111
+			   (Academic DemoPresentation)
+			   (Just "https://cfp.gulas.ch/gpn21/talk/AVLRFE/")
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "???"
+			   "IDS Gesprächsrunde"
+			   (NewAddress Mannheim Germany)
+			   (OnlyYear 2023) -- 2023????
+			   (Academic SeminarPresentation)
+			   Nothing
+	 )
+      (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
 			   "Forschungsdateninfrastruktur und Langzeitarchivierung"
 			   "21. Gulaschprogrammiernacht "
@@ -535,7 +566,7 @@ abstract FullCV = CV ** {
 			   Nothing -- Url
 	 )
 	 BasePresentation
-	 )))))))))))))))))))))))))))))) ;
+	 ))))))))))))))))))))))))))))))))) ;
     TeachingDuties : ListTeachingDuty =
       (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ConcurrentProgramming ChalmersAndUniGot
 			   (BaseTerm (NewTerm Spring (OnlyYear 2019))))
@@ -695,17 +726,17 @@ abstract FullCV = CV ** {
     Online : Address ;
     PhDCS  : Position ;
     ErasmusDescription, PhDDescription, LicentiateDescription, MagisterDescription : EducationDescription ;
-    IDSCompany, ITZCompany, GermanistikLMUCompany, GlanosCompany, FreelancerCompany : Company ;
+    SBXCompany, IDSCompany, ITZCompany, GermanistikLMUCompany, GlanosCompany, FreelancerCompany : Company ;
     UniCompany : University -> Company ;
-    ResearcherJob, SESysAdminJob, SoftwareEngineerJob, StudentAssistantJob : JobTitle ;
-    UniGotJobDescription, FreelancerJobDescription, GlanosJobDescription, ITZJobDescription, GermanistikJobDescription, UniHHJobDescription, IDSJobDescription : JobDescription ;
+    ResearcherJob, ResearchEngineerJob, SESysAdminJob, SoftwareEngineerJob, StudentAssistantJob : JobTitle ;
+    UniGotJobDescription, FreelancerJobDescription, GlanosJobDescription, ITZJobDescription, GermanistikJobDescription, UniHHJobDescription, IDSJobDescription, SBXJobDescription : JobDescription ;
     PhDDegree, LicentiateDegree, MagisterDegree : DegreeType ;
     ErasmusEducation, PhDEducation, MagisterEducation : EducationType ;
     MainSupervisor, CoSupervisor, Examiner : SupervisorRole ;
     PhDThesis, LicentiateThesis, MastersThesis: ThesisType ;
     Academic : AcademicPresentation -> PresentationType ;
     NonAcademic : NonAcademicPresentation -> PresentationType ;
-    ConferencePresentation, PosterPresentation, SeminarPresentation : AcademicPresentation ;
+    ConferencePresentation, PosterPresentation, SeminarPresentation, DemoPresentation : AcademicPresentation ;
     LightningTalk, FullTalk : NonAcademicPresentation ;
     TeachingAssistant, Tutor : TeachingType;
     ConcurrentProgramming, ArtificialIntelligence, ComputationalSyntax, GFForPythonProgrammers, FunctionalProgramming,DatabasesCourse, IntroductionToGF, ScientificWritingInLaTeX, LogicAndModeltheoreticSemantics, CorpusAndUnixTools : CourseName ;
