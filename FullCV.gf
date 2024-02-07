@@ -288,10 +288,10 @@ abstract FullCV = CV ** {
 	 )
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
-			   "???"
+			   "Forschungsdateninfrastruktur und Langzeitarchivierung von digitalen Forschungsdaten"
 			   "IDS Gesprächsrunde"
 			   (NewAddress Mannheim Germany)
-			   (OnlyYear 2023) -- 2023????
+			   (OnlyYear 2023) -- 20230913
 			   (Academic SeminarPresentation)
 			   Nothing
 	 )
