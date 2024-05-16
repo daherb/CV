@@ -277,6 +277,15 @@ abstract FullCV = CV ** {
 			   (Academic SeminarPresentation)
 			   Nothing
 	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Data management and digital preservation of (research) data"
+			   "Updateringar - Update Computer Club Uppsala"
+			   Online
+			   (OnlyYear 2023) -- 20231118
+			   (NonAcademic FullTalk)
+			   (Just "https://wiki.dfupdate.se/projekt:updateringar")
+       )
        (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
 			   "Corpus Services: En verktygslåda för att testa och förbättra kvaliteten på korpusdata"
@@ -566,7 +575,7 @@ abstract FullCV = CV ** {
 			   Nothing -- Url
 	 )
 	 BasePresentation
-	 ))))))))))))))))))))))))))))))))) ;
+	 )))))))))))))))))))))))))))))))))) ;
     TeachingDuties : ListTeachingDuty =
       (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ConcurrentProgramming ChalmersAndUniGot
 			   (BaseTerm (NewTerm Spring (OnlyYear 2019))))
