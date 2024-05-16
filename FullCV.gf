@@ -284,7 +284,7 @@ abstract FullCV = CV ** {
 			   (NewAddress Gothenburg Sweden)
 			   (OnlyYear 2024) -- 20240111
 			   (Academic DemoPresentation)
-			   (Just "https://cfp.gulas.ch/gpn21/talk/AVLRFE/")
+			   Nothing
 	 )
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
