@@ -295,6 +295,15 @@ abstract FullCV = CV ** {
       BasePublication)))))))))))))))) ;
     Presentations    : ListPresentation =
       (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Whisper Introduction/Tutorial"
+			   "Språkbanken Text Forskarkollegium"
+			   (NewAddress Gothenburg Sweden)
+			   (OnlyYear 2025) -- 20250313
+			   (Academic SeminarPresentation)
+			   Nothing
+	 )
+      (ConsPresentation (NewPresentation
 			   (ConsAuthor Myself (BaseAuthor (NewAuthor "Arianna" "Masciolini"))) -- Speaker
 			   "STUnD - a Search Tool for (parallel) Universal Dependencies treebanks"
 			   "Workshop on Applications of Universal Dependencies, Swedish Language Technology Conference 2024"
@@ -664,7 +673,7 @@ abstract FullCV = CV ** {
 			   Nothing -- Url
 	 )
 	 BasePresentation
-	 )))))))))))))))))))))))))))))))))))))))) ;
+	 ))))))))))))))))))))))))))))))))))))))))) ;
     TeachingDuties : ListTeachingDuty =
       (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ConcurrentProgramming ChalmersAndUniGot
 			   (BaseTerm (NewTerm Spring (OnlyYear 2019))))
