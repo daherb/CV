@@ -14,7 +14,7 @@ In a similar fashion the English version [CVEng.md](CVEng.md) can be generated.
 
 These markdown files can be converted to HTML using pandoc, e.g.
 ```
-pandoc --standalone CVEng.md -o cv.html
+pandoc --standalone CVEng.md -o cv.html --metadata title="CV" 
 ```
 
 Similarily, LaTeX files can be generated:
