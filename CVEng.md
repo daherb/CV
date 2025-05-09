@@ -111,7 +111,7 @@
 
 * Herbert Lange (2024): "Setting up a Research Data Repository Based on Invenio RDM: An Experience Report ", in *Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning*, Reykjavík, Iceland, Digital Humanities in the Nordic and Baltic Countries Publications (6 (1) DHNB2024 Conference Proceedings), [10.5617/dhnbpub.11515](https://doi.org/10.5617/dhnbpub.11515), Published.
 
-* Anna Wamprechtshammer, Elena Arestau, Jocelyn Aznar, Hanna Hedeland, Amy Isard, Ilya Khait, Herbert Lange, Nicole Majka and Felix Rau (2022): "QUEST: Guidelines and Specifications for the Assessment of Audiovisual, Annotated Language Data", Working Papers in Corpus Linguistics and Digital Technologies: Analyses and Methodology (8), 90--175, University of Szeged, Department of Finno-Ugric Studies and Universität Hamburg, Zentrum für Sprachkorpora, Szeged, Hungary, [https://hal.science/hal-04234971](https://hal.science/hal-04234971), Published.
+* Anna Wamprechtshammer, Elena Arestau, Jocelyn Aznar, Hanna Hedeland, Amy Isard, Ilya Khait, Herbert Lange, Nicole Majka and Felix Rau (2022): "QUEST: Guidelines and Specifications for the Assessment of Audiovisual, Annotated Language Data", Working Papers in Corpus Linguistics and Digital Technologies: Analyses and Methodology (8), 90--175, University of Szeged, Department of Finno-Ugric Studies and Universität Hamburg, Zentrum für Sprachkorpora, Szeged, Hungary, [10.14232/wpcl.2022.8](https://doi.org/10.14232/wpcl.2022.8), [https://hal.science/hal-04234971](https://hal.science/hal-04234971), Published.
 
 * Herbert Lange (2022): "Metadata Formats for Learner Corpora: Case Study and Discussion", in *Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning*, Louvain-la-Neuve, Belgium, Linköping University Press, 108--113, [https://aclanthology.org/2022.nlp4call-1.11.pdf](https://aclanthology.org/2022.nlp4call-1.11.pdf), Published.
 
@@ -129,7 +129,7 @@
 
 * Herbert Lange (2021): "An Open-Source Computational Latin Grammar: Overview and Evaluation", in *Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019)*, Madrid, Spain, Ediciones Clásicas, 559-578, Published.
 
-* Herbert Lange and Peter Ljunglöf (2020): "Demonstrating the MUSTE Language Learning Environment", in *Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018*, Stockholm, Sweden, Linköping University Electronic Press, 41–46, [https://www.aclweb.org/anthology/W18-7105](https://www.aclweb.org/anthology/W18-7105), Published.
+* Herbert Lange and Peter Ljunglöf (2018): "Demonstrating the MUSTE Language Learning Environment", in *Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018*, Stockholm, Sweden, Linköping University Electronic Press, 41–46, [https://www.aclweb.org/anthology/W18-7105](https://www.aclweb.org/anthology/W18-7105), Published.
 
 * Herbert Lange (2018): "Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning", Licentiate thesis, Department of Computer Science and Engineering, University of Gothenburg, Gothenburg, Sweden, [https://gup.ub.gu.se/file/207536](https://gup.ub.gu.se/file/207536), Published.
 
