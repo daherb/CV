@@ -82,7 +82,7 @@ incomplete concrete LatexCVI of FullCV = PredefCnc ** open FullCV, Prelude, Pred
     -- ConferencePublication : ListAuthor -> String -> String -> Address -> Date -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> PublicationState -> Publication ;
     ConferencePublication authors title bookTitle address date publisher series volume pages doi url status =
       ss (bindSurround "\\cvpub{"
-	    (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": ``" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "''," ++ bookTitle.s ++ bindComma' ++ address.s ++
+	    (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": ``" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "'', in " ++ bookTitle.s ++ bindComma' ++ address.s ++
 	       if_then_Str publisher.empty "" (bindComma' ++ publisher.s) ++
 	       if_then_Str series.empty "" (bindComma' ++ series.s) ++
 	       if_then_Str volume.empty "" (bindBracket volume.s) ++ 
@@ -104,6 +104,7 @@ incomplete concrete LatexCVI of FullCV = PredefCnc ** open FullCV, Prelude, Pred
 	    )
 	    "}" ++ nl
       );
+
     -- BookChapterPublication : ListAuthor -> String -> String -> Address -> Date -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> PublicationState -> Publication ;
     BookChapterPublication authors title bookTitle address date publisher series volume pages doi url status =
       ss (bindSurround "\\cvpub{"
@@ -116,6 +117,7 @@ incomplete concrete LatexCVI of FullCV = PredefCnc ** open FullCV, Prelude, Pred
 	       bindComma' ++ status.s ++ Prelude.BIND ++ "."
 	    )
 	    "}" ++ nl
+      );
     -- NewTeachingDuty : TeachingType -> CourseName -> Venue -> ListTerm -> TeachingDuty ;
     NewTeachingDuty teachingType course venue terms =
       ss ("\\cventry" ++ nl ++
