@@ -89,7 +89,7 @@ abstract FullCV = CV ** {
       (ConsPublication (BookChapter
 			  (ConsAuthor (NewAuthor "Arianna" "Maciolini") (ConsAuthor Myself (BaseAuthor "Márton András" "Tóth")))
 			     "Exploring parallel corpora with STUnD: a Search Tool for Universal Dependencies"
-			     "HiC Handbook"
+			     "Humifra Conference 2023 (HiC) Handbook"
 			     (NewAddress Gothenburg Sweden)
 			     (OnlyYear 2024)
 			     (Just "Digital Humanities in the Nordic and Baltic Countries Publications") -- Publisher
