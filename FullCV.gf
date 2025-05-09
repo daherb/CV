@@ -86,8 +86,8 @@ abstract FullCV = CV ** {
 		  ITZJobDescription)
 	 BaseJob)))))))) ;
     Publications : ListPublication =
-      (ConsPublication (BookChapter
-			  (ConsAuthor (NewAuthor "Arianna" "Maciolini") (ConsAuthor Myself (BaseAuthor "Márton András" "Tóth")))
+      (ConsPublication (BookChapterPublication
+			  (ConsAuthor (NewAuthor "Arianna" "Maciolini") (ConsAuthor Myself (BaseAuthor (NewAuthor "Márton András" "Tóth"))))
 			     "Exploring parallel corpora with STUnD: a Search Tool for Universal Dependencies"
 			     "Humifra Conference 2023 (HiC) Handbook"
 			     (NewAddress Gothenburg Sweden)
@@ -673,7 +673,7 @@ abstract FullCV = CV ** {
 			   Nothing -- Url
 	 )
 	 BasePresentation
-	 ))))))))))))))))))))))))))))))))))))))))) ;
+	 )))))))))))))))))))))))))))))))))))))))))) ;
     TeachingDuties : ListTeachingDuty =
       (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ConcurrentProgramming ChalmersAndUniGot
 			   (BaseTerm (NewTerm Spring (OnlyYear 2019))))
