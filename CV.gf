@@ -150,6 +150,19 @@ abstract CV = {
       -> MaybeString -- DOI
       -> PublicationState
       -> Publication ;
+    BookChapterPublication : ListAuthor
+      -> String -- Title
+      -> String -- Book title
+      -> Address
+      -> Date
+      -> MaybeString -- Publisher
+      -> MaybeString -- Series
+      -> MaybeString -- Volume (Issue)
+      -> MaybeString -- Pages
+      -> MaybeString -- DOI
+      -> MaybeString -- Url
+      -> PublicationState
+      -> Publication ;
     NewPresentation : ListAuthor -- Speaker
       -> String -- Title
       -> String -- Venue
