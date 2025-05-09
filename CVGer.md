@@ -1,6 +1,6 @@
 # Lebenslauf
 
-### Herbert Lange -- Doktor der Informatik -- München, Deutschland
+### Herbert Lange -- Doktor der Informatik -- Göteborg, Schweden
 
 ---
 
@@ -10,7 +10,7 @@
 * Homepage: [https://hackerbrau.se](https://hackerbrau.se)
 * Github: [daherb](https://github.com/daherb)
 * LinkedIn: [herbert-l-2474638a/](https://www.linkedin.com/in/herbert-l-2474638a/)
-* Twitter: [pietaetskirsche](https://twitter.com/@pietaetskirsche)
+* Mastodon: [chaos.social/@daherb](https://chaos.social/@daherb)
 
 ---
 
@@ -57,7 +57,13 @@
 
 ## Beruflicher Werdegang
 
-* Wissenschaftlicher Mitarbeiter (März 2022-jetzt)
+* Forschungsingenieur (Oktober 2023-jetzt)
+
+  Språkbanken Text, Universität Göteborg (Göteborg, Schweden)
+
+  Systemadministration, Verteilte Useranmeldung und Entwicklung eines Frameworks zum Testen von Korpusqualität
+
+* Wissenschaftlicher Mitarbeiter (März 2022-Semptember 2023)
 
   Leibniz-Institut für Deutsche Sprache (Mannheim, Deutschland)
 
@@ -101,35 +107,63 @@
 
 ## Wissenschaftliche Veröffentlichungen
 
-* Herbert Lange (2022): "Metadata Formats for Learner Corpora: Case Study and Discussion", Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning, Louvain-la-Neuve, Belgien, Linköping University Press, 108--113, [https://aclanthology.org/2022.nlp4call-1.11.pdf](https://aclanthology.org/2022.nlp4call-1.11.pdf), Veröffentlicht.
+* Arianna Maciolini, Herbert Lange und Márton András Tóth (2024): "Exploring parallel corpora with STUnD: a Search Tool for Universal Dependencies", in *Humifra Conference 2023 (HiC) Handbook*, Göteborg, Schweden, Digital Humanities in the Nordic and Baltic Countries Publications, Erscheint in Kürze.
 
-* Herbert Lange und Jocelyn Aznar (2022): "RefCo and its Checker: Improving Language Documentation Corpora’s Reusability Through a Semi-Automatic Review Process", Proceedings of the 13th Language Resources and Evaluation Conference (LREC), Marseille, Frankreich, European Language Resources Association, 2721--2729, [https://aclanthology.org/2022.lrec-1.291](https://aclanthology.org/2022.lrec-1.291), Veröffentlicht.
+* Herbert Lange (2024): "Setting up a Research Data Repository Based on Invenio RDM: An Experience Report ", in *Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning*, Reykjavík, Island, Digital Humanities in the Nordic and Baltic Countries Publications (6 (1) DHNB2024 Conference Proceedings), [10.5617/dhnbpub.11515](https://doi.org/10.5617/dhnbpub.11515), Veröffentlicht.
 
-* Herbert Lange und Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples", Natural Language Processing in Artificial Intelligence, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, [10.1007/978-3-030-63787-3_4](https://doi.org/10.1007/978-3-030-63787-3_4), Veröffentlicht.
+* Herbert Lange (2022): "Metadata Formats for Learner Corpora: Case Study and Discussion", in *Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning*, Louvain-la-Neuve, Belgien, Linköping University Press, 108--113, [https://aclanthology.org/2022.nlp4call-1.11.pdf](https://aclanthology.org/2022.nlp4call-1.11.pdf), Veröffentlicht.
+
+* Herbert Lange und Jocelyn Aznar (2022): "RefCo and its Checker: Improving Language Documentation Corpora’s Reusability Through a Semi-Automatic Review Process", in *Proceedings of the 13th Language Resources and Evaluation Conference (LREC)*, Marseille, Frankreich, European Language Resources Association, 2721--2729, [https://aclanthology.org/2022.lrec-1.291](https://aclanthology.org/2022.lrec-1.291), Veröffentlicht.
+
+* Herbert Lange und Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples", in *Natural Language Processing in Artificial Intelligence*, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, [10.1007/978-3-030-63787-3_4](https://doi.org/10.1007/978-3-030-63787-3_4), Veröffentlicht.
 
 * Proceedings of the 9th Workshop on Natural Language Processing for Computer Assisted Language Learning (2020); David Alfter, Elena Volodina, Ildikó Pilán, Herbert Lange und Lars Borin (Hrsg.), Linköping University Electronic Press, Linköping, Schweden, Linköping Electronic Conference Proceedings (175), 45 Seiten, [10.3384/ecp20175](https://doi.org/10.3384/ecp20175), Veröffentlicht.
 
 * Herbert Lange (2020): "Learning Language (with) Grammars: From Teaching Latin to Learning Domain-Specific Grammars", Doktorarbeit, Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, [http://hdl.handle.net/2077/65453](http://hdl.handle.net/2077/65453), Veröffentlicht.
 
-* Herbert Lange und Peter Ljunglöf (2020): "Learning Domain-specific Grammars from a Small Number of Examples", Proceedings of the 12th International Conference on Agents and Artificial Intelligence - Volume 1: NLPinAI, Valetta, Malta, INSTICC. SciTePress, 422–430, [10.5220/0009371304220430](https://doi.org/10.5220/0009371304220430), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2020): "Learning Domain-specific Grammars from a Small Number of Examples", in *Proceedings of the 12th International Conference on Agents and Artificial Intelligence - Volume 1: NLPinAI*, Valetta, Malta, INSTICC. SciTePress, 422–430, [10.5220/0009371304220430](https://doi.org/10.5220/0009371304220430), Veröffentlicht.
 
 * Proceedings of the 8th Workshop on Natural Language Processing for Computer Assisted Language Learning (2019); David Alfter, Elena Volodina, Lars Borin, Ildikó Pilán und Herbert Lange (Hrsg.), Linköping University Electronic Press, Linköping, Schweden, NEALT Proceedings Series  (39), 99 Seiten, Veröffentlicht.
 
-* Herbert Lange (2021): "An Open-Source Computational Latin Grammar: Overview and Evaluation", Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019), Madrid, Spanien, Ediciones Clásicas, 559-578, Veröffentlicht.
+* Herbert Lange (2021): "An Open-Source Computational Latin Grammar: Overview and Evaluation", in *Proceedings of the 20th International Colloquium on Latin Linguistics (ICLL 2019)*, Madrid, Spanien, Ediciones Clásicas, 559-578, Veröffentlicht.
 
-* Herbert Lange und Peter Ljunglöf (2020): "Demonstrating the MUSTE Language Learning Environment", Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018, Stockholm, Schweden, Linköping University Electronic Press, 41–46, [https://www.aclweb.org/anthology/W18-7105](https://www.aclweb.org/anthology/W18-7105), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2020): "Demonstrating the MUSTE Language Learning Environment", in *Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018*, Stockholm, Schweden, Linköping University Electronic Press, 41–46, [https://www.aclweb.org/anthology/W18-7105](https://www.aclweb.org/anthology/W18-7105), Veröffentlicht.
 
 * Herbert Lange (2018): "Computer-Assisted Language Learning with Grammars. A Case Study on Latin Learning", Lizentiatsarbeit, Department of Computer Science and Engineering, Universität Göteborg, Göteborg, Schweden, [https://gup.ub.gu.se/file/207536](https://gup.ub.gu.se/file/207536), Veröffentlicht.
 
-* Herbert Lange und Peter Ljunglöf (2018): "Putting Control into Language Learning", Proceedings of the Sixth International Workshop on Controlled Natural Languages, Maynooth, Irland, IOS Press, Frontiers in Artificial Intelligence and Applications (304), 61-70, [10.3233/978-1-61499-904-1-61](https://doi.org/10.3233/978-1-61499-904-1-61), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2018): "Putting Control into Language Learning", in *Proceedings of the Sixth International Workshop on Controlled Natural Languages*, Maynooth, Irland, IOS Press, Frontiers in Artificial Intelligence and Applications (304), 61-70, [10.3233/978-1-61499-904-1-61](https://doi.org/10.3233/978-1-61499-904-1-61), Veröffentlicht.
 
-* Herbert Lange und Peter Ljunglöf (2018): "MULLE: A Grammar-based Latin Language Learning Tool to Supplement the Classroom Setting", Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications (NLPTEA '18) at ACL, Melbourne, Australien, Association for Computational Linguistics, 108-112, [10.18653/v1/W18-3715](https://doi.org/10.18653/v1/W18-3715), [http://aclweb.org/anthology/W18-3715](http://aclweb.org/anthology/W18-3715), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2018): "MULLE: A Grammar-based Latin Language Learning Tool to Supplement the Classroom Setting", in *Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications (NLPTEA '18) at ACL*, Melbourne, Australien, Association for Computational Linguistics, 108-112, [10.18653/v1/W18-3715](https://doi.org/10.18653/v1/W18-3715), [http://aclweb.org/anthology/W18-3715](http://aclweb.org/anthology/W18-3715), Veröffentlicht.
 
-* Herbert Lange (2017): "Implementation of a Latin Grammar in Grammatical Framework", Proceedings of the 2nd International Conference on Digital Access to Textual Cultural Heritage (DATeCH2017), Göttingen, Deutschland, Association for Computing Machinery, 97-102, [10.1145/3078081.3078108](https://doi.org/10.1145/3078081.3078108), Veröffentlicht.
+* Herbert Lange (2017): "Implementation of a Latin Grammar in Grammatical Framework", in *Proceedings of the 2nd International Conference on Digital Access to Textual Cultural Heritage (DATeCH2017)*, Göttingen, Deutschland, Association for Computing Machinery, 97-102, [10.1145/3078081.3078108](https://doi.org/10.1145/3078081.3078108), Veröffentlicht.
 
 * Herbert Lange (2013): "Erstellen einer Grammatik für das Lateinische im "Grammatical Framework"", Magisterarbeit, Centrum für Informations- und Sprachverarbeitung, Ludwig-Maximilians-Universität, München, Deutschland, Veröffentlicht.
 
 ## Vorträge und Präsentationen
+
+* Herbert Lange (2025): *Whisper Introduction/Tutorial*, Språkbanken Text Forskarkollegium, Göteborg, Schweden, Seminar Talk
+
+* Herbert Lange und Arianna Masciolini (2024): *STUnD - a Search Tool for (parallel) Universal Dependencies treebanks*, Workshop on Applications of Universal Dependencies, Swedish Language Technology Conference 2024, Linköping, Schweden, Konferenzpresentation: [https://udapp-sltc-2024.github.io/program.html](https://udapp-sltc-2024.github.io/program.html)
+
+* Herbert Lange (2024): *Drawing with sound – From drawing mushrooms on an oscilloscope towards driving a plotter*, Updateringar - Update Computer Club Uppsala, Uppsala, Schweden, Vortrag
+
+* Herbert Lange (2024): *Knit happens, the yarn meetup *, Bornhack, Gelsted, Dänemark, Meetup: [https://bornhack.dk/bornhack-2024/program/knit-happens-the-yarn-meetup/](https://bornhack.dk/bornhack-2024/program/knit-happens-the-yarn-meetup/)
+
+* Herbert Lange (2024): *The Book8088*, Bornhack, Gelsted, Dänemark, Lightning Talk: [https://bornhack.dk/bornhack-2024/program/the-book8088/](https://bornhack.dk/bornhack-2024/program/the-book8088/)
+
+* Herbert Lange (2024): *The #ShittyCameraChallenge*, Bornhack, Gelsted, Dänemark, Lightning Talk: [https://bornhack.dk/bornhack-2024/program/the-shittycamerachallenge/](https://bornhack.dk/bornhack-2024/program/the-shittycamerachallenge/)
+
+* Herbert Lange (2024): *Monads and why the even matter in Java (and many other languages)*, Bornhack, Gelsted, Dänemark, Lightning Talk: [https://bornhack.dk/bornhack-2024/program/monads-and-why-the-even-matter-in-java-and-many-other-languages/](https://bornhack.dk/bornhack-2024/program/monads-and-why-the-even-matter-in-java-and-many-other-languages/)
+
+* Herbert Lange (2024): *Setting up a Research Data Repository Based on Invenio RDM: An Experience Report*, Digital Humanities in the Nordic and Baltic Countries, 8th Conference (DHNB2024), Reykjavík, Island, Konferenzpresentation
+
+* Herbert Lange (2024): *Building research (data) infrastructure*, Språkbanken Text Forskarkollegium, Göteborg, Schweden, Seminar Talk
+
+* Herbert Lange (2023): *Data management and digital preservation of (research) data*, Updateringar - Update Computer Club Uppsala, Online, Vortrag: [https://wiki.dfupdate.se/projekt:updateringar](https://wiki.dfupdate.se/projekt:updateringar)
+
+* Herbert Lange (2024): *Corpus Services: En verktygslåda för att testa och förbättra kvaliteten på korpusdata*, Huminfra Conference (HiC 2024), Göteborg, Schweden, Demonstration
+
+* Herbert Lange (2023): *Forschungsdateninfrastruktur und Langzeitarchivierung von digitalen Forschungsdaten*, IDS Gesprächsrunde, Mannheim, Deutschland, Seminar Talk
 
 * Herbert Lange (2023): *Forschungsdateninfrastruktur und Langzeitarchivierung*, 21. Gulaschprogrammiernacht , Karlsruhe, Deutschland, Vortrag: [https://cfp.gulas.ch/gpn21/talk/AVLRFE/](https://cfp.gulas.ch/gpn21/talk/AVLRFE/)
 
@@ -230,6 +264,12 @@
 * Co-Chair Logic and Computation, European Summerschool in Logic, Language and Information Student Session, Toulouse, Frankreich (2017)
 
 ## Peer Review
+
+* Resources and representations for under-resourced languages and domains (RESOURCEFUL-2025) (2025)
+
+* 13th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2024)
+
+* 12th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2023)
 
 * 11th Workshop on Natural Language Processing for Computer-Assisted Language Learning (2022)
 
@@ -405,6 +445,6 @@ Fünf Stufen: Grundlegendes Wissen (1), Grundlegende Erfahrung (2), Professionel
 
 ---
 
-Letzte Aktualisierung: August 2023
+Letzte Aktualisierung: Mai 2025
 
 Erzeugt mit [Grammatical Framework](https://www.grammaticalframework.org/) und [Pandoc](https://pandoc.org/) ([Quelle](https://github.com/daherb/CV/))
