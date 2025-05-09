@@ -58,6 +58,17 @@ incomplete concrete MarkdownCVI of FullCV = FullCVI ** {
 	    if_then_Str url.empty "" (bindComma' ++ bindUrl url.s url.s) ++
 	    bindComma' ++ status.s ++ Prelude.BIND ++ "."
       );
+    -- BookChapterPublication : ListAuthor -> String -> String -> Address -> Date -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> PublicationState -> Publication ;
+    BookChapterPublication authors title bookTitle address date publisher series volume pages doi url status =
+      ss (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "\", in " ++ bookTitle.s ++ bindComma' ++ address.s ++
+	    if_then_Str publisher.empty "" (bindComma' ++ publisher.s) ++
+	    if_then_Str series.empty "" (bindComma' ++ series.s) ++
+	    if_then_Str volume.empty "" (bindBracket volume.s) ++ 
+	    if_then_Str pages.empty "" (bindComma' ++ pages.s) ++
+	    if_then_Str doi.empty "" (bindComma' ++ bindUrl doi.s ("https://doi.org/" ++ Prelude.BIND ++ doi.s)) ++
+	    if_then_Str url.empty "" (bindComma' ++ bindUrl url.s url.s) ++
+	    bindComma' ++ status.s ++ Prelude.BIND ++ "."
+      );
     -- NewTeachingDuty : TeachingType -> CourseName -> Venue -> ListTerm -> TeachingDuty ;
     NewTeachingDuty teachingType course venue terms =
       ss (teachingType.s ++ Prelude.BIND ++ ":" ++ course.s ++ bindComma' ++ venue.s ++ bindBracket terms.s) ;

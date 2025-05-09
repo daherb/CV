@@ -104,6 +104,18 @@ incomplete concrete LatexCVI of FullCV = PredefCnc ** open FullCV, Prelude, Pred
 	    )
 	    "}" ++ nl
       );
+    -- BookChapterPublication : ListAuthor -> String -> String -> Address -> Date -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> PublicationState -> Publication ;
+    BookChapterPublication authors title bookTitle address date publisher series volume pages doi url status =
+      ss (bindSurround "\\cvpub{"
+	    (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": ``" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "'', in " ++ bookTitle.s ++ bindComma' ++ series.s ++
+	       bindBracket volume.s ++ 
+	       if_then_Str pages.empty "" (bindComma' ++ pages.s) ++
+	       bindComma' ++ publisher.s ++ bindComma' ++ address.s ++
+	       if_then_Str doi.empty "" (bindComma' ++ bindSurround "\\url{https://doi.org/" doi.s "}") ++
+	       if_then_Str url.empty "" (bindComma' ++ bindSurround "\\url{" url.s "}") ++
+	       bindComma' ++ status.s ++ Prelude.BIND ++ "."
+	    )
+	    "}" ++ nl
     -- NewTeachingDuty : TeachingType -> CourseName -> Venue -> ListTerm -> TeachingDuty ;
     NewTeachingDuty teachingType course venue terms =
       ss ("\\cventry" ++ nl ++
