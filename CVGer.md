@@ -111,11 +111,13 @@
 
 * Herbert Lange (2024): "Setting up a Research Data Repository Based on Invenio RDM: An Experience Report ", in *Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning*, Reykjavík, Island, Digital Humanities in the Nordic and Baltic Countries Publications (6 (1) DHNB2024 Conference Proceedings), [10.5617/dhnbpub.11515](https://doi.org/10.5617/dhnbpub.11515), Veröffentlicht.
 
+* Anna Wamprechtshammer, Elena Arestau, Jocelyn Aznar, Hanna Hedeland, Amy Isard, Ilya Khait, Herbert Lange, Nicole Majka und Felix Rau (2022): "QUEST: Guidelines and Specifications for the Assessment of Audiovisual, Annotated Language Data", Working Papers in Corpus Linguistics and Digital Technologies: Analyses and Methodology (8), 90--175, University of Szeged, Department of Finno-Ugric Studies and Universität Hamburg, Zentrum für Sprachkorpora, Szeged, Ungarn, [https://hal.science/hal-04234971](https://hal.science/hal-04234971), Veröffentlicht.
+
 * Herbert Lange (2022): "Metadata Formats for Learner Corpora: Case Study and Discussion", in *Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning*, Louvain-la-Neuve, Belgien, Linköping University Press, 108--113, [https://aclanthology.org/2022.nlp4call-1.11.pdf](https://aclanthology.org/2022.nlp4call-1.11.pdf), Veröffentlicht.
 
 * Herbert Lange und Jocelyn Aznar (2022): "RefCo and its Checker: Improving Language Documentation Corpora’s Reusability Through a Semi-Automatic Review Process", in *Proceedings of the 13th Language Resources and Evaluation Conference (LREC)*, Marseille, Frankreich, European Language Resources Association, 2721--2729, [https://aclanthology.org/2022.lrec-1.291](https://aclanthology.org/2022.lrec-1.291), Veröffentlicht.
 
-* Herbert Lange und Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples", in *Natural Language Processing in Artificial Intelligence*, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, [10.1007/978-3-030-63787-3_4](https://doi.org/10.1007/978-3-030-63787-3_4), Veröffentlicht.
+* Herbert Lange und Peter Ljunglöf (2021): "Learning Domain-Specific Grammars From a Small Number of Examples" , in *Natural Language Processing in Artificial Intelligence*, Studies in Computational Intelligence (SCI) (939), 105-138, Springer International Publishing, Cham, Schweiz, [10.1007/978-3-030-63787-3_4](https://doi.org/10.1007/978-3-030-63787-3_4), Veröffentlicht.
 
 * Proceedings of the 9th Workshop on Natural Language Processing for Computer Assisted Language Learning (2020); David Alfter, Elena Volodina, Ildikó Pilán, Herbert Lange und Lars Borin (Hrsg.), Linköping University Electronic Press, Linköping, Schweden, Linköping Electronic Conference Proceedings (175), 45 Seiten, [10.3384/ecp20175](https://doi.org/10.3384/ecp20175), Veröffentlicht.
 
