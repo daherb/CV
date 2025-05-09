@@ -295,6 +295,69 @@ abstract FullCV = CV ** {
       BasePublication)))))))))))))))) ;
     Presentations    : ListPresentation =
       (ConsPresentation (NewPresentation
+			   (ConsAuthor Myself (BaseAuthor (NewAuthor "Arianna" "Masciolini"))) -- Speaker
+			   "STUnD - a Search Tool for (parallel) Universal Dependencies treebanks"
+			   "Workshop on Applications of Universal Dependencies, Swedish Language Technology Conference 2024"
+			   (NewAddress Linkoping Sweden)
+			   (OnlyYear 2024) -- 20241129
+			   (Academic ConferencePresentation)
+			   (Just "https://udapp-sltc-2024.github.io/program.html")
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Drawing with sound – From drawing mushrooms on an oscilloscope towards driving a plotter"
+			   "Updateringar - Update Computer Club Uppsala"
+			   (NewAddress Uppsala Sweden)
+			   (OnlyYear 2024) -- 20241102
+			   (NonAcademic FullTalk)
+			   Nothing
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Knit happens, the yarn meetup "
+			   "Bornhack"
+			   (NewAddress Gelsted Denmark)
+			   (OnlyYear 2024) -- 20240721
+			   (NonAcademic Meetup)
+			   (Just "https://bornhack.dk/bornhack-2024/program/knit-happens-the-yarn-meetup/")
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "The Book8088"
+			   "Bornhack"
+			   (NewAddress Gelsted Denmark)
+			   (OnlyYear 2024) -- 20240721
+			   (NonAcademic LightningTalk)
+			   (Just "https://bornhack.dk/bornhack-2024/program/the-book8088/")
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "The #ShittyCameraChallenge"
+			   "Bornhack"
+			   (NewAddress Gelsted Denmark)
+			   (OnlyYear 2024) -- 20240721
+			   (NonAcademic LightningTalk)
+			   (Just "https://bornhack.dk/bornhack-2024/program/the-shittycamerachallenge/")
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Monads and why the even matter in Java (and many other languages)"
+			   "Bornhack"
+			   (NewAddress Gelsted Denmark)
+			   (OnlyYear 2024) -- 20240721
+			   (NonAcademic LightningTalk)
+			   (Just "https://bornhack.dk/bornhack-2024/program/monads-and-why-the-even-matter-in-java-and-many-other-languages/")
+	 )
+      (ConsPresentation (NewPresentation
+			   (BaseAuthor Myself) -- Speaker
+			   "Setting up a Research Data Repository Based on Invenio RDM: An Experience Report"
+			   "Digital Humanities in the Nordic and Baltic Countries, 8th Conference (DHNB2024)"
+			   (NewAddress Reykjavik Iceland)
+			   (OnlyYear 2024) -- 20240530
+			   (Academic ConferencePresentation)
+			   Nothing
+	 )
+      (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
 			   "Building research (data) infrastructure"
 			   "Språkbanken Text Forskarkollegium"
@@ -601,7 +664,7 @@ abstract FullCV = CV ** {
 			   Nothing -- Url
 	 )
 	 BasePresentation
-	 )))))))))))))))))))))))))))))))))) ;
+	 )))))))))))))))))))))))))))))))))))))))) ;
     TeachingDuties : ListTeachingDuty =
       (ConsTeachingDuty (NewTeachingDuty TeachingAssistant ConcurrentProgramming ChalmersAndUniGot
 			   (BaseTerm (NewTerm Spring (OnlyYear 2019))))
