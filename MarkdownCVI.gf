@@ -33,8 +33,9 @@ incomplete concrete MarkdownCVI of FullCV = FullCVI ** {
     NewDepartment d u = ss (d.s ++ bindComma' ++ u.s) ;
     -- JournalPublication : ListAuthor -> String -> String -> String -> Address -> Date -> String -> String -> MaybeString -> MaybeString -> MaybeString -> PublicationState -> Publication ;
     JournalPublication authors title bookTitle publisher address date series volume pages doi url status =
-      ss (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "\", in *" ++ Prelude.BIND ++ bookTitle.s ++ Prelude.BIND ++ "*" ++ bindComma' ++ series.s ++
-	    bindBracket volume.s ++ 
+      ss (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "\"" ++
+	    if_then_Str bookTitle.empty "" (", in *" ++ Prelude.BIND ++ bookTitle.s ++ Prelude.BIND ++ "*") ++
+	    bindComma' ++ series.s ++ bindBracket volume.s ++ 
 	    if_then_Str pages.empty "" (bindComma' ++ pages.s) ++
 	    bindComma' ++ publisher.s ++ bindComma' ++ address.s ++
 	    if_then_Str doi.empty "" (bindComma' ++ bindUrl doi.s ("https://doi.org/" ++ Prelude.BIND ++ doi.s)) ++

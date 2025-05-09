@@ -116,7 +116,7 @@ abstract CV = {
       -> Publication ;
     JournalPublication : ListAuthor
       -> String -- Title
-      -> String -- Book title
+      -> MaybeString -- Book title
       -> String -- Publisher
       -> Address
       -> Date

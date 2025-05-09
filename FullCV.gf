@@ -142,7 +142,7 @@ abstract FullCV = CV ** {
       (ConsPublication (JournalPublication
 			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Peter" "Ljunglöf")))
 			  "Learning Domain-Specific Grammars From a Small Number of Examples" -- Title
-			  "Natural Language Processing in Artificial Intelligence" -- Book title
+			  (Just "Natural Language Processing in Artificial Intelligence") -- Book title
 			  "Springer International Publishing" -- Publisher
 			  (NewAddress Cham Switzerland)
 			  (OnlyYear 2021)
