@@ -570,7 +570,7 @@ abstract FullCV = CV ** {
 			   "Grammatical Framework"
 			   "Mehrvorträgewagen, muCCC Munich Hackerspace"
 			   (NewAddress Munich Germany)
-			   (OnlyYear 2013)
+			   (OnlyYear 2013) -- 20130618
 			   (NonAcademic FullTalk)
 			   Nothing -- Url
 	 )
