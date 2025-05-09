@@ -14,7 +14,7 @@ abstract FullCV = CV ** {
     Mastodon      : MaybeString = Just "chaos.social/@daherb" ;
     Skype         : MaybeString = Nothing ;
     Reddit        : MaybeString = Nothing ;
-    LastUpdated   : Date = MonthYear August 2023 ;
+    LastUpdated   : Date = MonthYear May 2025 ;
     Degrees       : ListDegree =
       (ConsDegree (NewDegree PhDDegree UniGot {- University of Gothenburg -}
 		     (NewAddress Gothenburg Sweden)
