@@ -33,7 +33,7 @@ incomplete concrete MarkdownCVI of FullCV = FullCVI ** {
     NewDepartment d u = ss (d.s ++ bindComma' ++ u.s) ;
     -- JournalPublication : ListAuthor -> String -> String -> String -> Address -> Date -> String -> String -> MaybeString -> MaybeString -> MaybeString -> PublicationState -> Publication ;
     JournalPublication authors title bookTitle publisher address date series volume pages doi url status =
-      ss (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "\"," ++ bookTitle.s ++ bindComma' ++ series.s ++
+      ss (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "\", in *" ++ Prelude.BIND ++ bookTitle.s ++ Prelude.BIND ++ "*" ++ bindComma' ++ series.s ++
 	    bindBracket volume.s ++ 
 	    if_then_Str pages.empty "" (bindComma' ++ pages.s) ++
 	    bindComma' ++ publisher.s ++ bindComma' ++ address.s ++
@@ -43,7 +43,7 @@ incomplete concrete MarkdownCVI of FullCV = FullCVI ** {
       );
     -- ConferencePublication : ListAuthor -> String -> String -> Address -> Date -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> PublicationState -> Publication ;
     ConferencePublication authors title bookTitle address date publisher series volume pages doi url status =
-      ss (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "\", in *" ++ bookTitle.s ++ "*" ++ bindComma' ++ address.s ++
+      ss (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "\", in *" ++ Prelude.BIND ++ bookTitle.s ++ Prelude.BIND ++ "*" ++ bindComma' ++ address.s ++
 	    if_then_Str publisher.empty "" (bindComma' ++ publisher.s) ++
 	    if_then_Str series.empty "" (bindComma' ++ series.s) ++
 	    if_then_Str volume.empty "" (bindBracket volume.s) ++ 
@@ -60,7 +60,7 @@ incomplete concrete MarkdownCVI of FullCV = FullCVI ** {
       );
     -- BookChapterPublication : ListAuthor -> String -> String -> Address -> Date -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> MaybeString -> PublicationState -> Publication ;
     BookChapterPublication authors title bookTitle address date publisher series volume pages doi url status =
-      ss (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "\", in " ++ bookTitle.s ++ bindComma' ++ address.s ++
+      ss (authors.s ++ bindBracket date.s ++ Prelude.BIND ++ ": \"" ++ Prelude.BIND ++ title.s ++ Prelude.BIND ++ "\", in *" ++ Prelude.BIND ++ bookTitle.s ++ Prelude.BIND ++ "*" ++ bindComma' ++ address.s ++
 	    if_then_Str publisher.empty "" (bindComma' ++ publisher.s) ++
 	    if_then_Str series.empty "" (bindComma' ++ series.s) ++
 	    if_then_Str volume.empty "" (bindBracket volume.s) ++ 
