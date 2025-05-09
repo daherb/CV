@@ -698,6 +698,9 @@ abstract FullCV = CV ** {
       (ConsConferenceInvolvement (NewConferenceInvolvement "Co-Chair Logic and Computation" "European Summerschool in Logic, Language and Information Student Session" (NewAddress Toulouse France) (OnlyYear 2017))
       BaseConferenceInvolvement))) ;
     PeerReviews : ListPeerReview =
+      (ConsPeerReview (NewPeerReview "Resources and representations for under-resourced languages and domains (RESOURCEFUL-2025)" (OnlyYear 2025))
+      (ConsPeerReview (NewPeerReview "13th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2024))
+      (ConsPeerReview (NewPeerReview "12th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2023)) 
       (ConsPeerReview (NewPeerReview "11th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2022))
       (ConsPeerReview (NewPeerReview "10th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2021))
       (ConsPeerReview (NewPeerReview "7th International Workshop on Controlled Natural Languages" (OnlyYear 2021))
@@ -705,7 +708,7 @@ abstract FullCV = CV ** {
       (ConsPeerReview (NewPeerReview "9th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2020))     
       (ConsPeerReview (NewPeerReview "8th Workshop on Natural Language Processing for Computer-Assisted Language Learning" (OnlyYear 2019))
       (ConsPeerReview (NewPeerReview "5th Workshop on Natural Language Processing Techniques for Educational Applications" (OnlyYear 2018))
-	 BasePeerReview))))))) ;
+	 BasePeerReview)))))))))) ;
     OtherInvolvements : ListOtherInvolvement =
       (ConsOtherInvolvement (NewOtherInvolvement GraduateCouncilGU (OnlyYear 2018) (OnlyYear 2020))
       (ConsOtherInvolvement (NewOtherInvolvement PhDCouncilCSE (OnlyYear 2016) (OnlyYear 2020))
