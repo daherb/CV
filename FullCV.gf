@@ -122,7 +122,7 @@ abstract FullCV = CV ** {
 			  "Working Papers in Corpus Linguistics and Digital Technologies: Analyses and Methodology" -- Series
 			  "8" -- Volume
 			  (Just "90--175") -- Pages
-			  Nothing -- DOI
+			  (Just "10.14232/wpcl.2022.8") -- DOI
 			  (Just "https://hal.science/hal-04234971")  -- Url
 			  Published
 	 )
