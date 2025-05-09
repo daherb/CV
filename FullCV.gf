@@ -236,7 +236,7 @@ abstract FullCV = CV ** {
 			  "Demonstrating the MUSTE Language Learning Environment"
 			  "Proceedings of the 7th Workshop on NLP for Computer Assisted Language Learning (NLP4CALL 2018) at SLTC, 7th November 2018"
 			  (NewAddress Stockholm Sweden)
-			  (OnlyYear 2020)
+			  (OnlyYear 2018)
 			  (Just "Linköping University Electronic Press")
 			  Nothing -- Series
 			  Nothing -- Volume
