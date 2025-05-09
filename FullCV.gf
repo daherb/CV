@@ -1,7 +1,7 @@
 abstract FullCV = CV ** {
   oper
     Name          : String = "Herbert Lange" ;
-    CurrentAddress : Address = (NewAddress Munich Germany);
+    CurrentAddress : Address = (NewAddress Gothenburg Sweden);
     Myself            : Author = (NewAuthor "Herbert" "Lange") ;
 --    Position      : String = "" ;
     Mail          : String = "contact (AT) hackerbrau.se" ;
