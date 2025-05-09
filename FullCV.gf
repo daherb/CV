@@ -819,8 +819,8 @@ abstract FullCV = CV ** {
     NonAcademicPresentation ;
  fun
     UniGot, LMU, TCD, UniHH : University ;
-    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg, Madrid, Mannheim, Marseille, LouvainLaNeuve, Karlsruhe : City ;
-    Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France, Spain, Belgium : Country ;
+    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg, Madrid, Mannheim, Marseille, LouvainLaNeuve, Karlsruhe, Gelsted, Reykjavik : City ;
+    Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France, Spain, Belgium, Denmark, Iceland : Country ;
     Online : Address ;
     PhDCS  : Position ;
     ErasmusDescription, PhDDescription, LicentiateDescription, MagisterDescription : EducationDescription ;
