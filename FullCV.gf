@@ -835,7 +835,7 @@ abstract FullCV = CV ** {
     Academic : AcademicPresentation -> PresentationType ;
     NonAcademic : NonAcademicPresentation -> PresentationType ;
     ConferencePresentation, PosterPresentation, SeminarPresentation, DemoPresentation : AcademicPresentation ;
-    LightningTalk, FullTalk : NonAcademicPresentation ;
+    LightningTalk, FullTalk, Meetup : NonAcademicPresentation ;
     TeachingAssistant, Tutor : TeachingType;
     ConcurrentProgramming, ArtificialIntelligence, ComputationalSyntax, GFForPythonProgrammers, FunctionalProgramming,DatabasesCourse, IntroductionToGF, ScientificWritingInLaTeX, LogicAndModeltheoreticSemantics, CorpusAndUnixTools : CourseName ;
     ChalmersAndUniGot, GFSummerSchoolRiga, TaCoSMunich, CISLMU : Venue ;
