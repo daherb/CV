@@ -96,8 +96,8 @@ abstract FullCV = CV ** {
 			     Nothing --Series
 			     Nothing -- Volume
 			     (Just "108--113") -- Pages
-			     Nothing
-			     (Just "https://aclanthology.org/2022.nlp4call-1.11.pdf")
+			     Nothing -- DOI
+			     (Just "https://aclanthology.org/2022.nlp4call-1.11.pdf") -- URL
 			     Published)
       (ConsPublication (ConferencePublication
 			  (ConsAuthor Myself (BaseAuthor (NewAuthor "Jocelyn" "Aznar")))
