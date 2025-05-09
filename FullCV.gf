@@ -86,6 +86,32 @@ abstract FullCV = CV ** {
 		  ITZJobDescription)
 	 BaseJob)))))))) ;
     Publications : ListPublication =
+      (ConsPublication (BookChapter
+			  (ConsAuthor (NewAuthor "Arianna" "Maciolini") (ConsAuthor Myself (BaseAuthor "Márton András" "Tóth")))
+			     "Exploring parallel corpora with STUnD: a Search Tool for Universal Dependencies"
+			     "HiC Handbook"
+			     (NewAddress Gothenburg Sweden)
+			     (OnlyYear 2024)
+			     (Just "Digital Humanities in the Nordic and Baltic Countries Publications") -- Publisher
+			     Nothing --Series
+			     Nothing -- Volume (Issue)
+			     (Nothing) -- Pages
+			     Nothing -- DOI
+			     Nothing -- URL
+	                     Forthcoming)
+      (ConsPublication (ConferencePublication
+			  (BaseAuthor Myself)
+			     "Setting up a Research Data Repository Based on Invenio RDM: An Experience Report "
+			     "Proceedings of the 11th Workshop on NLP for Computer Assisted Language Learning"
+			     (NewAddress Reykjavik Iceland)
+			     (OnlyYear 2024)
+			     (Just "Digital Humanities in the Nordic and Baltic Countries Publications") -- Publisher
+			     Nothing --Series
+			     (Just "6 (1) DHNB2024 Conference Proceedings") -- Volume (Issue)
+			     (Nothing) -- Pages
+			     (Just "10.5617/dhnbpub.11515") -- DOI
+			     Nothing -- URL
+			     Published)
       (ConsPublication (ConferencePublication
 			  (BaseAuthor Myself)
 			     "Metadata Formats for Learner Corpora: Case Study and Discussion"
@@ -266,7 +292,7 @@ abstract FullCV = CV ** {
 			Nothing
 			Published
 	 )
-      BasePublication)))))))))))))) ;
+      BasePublication)))))))))))))))) ;
     Presentations    : ListPresentation =
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
