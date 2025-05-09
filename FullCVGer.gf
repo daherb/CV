@@ -37,6 +37,7 @@ concrete FullCVGer of FullCV = CVGer, FullCVI-[DegreeType] ** open Prelude in {
     GFSummerSchoolRiga = ss "Grammatical Framework Sommerschule, Rīga, Lettland";
     Gothenburg = ss "Göteborg" ;
     GraduateCouncilGU = ss "Graduate Students' Council, Universität Göteborg" ;
+    Hungary = ss "Ungarn" ;
     IDSCompany = ss "Leibniz-Institut für Deutsche Sprache" ;
     ITZCompany = ss "IT-Zentrum der Sprach- und Literaturwissenschaften, Ludwig-Maximilians-Universität" ;
     IT_Other = ss "Weitere IT-Kompetenzen" ;

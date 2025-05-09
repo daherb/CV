@@ -111,7 +111,22 @@ abstract FullCV = CV ** {
 			     (Nothing) -- Pages
 			     (Just "10.5617/dhnbpub.11515") -- DOI
 			     Nothing -- URL
-			     Published)
+			  Published)
+      (ConsPublication (JournalPublication
+			  (ConsAuthor (NewAuthor "Anna" "Wamprechtshammer") (ConsAuthor (NewAuthor "Elena" "Arestau") (ConsAuthor (NewAuthor "Jocelyn" "Aznar") (ConsAuthor (NewAuthor "Hanna" "Hedeland") (ConsAuthor (NewAuthor "Amy" "Isard") (ConsAuthor (NewAuthor "Ilya" "Khait") (ConsAuthor Myself (ConsAuthor (NewAuthor "Nicole" "Majka") (BaseAuthor (NewAuthor "Felix" "Rau"))))))))))
+			  "QUEST: Guidelines and Specifications for the Assessment of Audiovisual, Annotated Language Data" -- Title
+			  Nothing
+			  "University of Szeged, Department of Finno-Ugric Studies and Universität Hamburg, Zentrum für Sprachkorpora" -- Publisher
+			  (NewAddress Szeged Hungary)
+			  (OnlyYear 2022)
+			  "Working Papers in Corpus Linguistics and Digital Technologies: Analyses and Methodology" -- Series
+			  "8" -- Volume
+			  (Just "90--175") -- Pages
+			  Nothing -- DOI
+			  (Just "https://hal.science/hal-04234971")  -- Url
+			  Published
+	 )
+
       (ConsPublication (ConferencePublication
 			  (BaseAuthor Myself)
 			     "Metadata Formats for Learner Corpora: Case Study and Discussion"
@@ -292,7 +307,7 @@ abstract FullCV = CV ** {
 			Nothing
 			Published
 	 )
-      BasePublication)))))))))))))))) ;
+      BasePublication))))))))))))))))) ;
     Presentations    : ListPresentation =
       (ConsPresentation (NewPresentation
 			   (BaseAuthor Myself) -- Speaker
@@ -831,8 +846,8 @@ abstract FullCV = CV ** {
     NonAcademicPresentation ;
  fun
     UniGot, LMU, TCD, UniHH : University ;
-    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg, Madrid, Mannheim, Marseille, LouvainLaNeuve, Karlsruhe, Gelsted, Reykjavik : City ;
-    Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France, Spain, Belgium, Denmark, Iceland : Country ;
+    Gothenburg, Munich, Dublin, Cham, Valetta, Gottingen, Stockholm, Maynooth, LasPalmas, Melbourne, Uppsala, Berlin, Umea, Oslo, Gozo, Frauenchiemsee, Turku, Toulouse, Linkoping, Hamburg, Madrid, Mannheim, Marseille, LouvainLaNeuve, Karlsruhe, Gelsted, Reykjavik, Szeged : City ;
+    Sweden, Germany, Ireland, Switzerland, Malta, CanaryIslands, Australia, Norway, Finland, France, Spain, Belgium, Denmark, Iceland, Hungary : Country ;
     Online : Address ;
     PhDCS  : Position ;
     ErasmusDescription, PhDDescription, LicentiateDescription, MagisterDescription : EducationDescription ;

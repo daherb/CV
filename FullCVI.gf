@@ -71,6 +71,7 @@ incomplete concrete FullCVI of FullCV = {
     SeminarPresentation = ss "Seminar Talk" ; 
     Software_Defined_Radio = ss "Software-defined Radio" ;
     Stockholm = ss "Stockholm" ;
+    Szeged = ss "Szeged" ;
     TCD = ss "Trinity College Dublin" ;
     Toulouse = ss "Toulouse" ;
     Umea = ss "Umeå" ;
